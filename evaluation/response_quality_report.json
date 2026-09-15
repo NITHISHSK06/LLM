@@ -1,0 +1,24 @@
+{
+  "examples_checked": 1,
+  "empty_responses": 0,
+  "very_short_responses": 0,
+  "repeated_adjacent_words": 0,
+  "repeated_sentences": 0,
+  "excessive_punctuation": 0,
+  "unusual_character_repetition": 0,
+  "records": [
+    {
+      "empty": false,
+      "word_count": 20,
+      "very_short": false,
+      "extremely_long": false,
+      "complete_sentence_ending": true,
+      "repeated_adjacent_words": 0,
+      "repeated_sentences": 0,
+      "excessive_punctuation": false,
+      "unusual_character_repetition": false,
+      "line_number": 1,
+      "text": "What is artificial intelligence? Artificial intelligence is a field of computer science focused on building systems that perform tasks that normally require human intelligence."
+    }
+  ]
+}

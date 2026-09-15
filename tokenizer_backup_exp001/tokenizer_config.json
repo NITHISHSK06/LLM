@@ -1,0 +1,9 @@
+{
+  "type": "character_bpe",
+  "special_tokens": [
+    "<PAD>",
+    "<UNK>",
+    "<BOS>",
+    "<EOS>"
+  ]
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "category": "general_knowledge",
+        "prompt": "What is artificial intelligence?"
+    },
+    {
+        "category": "general_knowledge",
+        "prompt": "Why is clean water important?"
+    },
+    {
+        "category": "explanation",
+        "prompt": "Explain photosynthesis simply."
+    },
+    {
+        "category": "explanation",
+        "prompt": "Explain why the sky appears blue."
+    },
+    {
+        "category": "grammar",
+        "prompt": "Write five complete sentences about friendship."
+    },
+    {
+        "category": "grammar",
+        "prompt": "Write a short paragraph about healthy habits."
+    },
+    {
+        "category": "summarization",
+        "prompt": "Summarize this sentence: Libraries provide access to information, quiet study spaces, and opportunities for community learning."
+    },
+    {
+        "category": "summarization",
+        "prompt": "Summarize this sentence: Exercise can support physical health and improve mood when practiced regularly."
+    },
+    {
+        "category": "reasoning",
+        "prompt": "If three books cost five dollars each, how much do they cost together?"
+    },
+    {
+        "category": "reasoning",
+        "prompt": "Why does a shadow change length during the day?"
+    },
+    {
+        "category": "conversation",
+        "prompt": "Hello, how are you?"
+    },
+    {
+        "category": "conversation",
+        "prompt": "What is a good way to begin learning a new subject?"
+    },
+    {
+        "category": "creative_writing",
+        "prompt": "Write a short story about a child discovering a garden."
+    },
+    {
+        "category": "creative_writing",
+        "prompt": "Describe a peaceful evening in three sentences."
+    }
+]

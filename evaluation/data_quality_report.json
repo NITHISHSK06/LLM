@@ -1,0 +1,63 @@
+{
+  "general_text": {
+    "path": "data\\raw\\general.txt",
+    "exists": true,
+    "characters": 21622,
+    "lines": 243,
+    "empty_lines": 121,
+    "very_short_lines": 0,
+    "extremely_long_lines": 0,
+    "excessive_whitespace_lines": 0,
+    "invalid_unicode_lines": 0,
+    "duplicate_lines": 0,
+    "approximate_token_count": 7792
+  },
+  "instruction_jsonl": {
+    "path": "data\\raw\\instruction.jsonl",
+    "exists": true,
+    "total_nonempty_lines": 1,
+    "valid_examples": 1,
+    "broken_json": 0,
+    "missing_prompt": 0,
+    "missing_response": 0,
+    "empty_prompts": 0,
+    "empty_responses": 0,
+    "duplicate_examples": 0,
+    "repeated_responses": 0,
+    "very_short_prompts": 0,
+    "very_short_responses": 0,
+    "extremely_long_examples": 0,
+    "excessive_whitespace_examples": 0,
+    "invalid_unicode_examples": 0,
+    "category_distribution": {},
+    "approximate_token_count": 57
+  },
+  "response_quality": {
+    "examples_checked": 1,
+    "empty_responses": 0,
+    "very_short_responses": 0,
+    "repeated_adjacent_words": 0,
+    "repeated_sentences": 0,
+    "excessive_punctuation": 0,
+    "unusual_character_repetition": 0,
+    "records": [
+      {
+        "empty": false,
+        "word_count": 20,
+        "very_short": false,
+        "extremely_long": false,
+        "complete_sentence_ending": true,
+        "repeated_adjacent_words": 0,
+        "repeated_sentences": 0,
+        "excessive_punctuation": false,
+        "unusual_character_repetition": false,
+        "line_number": 1,
+        "text": "What is artificial intelligence? Artificial intelligence is a field of computer science focused on building systems that perform tasks that normally require human intelligence."
+      }
+    ]
+  },
+  "notes": [
+    "Category distribution reports only category metadata already present in the source JSONL.",
+    "Rule-based checks are data-quality signals, not a complete grammar evaluator."
+  ]
+}

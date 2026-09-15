@@ -1,0 +1,243 @@
+Artificial intelligence is a field of computer science concerned with building systems that can perform tasks that normally require aspects of human intelligence. These tasks can include understanding language, recognizing patterns, making predictions, solving problems, and learning from experience.
+
+Machine learning is a branch of artificial intelligence in which computer programs learn patterns from data. Instead of writing every rule manually, a machine learning system can use examples to discover relationships and make predictions on new data.
+
+Supervised learning uses labeled examples to train a model. In a classification problem, the model predicts a category such as spam or not spam. In a regression problem, the model predicts a numerical value such as temperature, price, or demand.
+
+Unsupervised learning works with data that does not have explicit labels. Clustering is a common example. A clustering algorithm groups similar observations together according to patterns in the data.
+
+Deep learning is a subfield of machine learning based on neural networks with multiple computational layers. Deep neural networks can learn complex representations from large amounts of data and are widely used in computer vision, speech processing, and natural language processing.
+
+A neural network is composed of interconnected computational units commonly called neurons. These units transform their inputs using weights, biases, and activation functions. During training, the weights are adjusted so that the network produces better predictions.
+
+Natural language processing is the area of artificial intelligence concerned with processing and understanding human language. Applications include translation, question answering, text classification, summarization, search, and conversational systems.
+
+A language model learns statistical patterns in sequences of tokens. During autoregressive generation, the model predicts the next token based on the tokens that came before it. Repeating this process allows the model to generate a sequence of text.
+
+A token is a unit used by a language model to represent text. Depending on the tokenizer, a token may represent a complete word, part of a word, punctuation, or another text fragment. Tokenization converts raw text into a sequence that a neural network can process.
+
+A transformer is a neural network architecture that relies heavily on attention mechanisms. Transformers became important in natural language processing because they can model relationships between tokens efficiently and can process many positions in a sequence in parallel during training.
+
+Self-attention allows each token to consider information from other tokens in the same sequence. The model computes attention weights that determine how strongly different positions should influence one another.
+
+Causal attention prevents a language model from using future tokens when predicting the current token. This property is essential for autoregressive text generation because the model should only use information that would actually be available at generation time.
+
+An embedding represents a discrete item such as a token as a continuous vector. Similar items can develop similar representations during training. Embeddings are fundamental components of many neural language models.
+
+A loss function measures how different a model's prediction is from the desired target. During neural network training, optimization algorithms attempt to reduce the loss by adjusting model parameters.
+
+Cross-entropy loss is commonly used for classification and language modeling. In language modeling, it measures how well the predicted probability distribution matches the actual next token.
+
+Gradient descent is an optimization method used to minimize a loss function. The gradient indicates how the loss changes with respect to model parameters, and the parameters are updated in a direction that generally reduces the loss.
+
+Adam is an optimization algorithm that combines ideas related to momentum and adaptive learning rates. AdamW is a commonly used variation that separates weight decay from the gradient update.
+
+A learning rate controls the size of parameter updates during optimization. If the learning rate is too large, training may become unstable. If it is too small, training can become unnecessarily slow.
+
+A batch is a group of training examples processed together before an optimization update. Larger batches can make computation more efficient, although they require more memory.
+
+An epoch is one complete pass through a training dataset. Training for multiple epochs allows the model to see the same examples repeatedly, but too many epochs can cause overfitting.
+
+Overfitting occurs when a model learns the training data too closely and performs poorly on unseen data. Validation data provides a way to monitor generalization during training.
+
+A training dataset is used to optimize model parameters. A validation dataset is used to evaluate performance during development without directly updating the model from those examples.
+
+A test dataset is reserved for final evaluation. Ideally, test examples should not influence decisions about model architecture, hyperparameters, or training procedures.
+
+Perplexity is a common metric for evaluating language models. It can be interpreted as a measure of how uncertain the model is when predicting tokens. Lower perplexity generally indicates better predictive performance on the same evaluation distribution.
+
+Python is a high-level programming language known for readable syntax and a large ecosystem of libraries. It is widely used in automation, web development, data analysis, scientific computing, and artificial intelligence.
+
+A variable is a name associated with a value in a program. The value stored by a variable can often be changed during program execution.
+
+A function is a reusable block of code designed to perform a particular task. Functions can accept inputs called arguments and can return results.
+
+A loop repeatedly executes a block of code. Common loop constructs include for loops and while loops.
+
+A conditional statement allows a program to choose between different execution paths based on whether a condition is true or false.
+
+A list in Python is an ordered, mutable collection. Lists can contain multiple values and support operations such as indexing, slicing, insertion, and removal.
+
+A dictionary in Python stores key-value pairs. It is useful when a program needs to associate one value with another using a key.
+
+A class is a blueprint for creating objects in object-oriented programming. A class can define data and behavior associated with objects.
+
+An object is an instance of a class. Objects can contain state represented by attributes and behavior represented by methods.
+
+Inheritance allows one class to derive behavior and attributes from another class. It can support code reuse and hierarchical relationships between types.
+
+Encapsulation is the practice of organizing data and behavior together while controlling how internal details are accessed.
+
+Polymorphism allows different objects to respond to the same interface or operation in different ways. It is an important concept in object-oriented programming.
+
+An algorithm is a finite sequence of well-defined steps for solving a problem. A good algorithm should be correct and should terminate after a finite number of steps.
+
+Time complexity describes how the running time of an algorithm changes as the input size increases. Big O notation is commonly used to express an upper bound on growth.
+
+Space complexity describes how an algorithm's memory requirements change with input size. Both time and space complexity can be important when evaluating an algorithm.
+
+An array stores elements in an ordered structure and typically allows efficient access by index. The exact implementation and performance characteristics depend on the programming language and data structure.
+
+A stack follows the last-in, first-out principle. The most recently added element is removed first. Common stack operations include push and pop.
+
+A queue follows the first-in, first-out principle. The earliest element added is removed first. Queues are useful in scheduling and breadth-first search.
+
+A linked list consists of nodes connected through references or pointers. Each node commonly stores data and a reference to another node.
+
+A tree is a hierarchical data structure consisting of nodes and edges. A binary tree is a tree in which each node has at most two children.
+
+A graph consists of vertices and edges that represent relationships between entities. Graphs can be directed or undirected and may have weighted edges.
+
+Breadth-first search explores a graph level by level. It commonly uses a queue and can find shortest paths in unweighted graphs.
+
+Depth-first search explores one path as deeply as possible before backtracking. It can be implemented using recursion or an explicit stack.
+
+Binary search efficiently searches a sorted sequence by repeatedly dividing the search interval approximately in half. Its time complexity is O(log n) when random access is available.
+
+Sorting algorithms arrange elements according to a specified ordering. Common algorithms include insertion sort, merge sort, quicksort, and heap sort.
+
+Database systems organize and manage structured information. A relational database represents information using tables containing rows and columns.
+
+SQL is a language commonly used to query and manipulate relational databases. SQL can be used to retrieve, insert, update, and delete data.
+
+A primary key uniquely identifies a row in a relational database table. A foreign key can reference a key in another table and represent a relationship between tables.
+
+Normalization is a database design technique used to reduce unnecessary redundancy and improve data integrity. Different normal forms impose different structural rules.
+
+An operating system manages hardware and provides services for application programs. Common responsibilities include process management, memory management, file systems, and device management.
+
+A process is a program in execution. A process has its own execution state and resources managed by the operating system.
+
+A thread is a unit of execution within a process. Multiple threads can share resources belonging to the same process.
+
+Computer memory stores data and instructions needed by programs. Different types of memory have different characteristics in terms of speed, capacity, and persistence.
+
+A compiler translates source code written in one programming language into another form, often machine code or an intermediate representation.
+
+An interpreter executes program instructions through a runtime system rather than necessarily producing a standalone machine-code executable beforehand.
+
+The internet is a global network of interconnected computer networks. Devices communicate using standardized protocols such as the Internet Protocol and Transmission Control Protocol.
+
+HTTP is an application-layer protocol commonly used for communication between web clients and servers. HTTPS adds encryption through TLS.
+
+A URL identifies the location of a resource on the internet. It can contain information such as a scheme, domain, path, query parameters, and fragment.
+
+A web server receives requests and sends responses to clients. A web application typically contains client-side and server-side components that work together.
+
+An API defines a way for software components to communicate. APIs specify available operations, inputs, outputs, and sometimes authentication requirements.
+
+JSON is a lightweight text format commonly used for structured data exchange. It represents objects, arrays, strings, numbers, booleans, and null values.
+
+Version control systems track changes to files over time. Git is a widely used distributed version control system that supports branching, merging, and collaboration.
+
+A software repository contains source code and related project files. Repositories can be hosted on platforms that support collaboration, issue tracking, and code review.
+
+Data science combines programming, statistics, mathematics, domain knowledge, and analytical methods to extract useful information from data.
+
+Statistics provides methods for collecting, describing, analyzing, and interpreting data. Measures such as mean, median, variance, and standard deviation summarize different properties of a dataset.
+
+The mean is calculated by adding numerical values and dividing their sum by the number of values. The median is the middle value after sorting a dataset, with special handling when there is an even number of observations.
+
+Probability provides a mathematical framework for reasoning about uncertainty. The probability of an event is a value between zero and one.
+
+A random variable represents an uncertain numerical outcome. Probability distributions describe how likely different values or ranges of values are.
+
+A dataset is a collection of observations used for analysis or machine learning. Each observation may contain multiple features describing an entity or event.
+
+A feature is an input variable used by a machine learning model. Good features can provide useful information for predicting the target variable.
+
+Data preprocessing prepares raw data for analysis or machine learning. Common operations include cleaning, normalization, encoding categorical variables, and handling missing values.
+
+Missing data can occur when observations are incomplete. Depending on the situation, missing values may be removed, imputed, or treated as a meaningful category.
+
+Normalization and standardization are preprocessing techniques that transform numerical features. Standardization commonly produces values with approximately zero mean and unit variance.
+
+A classification model predicts a discrete category. A regression model predicts a continuous numerical value.
+
+Accuracy is the proportion of predictions that are correct. It can be misleading when classes are highly imbalanced.
+
+Precision measures the proportion of predicted positive examples that are actually positive. Recall measures the proportion of actual positive examples that the model successfully identifies.
+
+A confusion matrix summarizes classification results by counting true positives, true negatives, false positives, and false negatives.
+
+Artificial neural networks can learn representations through repeated transformations of input data. Training typically involves a forward pass, loss computation, backpropagation, and parameter updates.
+
+Backpropagation computes gradients of a loss with respect to neural network parameters using the chain rule of calculus. These gradients are then used by an optimizer to update the parameters.
+
+An activation function introduces nonlinearity into a neural network. ReLU, sigmoid, tanh, and GELU are examples of activation functions used in different neural network architectures.
+
+GELU is an activation function frequently used in transformer-based models. It provides a smooth nonlinear transformation of its input.
+
+Layer normalization normalizes activations across selected dimensions for each example. It is commonly used in transformer architectures to improve training stability.
+
+A residual connection adds the input of a neural network block to its output. Residual connections help information and gradients flow through deep networks.
+
+A feed-forward network in a transformer applies nonlinear transformations independently at each sequence position. It is typically placed alongside the attention mechanism.
+
+A decoder-only transformer generates text autoregressively. It predicts the next token using the tokens that occur earlier in the sequence.
+
+Training a language model from scratch requires a tokenizer, a training corpus, a model architecture, an optimization procedure, and sufficient computational resources.
+
+Model parameters are numerical values learned during training. The number of parameters is one measure of model size, although parameter count alone does not determine model quality.
+
+A checkpoint is a saved snapshot of a model's parameters and often includes optimizer state and training metadata. Checkpoints allow training to resume and provide versions for evaluation.
+
+Inference is the process of using a trained model to produce predictions. For a language model, inference can involve repeatedly selecting the next token until a stopping condition is reached.
+
+Temperature controls the sharpness of a model's probability distribution during sampling. Higher temperature generally increases randomness, while lower temperature makes generation more deterministic.
+
+Top-k sampling restricts token selection to the k most probable candidates. Top-p sampling instead selects from the smallest set of tokens whose cumulative probability exceeds a chosen threshold.
+
+Greedy decoding always selects the token with the highest probability. It is simple and deterministic but may produce repetitive or less diverse text.
+
+Beam search maintains multiple candidate sequences during decoding. It is commonly used in some sequence generation tasks, although sampling methods are often preferred for open-ended language generation.
+
+A good language model evaluation should use data that is separate from the training set. Evaluation should consider both quantitative metrics and qualitative inspection of generated outputs.
+
+A benchmark is a standardized collection of tasks or examples used to compare systems. A useful benchmark should be relevant to the capability being measured.
+
+Data quality can strongly influence machine learning performance. Duplicate, corrupted, irrelevant, or misleading examples can make training less effective.
+
+Data deduplication removes repeated or highly similar examples. It can reduce wasted training computation and help prevent memorization of repeated content.
+
+A model's generalization ability describes how well it performs on examples that differ from the examples used for training.
+
+Domain adaptation changes a model so that it performs better on a particular domain. It can involve continued pretraining, supervised fine-tuning, or other adaptation techniques.
+
+Instruction tuning trains a language model on examples of instructions and desired responses. It can make a pretrained language model more useful for following user requests.
+
+Fine-tuning starts with an existing model and continues training it on a narrower dataset or task. Fine-tuning usually requires fewer resources than training a model from scratch.
+
+Catastrophic forgetting can occur when a model is trained extensively on new data and loses some capabilities learned previously. Mixing general data with specialized data can sometimes help retain earlier capabilities.
+
+Research experiments should record important settings such as dataset version, model configuration, learning rate, batch size, number of training steps, random seed, and evaluation results.
+
+Reproducibility means that another researcher can understand and repeat an experiment using the documented data, code, configuration, and procedure.
+
+A scientific hypothesis is a testable statement about a phenomenon. Experiments can provide evidence supporting or contradicting a hypothesis.
+
+A good research question should be specific enough to investigate and important enough to produce useful knowledge. It should also be possible to evaluate the answer using evidence.
+
+Clear documentation helps other people understand how a software project works. A README commonly describes the purpose, setup instructions, usage, architecture, and limitations of a project.
+
+Good software testing checks whether a program behaves as expected. Unit tests focus on individual components, while integration tests examine interactions between components.
+
+A bug is an error or unexpected behavior in software. Debugging is the process of finding the cause of a problem and correcting it.
+
+Security is an important consideration in software systems. Applications should protect data, validate untrusted input, and use appropriate authentication and authorization mechanisms.
+
+Privacy concerns how personal information is collected, stored, processed, and shared. Software systems should minimize unnecessary collection and protect sensitive information.
+
+A model should not be evaluated only by a single metric. Multiple metrics and representative examples provide a more complete picture of performance.
+
+Small language models can be useful for research and education even when they are much smaller than modern commercial models. Their limited size makes experimentation easier and helps researchers understand fundamental concepts.
+
+Language model development is an iterative process. Researchers commonly improve data quality, model architecture, optimization, evaluation, and inference strategies through repeated experiments.
+
+A useful AI system should be evaluated according to its intended use. A model that performs well on general language generation may still perform poorly on specialized technical tasks.
+
+The quality of generated text depends on the model, training data, training procedure, prompt, decoding strategy, and evaluation method. Improving one component does not automatically improve every capability.
+
+A responsible machine learning experiment should document limitations rather than claiming capabilities that have not been demonstrated.
+
+The goal of machine learning research is not simply to make a model larger. Understanding data, optimization, evaluation, generalization, and failure modes is equally important.

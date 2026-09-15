@@ -1,0 +1,302 @@
+[
+    {
+        "id": "py-01",
+        "category": "Python",
+        "prompt": "Write a Python function that reverses a string.",
+        "expected_behavior": "Provide runnable Python and explain the result."
+    },
+    {
+        "id": "py-02",
+        "category": "Python",
+        "prompt": "How do Python dictionaries store and retrieve values?",
+        "expected_behavior": "Explain key lookup clearly and mention hashing at a high level."
+    },
+    {
+        "id": "py-03",
+        "category": "Python",
+        "prompt": "Write Python code to remove duplicates while preserving order.",
+        "expected_behavior": "Give correct code and address repeated values."
+    },
+    {
+        "id": "py-04",
+        "category": "Python",
+        "prompt": "What is a Python generator and when is it useful?",
+        "expected_behavior": "Explain lazy iteration and memory use."
+    },
+    {
+        "id": "py-05",
+        "category": "Python",
+        "prompt": "How should exceptions be handled in Python?",
+        "expected_behavior": "Explain try, except, else, and finally without hiding errors blindly."
+    },
+    {
+        "id": "java-01",
+        "category": "Java",
+        "prompt": "Write a Java method that checks whether an integer is even.",
+        "expected_behavior": "Provide syntactically plausible Java."
+    },
+    {
+        "id": "java-02",
+        "category": "Java",
+        "prompt": "Explain Java garbage collection to a beginner.",
+        "expected_behavior": "Describe automatic memory management and object reachability."
+    },
+    {
+        "id": "java-03",
+        "category": "Java",
+        "prompt": "What is method overriding in Java?",
+        "expected_behavior": "Explain inheritance and runtime dispatch."
+    },
+    {
+        "id": "java-04",
+        "category": "Java",
+        "prompt": "Write a Java loop that sums an array.",
+        "expected_behavior": "Use a correct loop and return or print the sum."
+    },
+    {
+        "id": "java-05",
+        "category": "Java",
+        "prompt": "When should a Java program use an interface?",
+        "expected_behavior": "Discuss contracts and multiple implementations."
+    },
+    {
+        "id": "c-cpp-01",
+        "category": "C/C++",
+        "prompt": "Write a C program that prints the larger of two integers.",
+        "expected_behavior": "Provide plausible C syntax and explain it."
+    },
+    {
+        "id": "c-cpp-02",
+        "category": "C/C++",
+        "prompt": "Explain why dereferencing a null pointer is dangerous.",
+        "expected_behavior": "Mention undefined behavior and safe checks."
+    },
+    {
+        "id": "c-cpp-03",
+        "category": "C/C++",
+        "prompt": "What does RAII mean in modern C++?",
+        "expected_behavior": "Explain resource lifetime and scope-based cleanup."
+    },
+    {
+        "id": "c-cpp-04",
+        "category": "C/C++",
+        "prompt": "Write a C++ function that finds the maximum value in a vector.",
+        "expected_behavior": "Handle a non-empty vector and state assumptions."
+    },
+    {
+        "id": "c-cpp-05",
+        "category": "C/C++",
+        "prompt": "Compare a pointer and a reference in C++.",
+        "expected_behavior": "Explain syntax, nullability, and rebinding differences."
+    },
+    {
+        "id": "alg-01",
+        "category": "Algorithms",
+        "prompt": "Explain binary search and its time complexity.",
+        "expected_behavior": "Mention sorted input and O(log n)."
+    },
+    {
+        "id": "alg-02",
+        "category": "Algorithms",
+        "prompt": "Give pseudocode for depth-first search.",
+        "expected_behavior": "Include visited tracking and traversal steps."
+    },
+    {
+        "id": "alg-03",
+        "category": "Algorithms",
+        "prompt": "When is dynamic programming appropriate?",
+        "expected_behavior": "Mention overlapping subproblems and optimal substructure."
+    },
+    {
+        "id": "alg-04",
+        "category": "Algorithms",
+        "prompt": "Describe a stable sorting algorithm.",
+        "expected_behavior": "Explain stability and give an example such as merge sort."
+    },
+    {
+        "id": "alg-05",
+        "category": "Algorithms",
+        "prompt": "How would you find the shortest path in an unweighted graph?",
+        "expected_behavior": "Recommend BFS and explain why."
+    },
+    {
+        "id": "ds-01",
+        "category": "Data structures",
+        "prompt": "Compare a stack and a queue.",
+        "expected_behavior": "Explain LIFO versus FIFO and examples."
+    },
+    {
+        "id": "ds-02",
+        "category": "Data structures",
+        "prompt": "When is a hash table preferable to a sorted array?",
+        "expected_behavior": "Compare lookup, ordering, memory, and update tradeoffs."
+    },
+    {
+        "id": "ds-03",
+        "category": "Data structures",
+        "prompt": "Explain how a binary search tree works.",
+        "expected_behavior": "Describe ordering and traversal."
+    },
+    {
+        "id": "ds-04",
+        "category": "Data structures",
+        "prompt": "What problem does a heap solve?",
+        "expected_behavior": "Explain priority access and heap operations."
+    },
+    {
+        "id": "ds-05",
+        "category": "Data structures",
+        "prompt": "Write pseudocode to traverse a linked list.",
+        "expected_behavior": "Advance through next links until null."
+    },
+    {
+        "id": "sql-01",
+        "category": "SQL",
+        "prompt": "Write SQL to count orders for each customer.",
+        "expected_behavior": "Use GROUP BY and explain the aggregation."
+    },
+    {
+        "id": "sql-02",
+        "category": "SQL",
+        "prompt": "What is the difference between WHERE and HAVING?",
+        "expected_behavior": "Distinguish row filtering from group filtering."
+    },
+    {
+        "id": "sql-03",
+        "category": "SQL",
+        "prompt": "Write SQL to find duplicate email addresses.",
+        "expected_behavior": "Use GROUP BY and HAVING COUNT."
+    },
+    {
+        "id": "sql-04",
+        "category": "SQL",
+        "prompt": "Explain a database transaction.",
+        "expected_behavior": "Discuss atomicity and commit or rollback at a basic level."
+    },
+    {
+        "id": "sql-05",
+        "category": "SQL",
+        "prompt": "Why should SQL queries use parameterized inputs?",
+        "expected_behavior": "Mention SQL injection prevention and separation of data from code."
+    },
+    {
+        "id": "debug-01",
+        "category": "Debugging",
+        "prompt": "How do you investigate a Python NameError?",
+        "expected_behavior": "Use the traceback and check spelling, scope, and definition order."
+    },
+    {
+        "id": "debug-02",
+        "category": "Debugging",
+        "prompt": "A program is slow after adding a nested loop. What should you inspect?",
+        "expected_behavior": "Discuss complexity, input size, and profiling."
+    },
+    {
+        "id": "debug-03",
+        "category": "Debugging",
+        "prompt": "How can logging help diagnose a production bug?",
+        "expected_behavior": "Recommend useful context without exposing secrets."
+    },
+    {
+        "id": "debug-04",
+        "category": "Debugging",
+        "prompt": "What steps diagnose an off-by-one error?",
+        "expected_behavior": "Check boundaries with small and empty inputs."
+    },
+    {
+        "id": "debug-05",
+        "category": "Debugging",
+        "prompt": "A SQL LEFT JOIN unexpectedly removes rows. What might be wrong?",
+        "expected_behavior": "Check filters on right-table columns in WHERE."
+    },
+    {
+        "id": "explain-01",
+        "category": "Code explanation",
+        "prompt": "Explain what a for loop does.",
+        "expected_behavior": "Give a beginner-friendly explanation and simple example."
+    },
+    {
+        "id": "explain-02",
+        "category": "Code explanation",
+        "prompt": "Explain recursion using factorial.",
+        "expected_behavior": "Show base case and recursive case."
+    },
+    {
+        "id": "explain-03",
+        "category": "Code explanation",
+        "prompt": "Explain the purpose of a function parameter.",
+        "expected_behavior": "Describe inputs and reusable behavior."
+    },
+    {
+        "id": "explain-04",
+        "category": "Code explanation",
+        "prompt": "Explain this expression: total += price.",
+        "expected_behavior": "Explain augmented assignment."
+    },
+    {
+        "id": "explain-05",
+        "category": "Code explanation",
+        "prompt": "Explain why comments should describe intent.",
+        "expected_behavior": "Distinguish useful intent from restating syntax."
+    },
+    {
+        "id": "complex-01",
+        "category": "Complexity",
+        "prompt": "What is the complexity of scanning an array once?",
+        "expected_behavior": "Answer O(n) and explain n."
+    },
+    {
+        "id": "complex-02",
+        "category": "Complexity",
+        "prompt": "Compare O(n) and O(log n).",
+        "expected_behavior": "Explain growth with a concrete intuition."
+    },
+    {
+        "id": "complex-03",
+        "category": "Complexity",
+        "prompt": "What is the space complexity of recursive depth-first search?",
+        "expected_behavior": "Discuss recursion depth and graph representation assumptions."
+    },
+    {
+        "id": "complex-04",
+        "category": "Complexity",
+        "prompt": "Why can an O(n log n) algorithm beat an O(n squared) algorithm?",
+        "expected_behavior": "Discuss growth for sufficiently large inputs."
+    },
+    {
+        "id": "complex-05",
+        "category": "Complexity",
+        "prompt": "What does amortized constant time mean?",
+        "expected_behavior": "Explain occasional expensive operations averaged over many operations."
+    },
+    {
+        "id": "concept-01",
+        "category": "Programming concepts",
+        "prompt": "What is an abstraction in software design?",
+        "expected_behavior": "Explain hiding implementation details behind a useful interface."
+    },
+    {
+        "id": "concept-02",
+        "category": "Programming concepts",
+        "prompt": "Why is immutability useful?",
+        "expected_behavior": "Discuss fewer side effects and easier reasoning."
+    },
+    {
+        "id": "concept-03",
+        "category": "Programming concepts",
+        "prompt": "What is an API contract?",
+        "expected_behavior": "Describe inputs, outputs, errors, and compatibility."
+    },
+    {
+        "id": "concept-04",
+        "category": "Programming concepts",
+        "prompt": "Explain dependency injection simply.",
+        "expected_behavior": "Describe providing dependencies from outside a component."
+    },
+    {
+        "id": "concept-05",
+        "category": "Programming concepts",
+        "prompt": "What makes a unit test reliable?",
+        "expected_behavior": "Mention isolation, determinism, and meaningful assertions."
+    }
+]

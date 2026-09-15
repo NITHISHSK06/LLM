@@ -1,0 +1,258 @@
+[
+    {
+        "category": "general_knowledge",
+        "prompt": "What is artificial intelligence?"
+    },
+    {
+        "category": "general_knowledge",
+        "prompt": "What is a computer?"
+    },
+    {
+        "category": "general_knowledge",
+        "prompt": "What is deep learning?"
+    },
+    {
+        "category": "general_knowledge",
+        "prompt": "Why is learning programming useful?"
+    },
+    {
+        "category": "simple_explanation",
+        "prompt": "Explain machine learning in simple words."
+    },
+    {
+        "category": "simple_explanation",
+        "prompt": "Explain what a neural network is."
+    },
+    {
+        "category": "simple_explanation",
+        "prompt": "Explain Python to a beginner."
+    },
+    {
+        "category": "simple_explanation",
+        "prompt": "Explain the internet simply."
+    },
+    {
+        "category": "instruction_following",
+        "prompt": "Give me five benefits of reading books."
+    },
+    {
+        "category": "instruction_following",
+        "prompt": "Write three sentences about education."
+    },
+    {
+        "category": "instruction_following",
+        "prompt": "List four ways to save energy at home."
+    },
+    {
+        "category": "instruction_following",
+        "prompt": "Give a short definition of teamwork."
+    },
+    {
+        "category": "grammar",
+        "prompt": "Write a paragraph about climate change."
+    },
+    {
+        "category": "grammar",
+        "prompt": "Write five sentences about computers."
+    },
+    {
+        "category": "grammar",
+        "prompt": "Explain why exercise is important."
+    },
+    {
+        "category": "grammar",
+        "prompt": "Write a short story about a student learning programming."
+    },
+    {
+        "category": "summarization",
+        "prompt": "Summarize this sentence: Artificial intelligence is changing many industries by enabling computers to analyze data and automate complex tasks."
+    },
+    {
+        "category": "summarization",
+        "prompt": "Summarize this sentence: Regular exercise can improve physical health, reduce stress, and help people sleep better."
+    },
+    {
+        "category": "summarization",
+        "prompt": "Summarize this sentence: Trees absorb carbon dioxide, provide oxygen, protect soil, and create habitats for many animals."
+    },
+    {
+        "category": "summarization",
+        "prompt": "Summarize this sentence: Reading regularly can expand vocabulary, improve concentration, and introduce people to new ideas."
+    },
+    {
+        "category": "creative_writing",
+        "prompt": "Write a short paragraph about technology."
+    },
+    {
+        "category": "creative_writing",
+        "prompt": "Write a four-line poem about the morning."
+    },
+    {
+        "category": "creative_writing",
+        "prompt": "Describe a peaceful garden in three sentences."
+    },
+    {
+        "category": "creative_writing",
+        "prompt": "Write a short fictional scene about a curious child."
+    },
+    {
+        "category": "basic_reasoning",
+        "prompt": "If a book has 120 pages and you read 20 pages each day, how many days will it take?"
+    },
+    {
+        "category": "basic_reasoning",
+        "prompt": "Why does a metal spoon become warm in hot tea?"
+    },
+    {
+        "category": "basic_reasoning",
+        "prompt": "If all birds have feathers and a robin is a bird, what can we say about a robin?"
+    },
+    {
+        "category": "basic_reasoning",
+        "prompt": "What is one likely result of forgetting to water a plant?"
+    },
+    {
+        "category": "conversation",
+        "prompt": "Hello, how are you?"
+    },
+    {
+        "category": "conversation",
+        "prompt": "Can you help me learn something new?"
+    },
+    {
+        "category": "conversation",
+        "prompt": "What are some good habits for studying?"
+    },
+    {
+        "category": "conversation",
+        "prompt": "Tell me an interesting fact about the natural world."
+    },
+    {
+        "category": "general_knowledge",
+        "prompt": "What is the purpose of a calendar?"
+    },
+    {
+        "category": "general_knowledge",
+        "prompt": "What is renewable energy?"
+    },
+    {
+        "category": "general_knowledge",
+        "prompt": "What does a thermometer measure?"
+    },
+    {
+        "category": "general_knowledge",
+        "prompt": "What is the water cycle?"
+    },
+    {
+        "category": "simple_explanation",
+        "prompt": "Explain gravity to a child."
+    },
+    {
+        "category": "simple_explanation",
+        "prompt": "Explain what a database does."
+    },
+    {
+        "category": "simple_explanation",
+        "prompt": "Explain the difference between a fact and an opinion."
+    },
+    {
+        "category": "simple_explanation",
+        "prompt": "Explain why plants need sunlight."
+    },
+    {
+        "category": "instruction_following",
+        "prompt": "Give three tips for organizing a desk."
+    },
+    {
+        "category": "instruction_following",
+        "prompt": "List five common kitchen tools."
+    },
+    {
+        "category": "instruction_following",
+        "prompt": "Write a two-step plan for learning a new word."
+    },
+    {
+        "category": "instruction_following",
+        "prompt": "Give a short definition of patience."
+    },
+    {
+        "category": "grammar",
+        "prompt": "Write a clear paragraph about friendship."
+    },
+    {
+        "category": "grammar",
+        "prompt": "Write four sentences about a rainy day."
+    },
+    {
+        "category": "grammar",
+        "prompt": "Describe a library in three sentences."
+    },
+    {
+        "category": "grammar",
+        "prompt": "Explain why sleep is important."
+    },
+    {
+        "category": "summarization",
+        "prompt": "Summarize this sentence: Bees pollinate flowers and help many plants produce fruit."
+    },
+    {
+        "category": "summarization",
+        "prompt": "Summarize this sentence: A budget helps people plan spending and save for future needs."
+    },
+    {
+        "category": "summarization",
+        "prompt": "Summarize this sentence: Museums preserve objects and stories that help visitors understand history."
+    },
+    {
+        "category": "summarization",
+        "prompt": "Summarize this sentence: Walking can improve fitness while requiring little equipment."
+    },
+    {
+        "category": "creative_writing",
+        "prompt": "Write a short paragraph about a helpful robot."
+    },
+    {
+        "category": "creative_writing",
+        "prompt": "Write a four-line poem about rain."
+    },
+    {
+        "category": "creative_writing",
+        "prompt": "Describe a quiet beach in three sentences."
+    },
+    {
+        "category": "creative_writing",
+        "prompt": "Write a short scene about finding a lost key."
+    },
+    {
+        "category": "basic_reasoning",
+        "prompt": "If three apples cost six dollars, how much does one apple cost?"
+    },
+    {
+        "category": "basic_reasoning",
+        "prompt": "Why does ice float in water?"
+    },
+    {
+        "category": "basic_reasoning",
+        "prompt": "If today is Monday, what day will it be in three days?"
+    },
+    {
+        "category": "basic_reasoning",
+        "prompt": "What is likely to happen if a window is left open during rain?"
+    },
+    {
+        "category": "conversation",
+        "prompt": "Good morning. What can we talk about?"
+    },
+    {
+        "category": "conversation",
+        "prompt": "I am feeling tired today. What is a simple suggestion?"
+    },
+    {
+        "category": "conversation",
+        "prompt": "Can you help me choose a book topic?"
+    },
+    {
+        "category": "conversation",
+        "prompt": "Thank you for your help."
+    }
+]

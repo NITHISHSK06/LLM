@@ -1,0 +1,78 @@
+{
+  "path": "data\\raw\\coding_instruction.jsonl",
+  "total_examples": 34,
+  "valid_examples": 34,
+  "invalid_examples": 0,
+  "duplicate_prompts": 0,
+  "duplicate_prompt_response_pairs": 0,
+  "average_prompt_length_words": 9.764705882352942,
+  "average_response_length_words": 32.529411764705884,
+  "prompt_length_words": {
+    "minimum": 4,
+    "maximum": 15
+  },
+  "response_length_words": {
+    "minimum": 19,
+    "maximum": 45
+  },
+  "category_distribution": {
+    "python_fundamentals": 4,
+    "java_fundamentals": 3,
+    "c_cpp": 3,
+    "data_structures": 3,
+    "algorithms": 4,
+    "oop": 2,
+    "sql": 3,
+    "debugging": 3,
+    "code_explanation": 2,
+    "code_completion": 1,
+    "complexity": 2,
+    "programming_concepts": 2,
+    "code_improvement": 1,
+    "error_diagnosis": 1
+  },
+  "issues": [
+    {
+      "line": 1,
+      "issues": [
+        "excessive_whitespace"
+      ]
+    },
+    {
+      "line": 3,
+      "issues": [
+        "excessive_whitespace"
+      ]
+    },
+    {
+      "line": 7,
+      "issues": [
+        "excessive_whitespace"
+      ]
+    },
+    {
+      "line": 10,
+      "issues": [
+        "excessive_whitespace"
+      ]
+    },
+    {
+      "line": 15,
+      "issues": [
+        "excessive_whitespace",
+        "repeated_characters"
+      ]
+    },
+    {
+      "line": 28,
+      "issues": [
+        "excessive_whitespace",
+        "repeated_characters"
+      ]
+    }
+  ],
+  "notes": [
+    "Code-block checks are structural heuristics and do not prove syntax correctness.",
+    "No external model or API was used."
+  ]
+}
