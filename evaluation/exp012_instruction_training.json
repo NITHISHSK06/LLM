@@ -1,0 +1,15 @@
+{
+  "checkpoint": "D:\\project\\LLM\\LLM\\checkpoints\\exp012_capacity_25m\\best_model.pt",
+  "dataset_version": "prepared_instruction_data_v1",
+  "train_data": "D:\\project\\LLM\\LLM\\data\\processed\\exp011_general_chat\\instruction_train.jsonl",
+  "validation_data": "D:\\project\\LLM\\LLM\\data\\processed\\exp011_general_chat\\instruction_val.jsonl",
+  "output_dir": "D:\\project\\LLM\\LLM\\checkpoints\\exp012_capacity_25m_sft",
+  "learning_rate": 2e-05,
+  "batch_size": 8,
+  "max_iterations": 1000,
+  "eval_interval": 100,
+  "patience": 7,
+  "seed": 42,
+  "best_validation_loss": 1.4560166478157044,
+  "final_step": 1000
+}

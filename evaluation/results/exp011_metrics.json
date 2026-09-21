@@ -1,0 +1,1217 @@
+{
+  "experiment": "Exp011 general conversation comparison",
+  "seed": 42,
+  "test_set_size": 1000,
+  "checkpoints": {
+    "exp006": "D:\\project\\LLM\\LLM\\checkpoints\\exp006_mixed_30k\\best_model.pt",
+    "exp010": "D:\\project\\LLM\\LLM\\checkpoints\\exp010_general_chat\\best_model.pt",
+    "exp011": "D:\\project\\LLM\\LLM\\checkpoints\\exp011_general_chat\\best_model.pt"
+  },
+  "tokenizer": "D:\\project\\LLM\\LLM\\tokenizer_exp003",
+  "primary_decoding": {
+    "greedy": true,
+    "temperature": 0.0,
+    "top_k": 0,
+    "top_p": 1.0,
+    "max_new_tokens": 60
+  },
+  "secondary_decoding": {
+    "greedy": false,
+    "temperature": 0.7,
+    "top_k": 40,
+    "top_p": 0.9,
+    "max_new_tokens": 60
+  },
+  "primary_greedy": {
+    "aggregate": {
+      "exp006": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5722940059003802,
+        "repeated_bigram_ratio": 0.4427836345502463,
+        "repetition_rate": 0.955,
+        "average_chars": 115.02,
+        "median_chars": 114.0,
+        "min_chars": 1,
+        "max_chars": 153,
+        "average_tokens": 29.398,
+        "heuristic_relevance": 0.057
+      },
+      "exp010": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.13961950944222615,
+        "repeated_bigram_ratio": 0.06624104214498952,
+        "repetition_rate": 0.205,
+        "average_chars": 37.05,
+        "median_chars": 35.0,
+        "min_chars": 21,
+        "max_chars": 79,
+        "average_tokens": 9.621,
+        "heuristic_relevance": 0.214
+      },
+      "exp011": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.22974072055290995,
+        "repeated_bigram_ratio": 0.1084038591422711,
+        "repetition_rate": 0.156,
+        "average_chars": 77.367,
+        "median_chars": 77.0,
+        "min_chars": 49,
+        "max_chars": 124,
+        "average_tokens": 17.133,
+        "heuristic_relevance": 0.208
+      }
+    },
+    "exp006_vs_exp010": {
+      "exact_match": {
+        "exp006": 0,
+        "exp010": 0,
+        "absolute_difference": 0
+      },
+      "nonempty_rate": {
+        "exp006": 1,
+        "exp010": 1,
+        "absolute_difference": 0
+      },
+      "repeated_unigram_ratio": {
+        "exp006": 0.5722940059003802,
+        "exp010": 0.13961950944222615,
+        "absolute_difference": -0.43267449645815403
+      },
+      "repeated_bigram_ratio": {
+        "exp006": 0.4427836345502463,
+        "exp010": 0.06624104214498952,
+        "absolute_difference": -0.3765425924052568
+      },
+      "repetition_rate": {
+        "exp006": 0.955,
+        "exp010": 0.205,
+        "absolute_difference": -0.75
+      },
+      "average_chars": {
+        "exp006": 115.02,
+        "exp010": 37.05,
+        "absolute_difference": -77.97
+      },
+      "median_chars": {
+        "exp006": 114.0,
+        "exp010": 35.0,
+        "absolute_difference": -79.0
+      },
+      "min_chars": {
+        "exp006": 1,
+        "exp010": 21,
+        "absolute_difference": 20
+      },
+      "max_chars": {
+        "exp006": 153,
+        "exp010": 79,
+        "absolute_difference": -74
+      },
+      "average_tokens": {
+        "exp006": 29.398,
+        "exp010": 9.621,
+        "absolute_difference": -19.777
+      },
+      "heuristic_relevance": {
+        "exp006": 0.057,
+        "exp010": 0.214,
+        "absolute_difference": 0.157
+      }
+    },
+    "exp006_vs_exp011": {
+      "exact_match": {
+        "exp006": 0,
+        "exp010": 0,
+        "absolute_difference": 0
+      },
+      "nonempty_rate": {
+        "exp006": 1,
+        "exp010": 1,
+        "absolute_difference": 0
+      },
+      "repeated_unigram_ratio": {
+        "exp006": 0.5722940059003802,
+        "exp010": 0.22974072055290995,
+        "absolute_difference": -0.3425532853474702
+      },
+      "repeated_bigram_ratio": {
+        "exp006": 0.4427836345502463,
+        "exp010": 0.1084038591422711,
+        "absolute_difference": -0.33437977540797514
+      },
+      "repetition_rate": {
+        "exp006": 0.955,
+        "exp010": 0.156,
+        "absolute_difference": -0.7989999999999999
+      },
+      "average_chars": {
+        "exp006": 115.02,
+        "exp010": 77.367,
+        "absolute_difference": -37.65299999999999
+      },
+      "median_chars": {
+        "exp006": 114.0,
+        "exp010": 77.0,
+        "absolute_difference": -37.0
+      },
+      "min_chars": {
+        "exp006": 1,
+        "exp010": 49,
+        "absolute_difference": 48
+      },
+      "max_chars": {
+        "exp006": 153,
+        "exp010": 124,
+        "absolute_difference": -29
+      },
+      "average_tokens": {
+        "exp006": 29.398,
+        "exp010": 17.133,
+        "absolute_difference": -12.265
+      },
+      "heuristic_relevance": {
+        "exp006": 0.057,
+        "exp010": 0.208,
+        "absolute_difference": 0.151
+      }
+    },
+    "exp010_vs_exp011": {
+      "exact_match": {
+        "exp006": 0,
+        "exp010": 0,
+        "absolute_difference": 0
+      },
+      "nonempty_rate": {
+        "exp006": 1,
+        "exp010": 1,
+        "absolute_difference": 0
+      },
+      "repeated_unigram_ratio": {
+        "exp006": 0.13961950944222615,
+        "exp010": 0.22974072055290995,
+        "absolute_difference": 0.0901212111106838
+      },
+      "repeated_bigram_ratio": {
+        "exp006": 0.06624104214498952,
+        "exp010": 0.1084038591422711,
+        "absolute_difference": 0.04216281699728158
+      },
+      "repetition_rate": {
+        "exp006": 0.205,
+        "exp010": 0.156,
+        "absolute_difference": -0.04899999999999999
+      },
+      "average_chars": {
+        "exp006": 37.05,
+        "exp010": 77.367,
+        "absolute_difference": 40.31700000000001
+      },
+      "median_chars": {
+        "exp006": 35.0,
+        "exp010": 77.0,
+        "absolute_difference": 42.0
+      },
+      "min_chars": {
+        "exp006": 21,
+        "exp010": 49,
+        "absolute_difference": 28
+      },
+      "max_chars": {
+        "exp006": 79,
+        "exp010": 124,
+        "absolute_difference": 45
+      },
+      "average_tokens": {
+        "exp006": 9.621,
+        "exp010": 17.133,
+        "absolute_difference": 7.511999999999999
+      },
+      "heuristic_relevance": {
+        "exp006": 0.214,
+        "exp010": 0.208,
+        "absolute_difference": -0.006000000000000005
+      }
+    }
+  },
+  "secondary_sampling": {
+    "aggregate": {
+      "exp006": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.2536782650081712,
+        "repeated_bigram_ratio": 0.05432399330244124,
+        "repetition_rate": 0.173,
+        "average_chars": 111.074,
+        "median_chars": 121.0,
+        "min_chars": 1,
+        "max_chars": 179,
+        "average_tokens": 25.187,
+        "heuristic_relevance": 0.106
+      },
+      "exp010": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.09094491555534955,
+        "repeated_bigram_ratio": 0.021669431394199197,
+        "repetition_rate": 0.027,
+        "average_chars": 43.374,
+        "median_chars": 40.0,
+        "min_chars": 12,
+        "max_chars": 124,
+        "average_tokens": 10.511,
+        "heuristic_relevance": 0.179
+      },
+      "exp011": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.1428190141944399,
+        "repeated_bigram_ratio": 0.031401137441426176,
+        "repetition_rate": 0.029,
+        "average_chars": 74.955,
+        "median_chars": 74.0,
+        "min_chars": 43,
+        "max_chars": 129,
+        "average_tokens": 16.656,
+        "heuristic_relevance": 0.215
+      }
+    }
+  },
+  "per_category_greedy": {
+    "exp006": {
+      "acknowledgement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.6511954022988505,
+        "repeated_bigram_ratio": 0.5167733990147784,
+        "repetition_rate": 1,
+        "average_chars": 124.66,
+        "median_chars": 127.0,
+        "min_chars": 110,
+        "max_chars": 134,
+        "average_tokens": 29.92,
+        "heuristic_relevance": 0
+      },
+      "agreement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5830818530128875,
+        "repeated_bigram_ratio": 0.452326638878363,
+        "repetition_rate": 0.96,
+        "average_chars": 116.98,
+        "median_chars": 114.5,
+        "min_chars": 93,
+        "max_chars": 136,
+        "average_tokens": 29.66,
+        "heuristic_relevance": 0.38
+      },
+      "apologies": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5678850574712644,
+        "repeated_bigram_ratio": 0.45366995073891625,
+        "repetition_rate": 0.96,
+        "average_chars": 109.42,
+        "median_chars": 108.0,
+        "min_chars": 103,
+        "max_chars": 122,
+        "average_tokens": 29.98,
+        "heuristic_relevance": 0
+      },
+      "asking_for_help": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5651554187192118,
+        "repeated_bigram_ratio": 0.435833079492,
+        "repetition_rate": 0.98,
+        "average_chars": 116.94,
+        "median_chars": 115.5,
+        "min_chars": 63,
+        "max_chars": 153,
+        "average_tokens": 28.86,
+        "heuristic_relevance": 0.16
+      },
+      "casual_questions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5246227330779055,
+        "repeated_bigram_ratio": 0.4107219906530251,
+        "repetition_rate": 0.9,
+        "average_chars": 109.5,
+        "median_chars": 115.5,
+        "min_chars": 1,
+        "max_chars": 131,
+        "average_tokens": 27.86,
+        "heuristic_relevance": 0
+      },
+      "conversational_followup": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5178587848932676,
+        "repeated_bigram_ratio": 0.40223697674972037,
+        "repetition_rate": 0.86,
+        "average_chars": 102.52,
+        "median_chars": 114.0,
+        "min_chars": 1,
+        "max_chars": 134,
+        "average_tokens": 26.24,
+        "heuristic_relevance": 0.1
+      },
+      "daily_activities": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5626666666666666,
+        "repeated_bigram_ratio": 0.43960919540229887,
+        "repetition_rate": 0.98,
+        "average_chars": 117.18,
+        "median_chars": 116.0,
+        "min_chars": 85,
+        "max_chars": 149,
+        "average_tokens": 29.72,
+        "heuristic_relevance": 0
+      },
+      "disagreement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.6643546798029556,
+        "repeated_bigram_ratio": 0.5325066312997347,
+        "repetition_rate": 1,
+        "average_chars": 118.9,
+        "median_chars": 120.0,
+        "min_chars": 84,
+        "max_chars": 133,
+        "average_tokens": 29.84,
+        "heuristic_relevance": 0
+      },
+      "encouragement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.6266666666666667,
+        "repeated_bigram_ratio": 0.5006896551724138,
+        "repetition_rate": 0.98,
+        "average_chars": 117.16,
+        "median_chars": 114.0,
+        "min_chars": 105,
+        "max_chars": 133,
+        "average_tokens": 30,
+        "heuristic_relevance": 0.02
+      },
+      "farewell": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5579805481874447,
+        "repeated_bigram_ratio": 0.42352019704433497,
+        "repetition_rate": 0.94,
+        "average_chars": 113.28,
+        "median_chars": 112.5,
+        "min_chars": 103,
+        "max_chars": 132,
+        "average_tokens": 29.78,
+        "heuristic_relevance": 0
+      },
+      "good_morning": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5133793103448275,
+        "repeated_bigram_ratio": 0.37064039408866994,
+        "repetition_rate": 0.92,
+        "average_chars": 117.04,
+        "median_chars": 118.0,
+        "min_chars": 105,
+        "max_chars": 131,
+        "average_tokens": 29.96,
+        "heuristic_relevance": 0.1
+      },
+      "good_night": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5682068965517242,
+        "repeated_bigram_ratio": 0.40216748768472904,
+        "repetition_rate": 0.98,
+        "average_chars": 119,
+        "median_chars": 116.5,
+        "min_chars": 105,
+        "max_chars": 137,
+        "average_tokens": 29.96,
+        "heuristic_relevance": 0
+      },
+      "greetings": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5526439294309476,
+        "repeated_bigram_ratio": 0.4122051176792556,
+        "repetition_rate": 0.92,
+        "average_chars": 116.3,
+        "median_chars": 115.0,
+        "min_chars": 48,
+        "max_chars": 138,
+        "average_tokens": 28.46,
+        "heuristic_relevance": 0.16
+      },
+      "introductions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5756765188834154,
+        "repeated_bigram_ratio": 0.44629720853858784,
+        "repetition_rate": 1,
+        "average_chars": 114.18,
+        "median_chars": 112.0,
+        "min_chars": 104,
+        "max_chars": 136,
+        "average_tokens": 29.94,
+        "heuristic_relevance": 0
+      },
+      "negative_emotions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.632423645320197,
+        "repeated_bigram_ratio": 0.518007662835249,
+        "repetition_rate": 0.98,
+        "average_chars": 117.5,
+        "median_chars": 111.5,
+        "min_chars": 104,
+        "max_chars": 149,
+        "average_tokens": 29.94,
+        "heuristic_relevance": 0
+      },
+      "offering_help": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5812183908045977,
+        "repeated_bigram_ratio": 0.47201970443349756,
+        "repetition_rate": 0.98,
+        "average_chars": 111.04,
+        "median_chars": 111.0,
+        "min_chars": 44,
+        "max_chars": 127,
+        "average_tokens": 29.58,
+        "heuristic_relevance": 0.02
+      },
+      "positive_emotions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5550152720091868,
+        "repeated_bigram_ratio": 0.41763450310864103,
+        "repetition_rate": 0.9,
+        "average_chars": 113.76,
+        "median_chars": 112.5,
+        "min_chars": 72,
+        "max_chars": 138,
+        "average_tokens": 29.62,
+        "heuristic_relevance": 0.1
+      },
+      "small_talk": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5498262676021297,
+        "repeated_bigram_ratio": 0.4085503127557101,
+        "repetition_rate": 0.96,
+        "average_chars": 118.58,
+        "median_chars": 118.0,
+        "min_chars": 86,
+        "max_chars": 144,
+        "average_tokens": 29.4,
+        "heuristic_relevance": 0.1
+      },
+      "thanks": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.5379080459770115,
+        "repeated_bigram_ratio": 0.4245073891625616,
+        "repetition_rate": 0.96,
+        "average_chars": 110.88,
+        "median_chars": 112.5,
+        "min_chars": 1,
+        "max_chars": 128,
+        "average_tokens": 29.36,
+        "heuristic_relevance": 0
+      },
+      "wellbeing": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.558114030286444,
+        "repeated_bigram_ratio": 0.4157551962724377,
+        "repetition_rate": 0.94,
+        "average_chars": 115.58,
+        "median_chars": 115.0,
+        "min_chars": 105,
+        "max_chars": 129,
+        "average_tokens": 29.88,
+        "heuristic_relevance": 0
+      }
+    },
+    "exp010": {
+      "acknowledgement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.14879273504273505,
+        "repeated_bigram_ratio": 0.0677488038277512,
+        "repetition_rate": 0.18,
+        "average_chars": 37.88,
+        "median_chars": 37.0,
+        "min_chars": 23,
+        "max_chars": 73,
+        "average_tokens": 9.86,
+        "heuristic_relevance": 0.7
+      },
+      "agreement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.13747325060560353,
+        "repeated_bigram_ratio": 0.08254545454545455,
+        "repetition_rate": 0.18,
+        "average_chars": 36.88,
+        "median_chars": 35.0,
+        "min_chars": 23,
+        "max_chars": 65,
+        "average_tokens": 9.56,
+        "heuristic_relevance": 0
+      },
+      "apologies": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.16484615384615384,
+        "repeated_bigram_ratio": 0.097,
+        "repetition_rate": 0.22,
+        "average_chars": 35.64,
+        "median_chars": 35.0,
+        "min_chars": 23,
+        "max_chars": 60,
+        "average_tokens": 9.38,
+        "heuristic_relevance": 0.36
+      },
+      "asking_for_help": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.13044871794871796,
+        "repeated_bigram_ratio": 0.05918181818181818,
+        "repetition_rate": 0.2,
+        "average_chars": 37.16,
+        "median_chars": 35.0,
+        "min_chars": 22,
+        "max_chars": 57,
+        "average_tokens": 9.56,
+        "heuristic_relevance": 0.02
+      },
+      "casual_questions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.07377777777777778,
+        "repeated_bigram_ratio": 0.007272727272727273,
+        "repetition_rate": 0.04,
+        "average_chars": 34.06,
+        "median_chars": 35.0,
+        "min_chars": 23,
+        "max_chars": 47,
+        "average_tokens": 8.68,
+        "heuristic_relevance": 0
+      },
+      "conversational_followup": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.12263736263736263,
+        "repeated_bigram_ratio": 0.048554778554778556,
+        "repetition_rate": 0.2,
+        "average_chars": 35.06,
+        "median_chars": 35.0,
+        "min_chars": 23,
+        "max_chars": 55,
+        "average_tokens": 9.12,
+        "heuristic_relevance": 0
+      },
+      "daily_activities": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.09355555555555556,
+        "repeated_bigram_ratio": 0.02181818181818182,
+        "repetition_rate": 0.12,
+        "average_chars": 34.2,
+        "median_chars": 35.0,
+        "min_chars": 23,
+        "max_chars": 46,
+        "average_tokens": 8.82,
+        "heuristic_relevance": 0
+      },
+      "disagreement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.1035523088023088,
+        "repeated_bigram_ratio": 0.044805194805194806,
+        "repetition_rate": 0.1,
+        "average_chars": 36.84,
+        "median_chars": 35.0,
+        "min_chars": 23,
+        "max_chars": 79,
+        "average_tokens": 9.66,
+        "heuristic_relevance": 0
+      },
+      "encouragement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.1595936285936286,
+        "repeated_bigram_ratio": 0.0845,
+        "repetition_rate": 0.2,
+        "average_chars": 38.54,
+        "median_chars": 38.0,
+        "min_chars": 22,
+        "max_chars": 57,
+        "average_tokens": 10.04,
+        "heuristic_relevance": 0
+      },
+      "farewell": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.17656080031080032,
+        "repeated_bigram_ratio": 0.09995454545454546,
+        "repetition_rate": 0.32,
+        "average_chars": 38.98,
+        "median_chars": 40.0,
+        "min_chars": 22,
+        "max_chars": 60,
+        "average_tokens": 10.24,
+        "heuristic_relevance": 0.42
+      },
+      "good_morning": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.11863247863247862,
+        "repeated_bigram_ratio": 0.034545454545454546,
+        "repetition_rate": 0.14,
+        "average_chars": 36.1,
+        "median_chars": 35.0,
+        "min_chars": 23,
+        "max_chars": 50,
+        "average_tokens": 9.24,
+        "heuristic_relevance": 0
+      },
+      "good_night": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.18017929292929294,
+        "repeated_bigram_ratio": 0.09055844155844156,
+        "repetition_rate": 0.28,
+        "average_chars": 40.3,
+        "median_chars": 40.0,
+        "min_chars": 23,
+        "max_chars": 57,
+        "average_tokens": 10.52,
+        "heuristic_relevance": 0
+      },
+      "greetings": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.21613986013986014,
+        "repeated_bigram_ratio": 0.1285007215007215,
+        "repetition_rate": 0.4,
+        "average_chars": 40.48,
+        "median_chars": 35.5,
+        "min_chars": 21,
+        "max_chars": 59,
+        "average_tokens": 10.6,
+        "heuristic_relevance": 0
+      },
+      "introductions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.1240437062937063,
+        "repeated_bigram_ratio": 0.06070779220779221,
+        "repetition_rate": 0.2,
+        "average_chars": 35.48,
+        "median_chars": 36.0,
+        "min_chars": 23,
+        "max_chars": 57,
+        "average_tokens": 9.18,
+        "heuristic_relevance": 0.62
+      },
+      "negative_emotions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.1334727712947527,
+        "repeated_bigram_ratio": 0.07077272727272728,
+        "repetition_rate": 0.18,
+        "average_chars": 36.6,
+        "median_chars": 35.0,
+        "min_chars": 23,
+        "max_chars": 67,
+        "average_tokens": 9.54,
+        "heuristic_relevance": 0.38
+      },
+      "offering_help": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.10389785214785215,
+        "repeated_bigram_ratio": 0.03806993006993007,
+        "repetition_rate": 0.14,
+        "average_chars": 35.74,
+        "median_chars": 35.0,
+        "min_chars": 22,
+        "max_chars": 57,
+        "average_tokens": 9.26,
+        "heuristic_relevance": 0.14
+      },
+      "positive_emotions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.24005128205128207,
+        "repeated_bigram_ratio": 0.16882467532467532,
+        "repetition_rate": 0.46,
+        "average_chars": 41.74,
+        "median_chars": 42.5,
+        "min_chars": 23,
+        "max_chars": 60,
+        "average_tokens": 11.12,
+        "heuristic_relevance": 0.84
+      },
+      "small_talk": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.12644910644910645,
+        "repeated_bigram_ratio": 0.042151515151515155,
+        "repetition_rate": 0.22,
+        "average_chars": 36.2,
+        "median_chars": 35.0,
+        "min_chars": 23,
+        "max_chars": 51,
+        "average_tokens": 9.34,
+        "heuristic_relevance": 0
+      },
+      "thanks": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.11446736596736597,
+        "repeated_bigram_ratio": 0.04094444444444444,
+        "repetition_rate": 0.12,
+        "average_chars": 36.52,
+        "median_chars": 35.0,
+        "min_chars": 22,
+        "max_chars": 59,
+        "average_tokens": 9.28,
+        "heuristic_relevance": 0.8
+      },
+      "wellbeing": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.12381818181818181,
+        "repeated_bigram_ratio": 0.03636363636363636,
+        "repetition_rate": 0.2,
+        "average_chars": 36.6,
+        "median_chars": 35.0,
+        "min_chars": 23,
+        "max_chars": 46,
+        "average_tokens": 9.42,
+        "heuristic_relevance": 0
+      }
+    },
+    "exp011": {
+      "acknowledgement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.1993128897418371,
+        "repeated_bigram_ratio": 0.08733603238866397,
+        "repetition_rate": 0.08,
+        "average_chars": 68.28,
+        "median_chars": 62.5,
+        "min_chars": 49,
+        "max_chars": 114,
+        "average_tokens": 16,
+        "heuristic_relevance": 0.18
+      },
+      "agreement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.18110305949640315,
+        "repeated_bigram_ratio": 0.06592113957593834,
+        "repetition_rate": 0.06,
+        "average_chars": 69.26,
+        "median_chars": 65.0,
+        "min_chars": 53,
+        "max_chars": 97,
+        "average_tokens": 15.84,
+        "heuristic_relevance": 0
+      },
+      "apologies": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.19413344787307635,
+        "repeated_bigram_ratio": 0.05201280444701497,
+        "repetition_rate": 0.04,
+        "average_chars": 73.32,
+        "median_chars": 71.0,
+        "min_chars": 59,
+        "max_chars": 104,
+        "average_tokens": 15.8,
+        "heuristic_relevance": 0
+      },
+      "asking_for_help": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.22624340659340658,
+        "repeated_bigram_ratio": 0.09959347085662874,
+        "repetition_rate": 0.18,
+        "average_chars": 70.76,
+        "median_chars": 66.0,
+        "min_chars": 59,
+        "max_chars": 95,
+        "average_tokens": 16.56,
+        "heuristic_relevance": 0
+      },
+      "casual_questions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.20354169000933706,
+        "repeated_bigram_ratio": 0.06730066682543462,
+        "repetition_rate": 0.06,
+        "average_chars": 72.24,
+        "median_chars": 75.0,
+        "min_chars": 49,
+        "max_chars": 97,
+        "average_tokens": 16.94,
+        "heuristic_relevance": 0.04
+      },
+      "conversational_followup": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.1827228128282779,
+        "repeated_bigram_ratio": 0.04671751571441974,
+        "repetition_rate": 0.04,
+        "average_chars": 72.74,
+        "median_chars": 71.5,
+        "min_chars": 58,
+        "max_chars": 91,
+        "average_tokens": 17.02,
+        "heuristic_relevance": 0.62
+      },
+      "daily_activities": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.2272024931590149,
+        "repeated_bigram_ratio": 0.09897198673359664,
+        "repetition_rate": 0,
+        "average_chars": 74.84,
+        "median_chars": 80.0,
+        "min_chars": 49,
+        "max_chars": 108,
+        "average_tokens": 18.22,
+        "heuristic_relevance": 0
+      },
+      "disagreement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.21751175617580248,
+        "repeated_bigram_ratio": 0.07911437358650981,
+        "repetition_rate": 0.06,
+        "average_chars": 72.24,
+        "median_chars": 69.0,
+        "min_chars": 54,
+        "max_chars": 108,
+        "average_tokens": 17.2,
+        "heuristic_relevance": 0
+      },
+      "encouragement": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.30650117603863064,
+        "repeated_bigram_ratio": 0.17442660343276173,
+        "repetition_rate": 0.4,
+        "average_chars": 75.02,
+        "median_chars": 76.5,
+        "min_chars": 55,
+        "max_chars": 98,
+        "average_tokens": 17.64,
+        "heuristic_relevance": 0.1
+      },
+      "farewell": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.20635318628739682,
+        "repeated_bigram_ratio": 0.09716764951594672,
+        "repetition_rate": 0.2,
+        "average_chars": 78.16,
+        "median_chars": 77.0,
+        "min_chars": 50,
+        "max_chars": 108,
+        "average_tokens": 16.22,
+        "heuristic_relevance": 0
+      },
+      "good_morning": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.29134001894218614,
+        "repeated_bigram_ratio": 0.18751555642499915,
+        "repetition_rate": 0.18,
+        "average_chars": 90.6,
+        "median_chars": 91.5,
+        "min_chars": 56,
+        "max_chars": 111,
+        "average_tokens": 18.2,
+        "heuristic_relevance": 0.68
+      },
+      "good_night": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.2924240402700155,
+        "repeated_bigram_ratio": 0.20024326748243157,
+        "repetition_rate": 0.26,
+        "average_chars": 94.38,
+        "median_chars": 95.0,
+        "min_chars": 77,
+        "max_chars": 116,
+        "average_tokens": 18.32,
+        "heuristic_relevance": 0.98
+      },
+      "greetings": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.3041017672169442,
+        "repeated_bigram_ratio": 0.19380011503729366,
+        "repetition_rate": 0.38,
+        "average_chars": 92.84,
+        "median_chars": 96.0,
+        "min_chars": 49,
+        "max_chars": 124,
+        "average_tokens": 18.82,
+        "heuristic_relevance": 0
+      },
+      "introductions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.23936123018708158,
+        "repeated_bigram_ratio": 0.12259111012826183,
+        "repetition_rate": 0.22,
+        "average_chars": 81.14,
+        "median_chars": 79.5,
+        "min_chars": 56,
+        "max_chars": 115,
+        "average_tokens": 16.96,
+        "heuristic_relevance": 0
+      },
+      "negative_emotions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.22351393498142724,
+        "repeated_bigram_ratio": 0.0966648784726588,
+        "repetition_rate": 0.12,
+        "average_chars": 81.3,
+        "median_chars": 79.0,
+        "min_chars": 57,
+        "max_chars": 108,
+        "average_tokens": 17.62,
+        "heuristic_relevance": 0
+      },
+      "offering_help": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.20787823872632055,
+        "repeated_bigram_ratio": 0.0983852373117079,
+        "repetition_rate": 0.2,
+        "average_chars": 74.66,
+        "median_chars": 75.0,
+        "min_chars": 59,
+        "max_chars": 104,
+        "average_tokens": 16.42,
+        "heuristic_relevance": 0.08
+      },
+      "positive_emotions": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.26290119769478365,
+        "repeated_bigram_ratio": 0.14636241216494278,
+        "repetition_rate": 0.32,
+        "average_chars": 78.04,
+        "median_chars": 75.0,
+        "min_chars": 52,
+        "max_chars": 111,
+        "average_tokens": 17.46,
+        "heuristic_relevance": 0.4
+      },
+      "small_talk": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.22065987839130252,
+        "repeated_bigram_ratio": 0.08364754170165396,
+        "repetition_rate": 0.1,
+        "average_chars": 74.1,
+        "median_chars": 78.0,
+        "min_chars": 49,
+        "max_chars": 94,
+        "average_tokens": 17.54,
+        "heuristic_relevance": 0.32
+      },
+      "thanks": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.18373724830381177,
+        "repeated_bigram_ratio": 0.08112863795990731,
+        "repetition_rate": 0.16,
+        "average_chars": 77.38,
+        "median_chars": 74.0,
+        "min_chars": 56,
+        "max_chars": 113,
+        "average_tokens": 16.52,
+        "heuristic_relevance": 0.22
+      },
+      "wellbeing": {
+        "exact_match": 0,
+        "nonempty_rate": 1,
+        "repeated_unigram_ratio": 0.22427093814114274,
+        "repeated_bigram_ratio": 0.0891761830846499,
+        "repetition_rate": 0.06,
+        "average_chars": 76.04,
+        "median_chars": 76.0,
+        "min_chars": 49,
+        "max_chars": 108,
+        "average_tokens": 17.36,
+        "heuristic_relevance": 0.54
+      }
+    }
+  },
+  "qualitative_representative_by_category": {
+    "acknowledgement": {
+      "prompt": "You may want to know that the office is closed after a demanding morning.",
+      "expected_response": "That is clear, and I will remember it. I appreciate the clear update.",
+      "exp006_response": "The first time is the first time to be a good step to the next time to the next day. The next day is the first time to the next",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "I have been so far. I hope the situation is worth going well."
+    },
+    "agreement": {
+      "prompt": "Does it also seem to you that the change is useful after a demanding morning?",
+      "expected_response": "Yes, that is close to my own understanding of it. I am glad we see it similarly.",
+      "exp006_response": "The first time is the first time to be the first time to be the same time to be the same time to the same time to the same time ",
+      "exp010_response": "I am glad you have been able to make it easier.",
+      "exp011_response": "I have been so far well, and I hope the day is going well. I hope the day is going well."
+    },
+    "apologies": {
+      "prompt": "I regret speaking too sharply after a demanding morning; please accept my apology.",
+      "expected_response": "Thank you for being honest; I understand that mistakes happen. I appreciate your honesty too.",
+      "exp006_response": "I am not to do that I am sure I have to be a good and I am sure that I have to be able to do with my own ",
+      "exp010_response": "I am sorry to meet you.",
+      "exp011_response": "I am glad you are going well. I hope you feel comfortable with you too."
+    },
+    "asking_for_help": {
+      "prompt": "Can we look at organizing these files after a demanding morning together?",
+      "expected_response": "Yes, we can figure it out together. We can adjust if something is unclear.",
+      "exp006_response": "€I have to be a good way to get a good deal to get a good chance to the right to the right to the right and the right ",
+      "exp010_response": "I am glad I am glad I am glad I have been able to see it.",
+      "exp011_response": "I have worked at a time to hear it. I hope the day is going well."
+    },
+    "casual_questions": {
+      "prompt": "Is a way to spend free time after a demanding morning something you often choose?",
+      "expected_response": "I enjoy it occasionally, especially when I have time to spare. It is a pleasant thing to wonder about.",
+      "exp006_response": "The first time you can be able to get a good step to get a good way to get a good chance to get a good way to get a ",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "I am glad you are going well. I hope you are going well well."
+    },
+    "conversational_followup": {
+      "prompt": "Which part of an interesting book after a demanding morning would you ask about next?",
+      "expected_response": "That sounds interesting; what part would you like to explore further? I would be curious to hear more.",
+      "exp006_response": "The first time is a good thing to be a good thing to be a good thing to be a good thing to the right to the right to the ",
+      "exp010_response": "I am sorry to meet you.",
+      "exp011_response": "I am glad I would be glad to hear it. I hope you feel comfortable with that would be happy."
+    },
+    "daily_activities": {
+      "prompt": "What has shopping for groceries after a demanding morning been like lately?",
+      "expected_response": "It has been going fairly well, although some days are busier than others. I try to leave room for changes.",
+      "exp006_response": "The baby is a good way to be a good way to the baby and the baby of the baby and the baby is the ",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "I have been so far? I hope the day is going well."
+    },
+    "disagreement": {
+      "prompt": "My conclusion about the weather will stay clear after a demanding morning is different.",
+      "expected_response": "I respect that view, but I do not reach the same conclusion. It is worth leaving room for another option.",
+      "exp006_response": "The first time is the first time to be the first time to be the first time to be the same time to be the same time to the same ",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "I have been so far so far. I hope the next step is easier."
+    },
+    "encouragement": {
+      "prompt": "I am losing confidence about meeting the deadline after a demanding morning.",
+      "expected_response": "It is understandable to feel unsure, but your effort already counts for a lot. The next step is enough for now.",
+      "exp006_response": "The first time is the first time to be the first time of the first time of the Earth is the first time to be the same time to the ",
+      "exp010_response": "I am glad you have been happy to see you.",
+      "exp011_response": "I am glad we can see it more than I am glad we can talk about. I am glad we can talk about it."
+    },
+    "farewell": {
+      "prompt": "I enjoyed our chat, but I should leave. (for the evening after a demanding morning)",
+      "expected_response": "Have a peaceful rest of the day. I hope things go smoothly for you.",
+      "exp006_response": "I have been a good and a good deal to see the next day to the next day of the day I have been able to see the next day ",
+      "exp010_response": "I am glad I am glad I have been happy to see you.",
+      "exp011_response": "That is nice to hear that. I hope the day is going well."
+    },
+    "good_morning": {
+      "prompt": "Morning! I hope things are going well when you arrive after a demanding morning.",
+      "expected_response": "Good morning! I hope today feels manageable and pleasant. It is nice to begin the day positively.",
+      "exp006_response": "I have to have a good idea of the world and the best to be a good way to do with the right to the right to the right and ",
+      "exp010_response": "I am sorry to meet you.",
+      "exp011_response": "Good night. I hope you feel comfortable with you. I hope you can enjoy the day feel."
+    },
+    "good_night": {
+      "prompt": "I am off to sleep now after dinner after a demanding morning.",
+      "expected_response": "Have a restful night, and see you soon. The day can end on a peaceful note.",
+      "exp006_response": "I am sure that I have to be a good deal to do with a good deal that I have to do with the next day to get a little ",
+      "exp010_response": "I am glad I am glad you are going to see you.",
+      "exp011_response": "Good night. I hope you are going well well. I hope you feel comfortable with a little easier."
+    },
+    "greetings": {
+      "prompt": "Hey there, Hello after a demanding morning.",
+      "expected_response": "Hey, it is nice to hear from you. What have you been up to?",
+      "exp006_response": "The first time was a great deal of the first time in the summer century. The first time was the first time of the first time in the early ",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "Good night! I am glad you are going well. I hope you feel comfortable again."
+    },
+    "introductions": {
+      "prompt": "We have not met before; my name is Riley after a demanding morning.",
+      "expected_response": "Nice to meet you! How are you finding things so far? It is good to have you here.",
+      "exp006_response": "€I have to have been a good deal to do with the first time to be the first time of the world to be a good thing to the right",
+      "exp010_response": "I am glad I have been happy to meet you.",
+      "exp011_response": "I have been happy to hear that. I hope the situation is going well."
+    },
+    "negative_emotions": {
+      "prompt": "I am struggling a little with too much work after a demanding morning.",
+      "expected_response": "I am sorry you are facing this. What kind of support would help? Thank you for hearing me out.",
+      "exp006_response": "I am sure I have to do that I have to do that I have to do that I have to do that I have to do that I have ",
+      "exp010_response": "I am sorry to meet you.",
+      "exp011_response": "That is a good thing to hear about. I hope you feel comfortable with the next step."
+    },
+    "offering_help": {
+      "prompt": "Would you like me to lend a hand with carrying the boxes after a demanding morning?",
+      "expected_response": "Thanks for noticing. Let us decide what would be most useful. I am glad to have the option.",
+      "exp006_response": "If you are in the next time, you can be able to get a good way to get a good time to get a good time to get a good",
+      "exp010_response": "I am glad you are going to meet it.",
+      "exp011_response": "I have been so far, and I am glad we can see it again. I hope we can talk about it."
+    },
+    "positive_emotions": {
+      "prompt": "I cannot stop smiling about the weather cleared up after a demanding morning.",
+      "expected_response": "That is lovely news. I can hear how much it means to you. I wanted you to know about it.",
+      "exp006_response": "I am sure that I have to be a good deal to be able to be able to be able to be a good way to get a good way ",
+      "exp010_response": "I am glad you are going to see it.",
+      "exp011_response": "I am glad we can see it more than I am glad we can see it more. I hope we can talk about it."
+    },
+    "small_talk": {
+      "prompt": "I noticed the music nearby after a demanding morning; what do you think?",
+      "expected_response": "It has been a pleasant part of the day so far. It is an easy topic to enjoy.",
+      "exp006_response": "I have to do that I have to be a good idea of the world and the world is not a good way to be a good way to the ",
+      "exp010_response": "I am sorry to meet you.",
+      "exp011_response": "I have been so far; I am glad we can see it again. I hope we can talk about it."
+    },
+    "thanks": {
+      "prompt": "Please know I am thankful that you staying late after a demanding morning.",
+      "expected_response": "Thank you for saying that. It means a lot. It was no trouble at all.",
+      "exp006_response": "I am sure that I have to be a good idea to do that I have to do that I have to do that I have to do that I ",
+      "exp010_response": "I am glad you are going to me a little time.",
+      "exp011_response": "That is a good thing to hear it. I hope the day is going well."
+    },
+    "wellbeing": {
+      "prompt": "Have you been feeling all right this morning after a demanding morning?",
+      "expected_response": "I have had a full week, but I am doing okay. I am trying to keep a balanced pace.",
+      "exp006_response": "I have been a good deal to be a good way to do with a good deal that you can be able to get a good way to get a ",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "I am glad you are going well. I hope you are going well so far."
+    }
+  },
+  "generalization_subset": {
+    "available": false,
+    "size": 0,
+    "reason": "No independent generalization marker exists in the Exp011 test records; no subset was inferred from text."
+  }
+}

@@ -2,3 +2,6 @@ torch
 numpy
 tqdm
 pytest
+fastapi
+uvicorn[standard]
+httpx

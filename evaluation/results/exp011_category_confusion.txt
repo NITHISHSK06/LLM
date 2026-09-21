@@ -1,0 +1,421 @@
+Exp011 category-confusion analysis
+Examples analyzed: 1000
+
+Reliable predictions use specific phrase heuristics; ambiguous responses are unclassified.
+
+exp010 category summary
+greetings: total=50, aligned=0, mismatched=49, obvious=none, common_incorrect=positive_emotions
+introductions: total=50, aligned=0, mismatched=48, obvious=none, common_incorrect=positive_emotions
+wellbeing: total=50, aligned=0, mismatched=50, obvious=none, common_incorrect=positive_emotions
+small_talk: total=50, aligned=0, mismatched=50, obvious=none, common_incorrect=positive_emotions
+thanks: total=50, aligned=0, mismatched=48, obvious=thanks_to_unrelated=11, common_incorrect=positive_emotions
+apologies: total=50, aligned=17, mismatched=31, obvious=none, common_incorrect=positive_emotions
+asking_for_help: total=50, aligned=0, mismatched=47, obvious=asking_for_help_to_emotional=40, common_incorrect=positive_emotions
+offering_help: total=50, aligned=0, mismatched=50, obvious=none, common_incorrect=positive_emotions
+positive_emotions: total=50, aligned=34, mismatched=8, obvious=none, common_incorrect=apologies
+negative_emotions: total=50, aligned=0, mismatched=48, obvious=none, common_incorrect=positive_emotions
+encouragement: total=50, aligned=0, mismatched=49, obvious=none, common_incorrect=positive_emotions
+agreement: total=50, aligned=0, mismatched=48, obvious=none, common_incorrect=positive_emotions
+disagreement: total=50, aligned=0, mismatched=50, obvious=none, common_incorrect=positive_emotions
+acknowledgement: total=50, aligned=0, mismatched=46, obvious=none, common_incorrect=positive_emotions
+farewell: total=50, aligned=0, mismatched=46, obvious=none, common_incorrect=positive_emotions
+good_morning: total=50, aligned=0, mismatched=50, obvious=none, common_incorrect=positive_emotions
+good_night: total=50, aligned=0, mismatched=47, obvious=none, common_incorrect=positive_emotions
+casual_questions: total=50, aligned=0, mismatched=50, obvious=none, common_incorrect=positive_emotions
+daily_activities: total=50, aligned=0, mismatched=50, obvious=none, common_incorrect=positive_emotions
+conversational_followup: total=50, aligned=0, mismatched=50, obvious=none, common_incorrect=positive_emotions
+
+exp010 generic response patterns across categories
+leading_six_words: count=358, categories=acknowledgement, agreement, apologies, asking_for_help, casual_questions, conversational_followup, daily_activities, disagreement, encouragement, farewell, good_morning, good_night, greetings, introductions, negative_emotions, offering_help, positive_emotions, small_talk, thanks, wellbeing, pattern=i am glad you are going
+exact: count=267, categories=acknowledgement, agreement, apologies, asking_for_help, casual_questions, conversational_followup, daily_activities, disagreement, encouragement, farewell, good_morning, good_night, greetings, introductions, negative_emotions, offering_help, positive_emotions, small_talk, thanks, wellbeing, pattern=i am glad you are going to see you
+leading_six_words: count=186, categories=acknowledgement, agreement, apologies, asking_for_help, casual_questions, conversational_followup, daily_activities, disagreement, encouragement, farewell, good_morning, good_night, introductions, negative_emotions, offering_help, positive_emotions, small_talk, thanks, wellbeing, pattern=i am sorry to meet you
+leading_six_words: count=179, categories=acknowledgement, agreement, apologies, asking_for_help, conversational_followup, daily_activities, disagreement, encouragement, farewell, good_morning, good_night, greetings, introductions, negative_emotions, offering_help, positive_emotions, small_talk, thanks, wellbeing, pattern=i am glad i am glad
+exact: count=176, categories=acknowledgement, agreement, apologies, asking_for_help, casual_questions, conversational_followup, daily_activities, disagreement, encouragement, farewell, good_morning, good_night, introductions, negative_emotions, offering_help, positive_emotions, small_talk, thanks, wellbeing, pattern=i am sorry to meet you
+leading_six_words: count=161, categories=acknowledgement, agreement, apologies, asking_for_help, casual_questions, conversational_followup, daily_activities, disagreement, encouragement, farewell, good_morning, good_night, greetings, introductions, negative_emotions, offering_help, positive_emotions, small_talk, thanks, wellbeing, pattern=i am glad you have been
+leading_six_words: count=66, categories=apologies, conversational_followup, disagreement, encouragement, farewell, good_morning, good_night, introductions, negative_emotions, offering_help, positive_emotions, small_talk, pattern=i am glad i have been
+exact: count=55, categories=acknowledgement, agreement, apologies, asking_for_help, casual_questions, conversational_followup, daily_activities, disagreement, encouragement, farewell, good_morning, good_night, introductions, negative_emotions, offering_help, small_talk, thanks, wellbeing, pattern=i am glad you have been able to see you
+exact: count=39, categories=acknowledgement, agreement, asking_for_help, casual_questions, conversational_followup, encouragement, farewell, good_morning, good_night, greetings, introductions, negative_emotions, positive_emotions, small_talk, thanks, wellbeing, pattern=i am glad you have been happy to meet you
+exact: count=37, categories=acknowledgement, asking_for_help, casual_questions, daily_activities, encouragement, farewell, good_morning, good_night, greetings, introductions, negative_emotions, offering_help, positive_emotions, small_talk, thanks, pattern=i am glad you have been happy to see you
+
+exp011 category summary
+greetings: total=50, aligned=0, mismatched=34, obvious=none, common_incorrect=good_night
+introductions: total=50, aligned=0, mismatched=37, obvious=none, common_incorrect=good_night
+wellbeing: total=50, aligned=0, mismatched=34, obvious=none, common_incorrect=positive_emotions
+small_talk: total=50, aligned=0, mismatched=36, obvious=none, common_incorrect=positive_emotions
+thanks: total=50, aligned=0, mismatched=25, obvious=thanks_to_unrelated=14, common_incorrect=good_night
+apologies: total=50, aligned=0, mismatched=34, obvious=apologies_to_unrelated=6, common_incorrect=positive_emotions
+asking_for_help: total=50, aligned=0, mismatched=37, obvious=asking_for_help_to_emotional=36, common_incorrect=positive_emotions
+offering_help: total=50, aligned=0, mismatched=33, obvious=none, common_incorrect=positive_emotions
+positive_emotions: total=50, aligned=19, mismatched=17, obvious=none, common_incorrect=good_night
+negative_emotions: total=50, aligned=0, mismatched=39, obvious=none, common_incorrect=positive_emotions
+encouragement: total=50, aligned=2, mismatched=33, obvious=none, common_incorrect=positive_emotions
+agreement: total=50, aligned=0, mismatched=28, obvious=none, common_incorrect=positive_emotions
+disagreement: total=50, aligned=0, mismatched=24, obvious=none, common_incorrect=positive_emotions
+acknowledgement: total=50, aligned=0, mismatched=32, obvious=none, common_incorrect=positive_emotions
+farewell: total=50, aligned=0, mismatched=32, obvious=none, common_incorrect=good_night
+good_morning: total=50, aligned=3, mismatched=37, obvious=good_morning_to_good_night=37, common_incorrect=good_night
+good_night: total=50, aligned=40, mismatched=1, obvious=good_night_to_good_morning=1, common_incorrect=good_morning
+casual_questions: total=50, aligned=0, mismatched=36, obvious=none, common_incorrect=positive_emotions
+daily_activities: total=50, aligned=0, mismatched=33, obvious=none, common_incorrect=positive_emotions
+conversational_followup: total=50, aligned=1, mismatched=31, obvious=none, common_incorrect=positive_emotions
+
+exp011 generic response patterns across categories
+leading_six_words: count=164, categories=acknowledgement, agreement, apologies, encouragement, farewell, good_morning, good_night, greetings, introductions, negative_emotions, offering_help, positive_emotions, thanks, pattern=good night i hope you feel
+leading_six_words: count=160, categories=acknowledgement, agreement, apologies, asking_for_help, casual_questions, daily_activities, disagreement, encouragement, farewell, good_morning, greetings, introductions, negative_emotions, offering_help, positive_emotions, small_talk, thanks, wellbeing, pattern=i have been so far i
+leading_six_words: count=153, categories=acknowledgement, agreement, apologies, asking_for_help, casual_questions, conversational_followup, disagreement, encouragement, farewell, good_morning, introductions, negative_emotions, offering_help, positive_emotions, small_talk, thanks, wellbeing, pattern=i am glad you are going
+leading_six_words: count=79, categories=acknowledgement, agreement, apologies, asking_for_help, casual_questions, conversational_followup, disagreement, encouragement, farewell, good_morning, negative_emotions, offering_help, positive_emotions, small_talk, wellbeing, pattern=i am glad we can see
+leading_six_words: count=51, categories=agreement, apologies, asking_for_help, conversational_followup, disagreement, encouragement, farewell, introductions, negative_emotions, offering_help, positive_emotions, thanks, pattern=that is a good thing to
+leading_six_words: count=49, categories=acknowledgement, agreement, casual_questions, daily_activities, disagreement, good_morning, greetings, negative_emotions, offering_help, small_talk, wellbeing, pattern=i have been so far well
+leading_six_words: count=46, categories=agreement, asking_for_help, casual_questions, daily_activities, disagreement, greetings, negative_emotions, offering_help, small_talk, wellbeing, pattern=i have been so far and
+exact: count=36, categories=casual_questions, daily_activities, disagreement, good_morning, greetings, small_talk, wellbeing, pattern=i have been so far i am glad we can talk about it i hope we can talk about it
+leading_six_words: count=32, categories=farewell, good_morning, good_night, greetings, introductions, offering_help, positive_emotions, thanks, pattern=good night i hope you are
+leading_six_words: count=32, categories=acknowledgement, agreement, apologies, casual_questions, conversational_followup, disagreement, encouragement, farewell, good_morning, introductions, negative_emotions, offering_help, small_talk, thanks, wellbeing, pattern=i am glad i would be
+
+Representative strongest confusion patterns
+exp010
+  acknowledgement->apologies: 3 representative example(s)
+    index 475: I am sorry to meet you.
+    index 561: I am sorry to meet you.
+    index 856: I am sorry to meet you to see you.
+  acknowledgement->positive_emotions: 3 representative example(s)
+    index 21: I am glad you are going to see you.
+    index 24: I am glad you are going to see you.
+    index 31: I am glad you have been happy to see you.
+  agreement->apologies: 3 representative example(s)
+    index 168: I am sorry to meet you.
+    index 174: I am sorry to meet you.
+    index 215: I am sorry to meet you.
+  agreement->positive_emotions: 3 representative example(s)
+    index 10: I am glad you have been able to make it easier.
+    index 11: I am glad you have been able to see it.
+    index 104: I am glad I am glad I am glad to do.
+  apologies->positive_emotions: 3 representative example(s)
+    index 65: I am glad I am glad I am glad I have been able to see it.
+    index 67: I am glad I have been glad to be happy to meet it.
+    index 88: I am glad you are going to see you.
+  asking_for_help->apologies: 3 representative example(s)
+    index 56: I am sorry to meet you.
+    index 66: I am sorry to meet you.
+    index 112: I am sorry to meet you.
+  asking_for_help->positive_emotions: 3 representative example(s)
+    index 3: I am glad I am glad I am glad I have been able to see it.
+    index 19: I am glad you have been able to see you.
+    index 59: I am glad you are going to see you.
+  casual_questions->apologies: 3 representative example(s)
+    index 34: I am sorry to meet you.
+    index 118: I am sorry to meet you.
+    index 141: I am sorry to meet you.
+  casual_questions->positive_emotions: 3 representative example(s)
+    index 15: I am glad you are going to see you.
+    index 95: I am glad you are going to see you.
+    index 144: I am glad you are going to see you.
+  conversational_followup->apologies: 3 representative example(s)
+    index 7: I am sorry to meet you.
+    index 16: I am sorry to meet you.
+    index 17: I am sorry to meet you.
+  conversational_followup->positive_emotions: 3 representative example(s)
+    index 29: I am glad you have been able to see you.
+    index 119: I am glad I am glad I have been able to see it.
+    index 122: I am glad I am glad I have been able to see it.
+  daily_activities->apologies: 3 representative example(s)
+    index 25: I am sorry to meet you.
+    index 44: I am sorry to meet you.
+    index 99: I am sorry to meet you.
+  daily_activities->positive_emotions: 3 representative example(s)
+    index 20: I am glad you are going to see you.
+    index 47: I am glad you are going to see you.
+    index 60: I am glad you are going to see you.
+  disagreement->apologies: 3 representative example(s)
+    index 140: I am sorry to be happy to meet it.
+    index 228: I am sorry to meet you.
+    index 271: I am sorry to be happy to meet it.
+  disagreement->positive_emotions: 3 representative example(s)
+    index 54: I am glad you are going to see you.
+    index 78: I am glad you are going to meet it.
+    index 85: I am glad to be happy to be sure to be sure to be sure.
+  encouragement->apologies: 3 representative example(s)
+    index 42: I am sorry to meet you to meet you.
+    index 100: I am sorry to meet you.
+    index 132: I am sorry to meet you.
+  encouragement->positive_emotions: 3 representative example(s)
+    index 2: I am glad you have been happy to see you.
+    index 61: I am glad I have been glad to be sure.
+    index 72: I am glad I have been able to help you to see you.
+  farewell->apologies: 3 representative example(s)
+    index 126: I am sorry to meet you.
+    index 554: I am sorry to meet you.
+    index 585: I am sorry to meet you.
+  farewell->positive_emotions: 3 representative example(s)
+    index 18: I am glad I am glad I have been happy to see you.
+    index 38: I am glad I am glad I have been able to see you.
+    index 70: I am glad you are going to meet you.
+  good_morning->apologies: 3 representative example(s)
+    index 5: I am sorry to meet you.
+    index 210: I am sorry to meet you.
+    index 231: I am sorry to meet you.
+  good_morning->positive_emotions: 3 representative example(s)
+    index 8: I am glad you are going to see you.
+    index 22: I am glad you are going to see you.
+    index 37: I am glad you are going to see you.
+  good_night->apologies: 2 representative example(s)
+    index 152: I am sorry to meet you.
+    index 424: I am sorry to meet you.
+  good_night->positive_emotions: 3 representative example(s)
+    index 12: I am glad I am glad you are going to see you.
+    index 32: I am glad I have been able to see you.
+    index 33: I am glad I am glad I have been glad to be happy.
+  greetings->positive_emotions: 3 representative example(s)
+    index 4: I am glad you are going to see you.
+    index 27: I am glad you are going to me.
+    index 40: I am glad I am glad you are going to see it.
+  introductions->apologies: 3 representative example(s)
+    index 93: I am sorry to meet you.
+    index 102: I am sorry to meet you.
+    index 149: I am sorry to meet you.
+  introductions->positive_emotions: 3 representative example(s)
+    index 6: I am glad I have been happy to meet you.
+    index 68: I am glad I have been able to see you.
+    index 115: I am glad I am glad you are going to me.
+  negative_emotions->apologies: 3 representative example(s)
+    index 26: I am sorry to meet you.
+    index 74: I am sorry to meet you.
+    index 196: I am sorry to meet you.
+  negative_emotions->positive_emotions: 3 representative example(s)
+    index 35: I am glad you have been happy to see you.
+    index 71: I am glad you are going to see you.
+    index 75: I am glad you are going to see you.
+  offering_help->apologies: 3 representative example(s)
+    index 121: I am sorry to meet you.
+    index 217: I am sorry to meet you.
+    index 273: I am sorry to meet you.
+  offering_help->positive_emotions: 3 representative example(s)
+    index 103: I am glad you are going to meet it.
+    index 186: I am glad you are going to see you.
+    index 202: I am glad you are going to see you.
+  positive_emotions->apologies: 3 representative example(s)
+    index 90: I am sorry to meet you.
+    index 195: I am sorry to meet you.
+    index 316: I am sorry to meet you.
+  small_talk->apologies: 3 representative example(s)
+    index 13: I am sorry to meet you.
+    index 188: I am sorry to meet you.
+    index 224: I am sorry to meet you.
+  small_talk->positive_emotions: 3 representative example(s)
+    index 55: I am glad I am glad you are going to me.
+    index 83: I am glad you are going to see it.
+    index 113: I am glad you have been happy to see you.
+  thanks->apologies: 3 representative example(s)
+    index 43: I am sorry to meet you.
+    index 160: I am sorry to meet you.
+    index 208: I am sorry to be happy to meet you.
+  thanks->positive_emotions: 3 representative example(s)
+    index 30: I am glad you are going to me a little time.
+    index 46: I am glad you are going to meet you.
+    index 86: I am glad you have been able to make it easier.
+  wellbeing->apologies: 3 representative example(s)
+    index 478: I am sorry to meet you.
+    index 698: I am sorry to meet you.
+    index 829: I am sorry to meet you.
+  wellbeing->positive_emotions: 3 representative example(s)
+    index 9: I am glad you are going to see you.
+    index 14: I am glad you have been able to see you.
+    index 23: I am glad you are going to see you.
+exp011
+  acknowledgement->encouragement: 3 representative example(s)
+    index 198: I have been so far. I hope you feel comfortable with the next step.
+    index 257: I have been so far. I hope the next step is going well.
+    index 317: I have been so far. I hope you feel comfortable with the next step.
+  acknowledgement->good_morning: 1 representative example(s)
+    index 807: Good morning! I hope you feel comfortable with a little easier. I hope you feel comfortable with the day is going.
+  acknowledgement->good_night: 2 representative example(s)
+    index 200: Good night. I hope you feel comfortable with that. I hope the day is going well.
+    index 815: Good night. I hope you feel comfortable with that. I hope the day is going well.
+  acknowledgement->positive_emotions: 3 representative example(s)
+    index 31: I have been so far. I am glad we can talk about. I hope we can talk about it.
+    index 76: I have been so far. I am glad we can talk about. I hope we can talk about it.
+    index 125: I have been so far. I am glad we can talk about. I hope we can talk about it.
+  agreement->encouragement: 3 representative example(s)
+    index 307: That is a good thing to hear it. I hope you feel comfortable with the next step.
+    index 369: I hope you feel comfortable with you. I hope you can handle the next step.
+    index 421: I have been so far well. I hope you feel comfortable with the next step.
+  agreement->good_night: 1 representative example(s)
+    index 855: Good night. I hope you feel comfortable with you too. I hope you feel comfortable with the day.
+  agreement->positive_emotions: 3 representative example(s)
+    index 79: I have been so far; I am glad we can talk about. I hope we can talk about it.
+    index 104: I am glad we can see it more. I hope we can talk about.
+    index 174: I have been so far, and I am glad we can talk about. I hope we can talk about.
+  apologies->good_morning: 1 representative example(s)
+    index 306: Good morning! I hope you feel comfortable with you. I hope you feel comfortable with you too.
+  apologies->good_night: 2 representative example(s)
+    index 520: Good night. I hope you feel comfortable with you. I hope you can enjoy the rest of your day.
+    index 658: Good night. I hope you feel comfortable with you. I hope you feel comfortable with the rest of your day.
+  apologies->positive_emotions: 3 representative example(s)
+    index 45: I am glad you are going well. I hope you feel comfortable with you too.
+    index 58: I am glad you are going well. I hope you feel comfortable with you too.
+    index 67: I am glad you are going well. I hope you feel comfortable with you too.
+  asking_for_help->encouragement: 3 representative example(s)
+    index 56: I would be happy to hear the day to meet you. I hope the next step is going well.
+    index 192: That is a good thing to hear that. I hope the next step is easier.
+    index 203: I would be happy to hear the next step. I hope the next step is easier.
+  asking_for_help->positive_emotions: 3 representative example(s)
+    index 59: I am glad you are going well. I hope you are going well well.
+    index 64: I have been so far. I am glad we can talk about. I hope we can talk about it.
+    index 142: I am glad we can see it together. I hope we can talk about it.
+  casual_questions->encouragement: 3 representative example(s)
+    index 34: I would be happy to hear the day easier. I hope the next step is easier.
+    index 241: I have been happy to hear the day to hear it. I hope the next step is easier.
+    index 423: I would be glad to hear that. I hope the next step is easier.
+  casual_questions->positive_emotions: 3 representative example(s)
+    index 15: I am glad you are going well. I hope you are going well well.
+    index 95: I have been so far? I am glad we can talk about it. I hope we can talk about it.
+    index 118: I am glad you are going well. I hope you feel comfortable with that.
+  conversational_followup->encouragement: 3 representative example(s)
+    index 92: I would be happy to hear that. I hope the next step is easier.
+    index 119: That is a good thing to hear that. I hope the next step is going well.
+    index 184: I would be glad to hear that. I hope the next step is easier.
+  conversational_followup->positive_emotions: 3 representative example(s)
+    index 7: I am glad I would be glad to hear it. I hope you feel comfortable with that would be happy.
+    index 16: I am glad I would be glad to hear it. I hope the situation is going well.
+    index 29: I am glad we can see it together. I hope the day is going well.
+  daily_activities->encouragement: 2 representative example(s)
+    index 110: I have been so far well, and I hope you feel comfortable with the next step. I hope the next step is easier.
+    index 501: I have been so far well, and I hope you feel comfortable with the next step. I hope the next step is easier.
+  daily_activities->positive_emotions: 3 representative example(s)
+    index 25: I have been so far well, and I am glad we can see it together. I hope we can talk about it.
+    index 60: I have been so far, and I am glad we can see it together. I hope we can talk about it.
+    index 62: I have been so far? I am glad we can talk about it. I hope we can talk about it.
+  disagreement->encouragement: 3 representative example(s)
+    index 54: I have been so far so far. I hope the next step is easier.
+    index 401: I have been so far well. I hope the next step feels easier.
+    index 572: I have been so far well, and I hope you feel comfortable with the next step. I hope the next step is easier.
+  disagreement->good_night: 2 representative example(s)
+    index 94: Good night! I will see you too. I hope you can enjoy the rest of your day.
+    index 778: Good night! I will see you too. I hope you can enjoy the rest of your day.
+  disagreement->positive_emotions: 3 representative example(s)
+    index 78: I have been so far; I am glad we can talk about it. I hope we can talk about it.
+    index 105: I have been so far; I am glad we can see it together. I hope we can talk about it.
+    index 140: I have been so far, and I am glad we can see it more than I am glad. I hope we can talk about it.
+  encouragement->good_night: 2 representative example(s)
+    index 61: Good night. I hope you feel comfortable with you too. I hope you can start with a little more.
+    index 742: Good night. I hope you feel comfortable with you too. I hope you can start with a little more.
+  encouragement->positive_emotions: 3 representative example(s)
+    index 2: I am glad we can see it more than I am glad we can talk about. I am glad we can talk about it.
+    index 42: I am glad we can see it more than I am glad we can see it more. I am glad we can talk about it.
+    index 72: I am glad we can see it more than I am glad we can see it more. I am glad we can talk about it.
+  farewell->encouragement: 3 representative example(s)
+    index 70: That is a good step at a time. I hope you feel comfortable with the next step.
+    index 209: That is nice to hear it. I hope you feel comfortable with the next step.
+    index 212: I have been so far. I hope you feel comfortable with the next step.
+  farewell->good_morning: 1 representative example(s)
+    index 936: Good morning! I hope you feel comfortable with you too. I hope you feel comfortable with that.
+  farewell->good_night: 3 representative example(s)
+    index 38: Good night. I hope you feel comfortable with a little easier. I hope you feel comfortable with you.
+    index 73: Good night. I hope you are going well well. I hope you feel comfortable with a little easier.
+    index 81: Good night. I hope you are going well so far. I hope you feel comfortable with a little easier.
+  farewell->positive_emotions: 3 representative example(s)
+    index 284: I am glad you are going well. I hope you are going well.
+    index 351: I am glad you are going well. I hope you feel comfortable with you too.
+    index 444: I am glad you are going well. I hope you feel comfortable with you too.
+  good_morning->good_night: 3 representative example(s)
+    index 8: Good night. I hope you feel comfortable with you too. I hope you feel comfortable with you so.
+    index 37: Good night. I hope you are going well well. I hope the day is going well.
+    index 52: Good night. I hope you feel comfortable with you. I hope you feel comfortable with the day feels.
+  good_morning->positive_emotions: 3 representative example(s)
+    index 22: I am glad we can see it together. I hope the day is going well.
+    index 53: I have been so far? I am glad we can talk about it. I hope we can talk about it.
+    index 235: I have been so far well, and I am glad we can talk about. I hope we can talk about it.
+  good_night->good_morning: 1 representative example(s)
+    index 63: Good morning! I hope you feel comfortable for now. I hope you feel comfortable with the rest of your day.
+  greetings->encouragement: 2 representative example(s)
+    index 27: I have been so far, and I hope you feel comfortable with you so far. I hope you feel comfortable with the next step.
+    index 987: I have been so far, and I hope you feel comfortable with you so far. I hope you feel comfortable with the next step.
+  greetings->good_morning: 3 representative example(s)
+    index 69: Good morning! I hope you are going well and I hope you feel comfortable with you. I hope you feel comfortable for you.
+    index 138: Good morning! I hope you feel comfortable for now. I hope you feel comfortable with a little easier.
+    index 146: Good morning! I hope you feel comfortable to hear your day. I hope you feel comfortable for now.
+  greetings->good_night: 3 representative example(s)
+    index 40: Good night! I hope you feel comfortable to hear about. I hope you feel comfortable with the day feel.
+    index 50: Good night. I hope you are going well. I hope you feel comfortable again.
+    index 57: Good night. I hope you feel comfortable with you. I hope you feel comfortable with the day feel.
+  greetings->positive_emotions: 2 representative example(s)
+    index 398: I have been so far; I am glad I am glad you are going well. I hope you feel comfortable with you too.
+    index 657: I have been so far? I am glad we can talk about it. I hope we can talk about it.
+  introductions->asking_for_help: 1 representative example(s)
+    index 301: I can help with that. I hope you feel comfortable and enjoyable things.
+  introductions->encouragement: 2 representative example(s)
+    index 166: That is a good thing to hear it. I hope you feel comfortable with the next step.
+    index 180: That is good to hear more. I hope you feel comfortable with the next step.
+  introductions->good_night: 3 representative example(s)
+    index 93: Good night. I hope you feel comfortable with you. I hope you feel comfortable with the rest of your day.
+    index 102: Good night. I hope you feel comfortable with you. I hope you can enjoy the rest of your day.
+    index 115: Good night. I hope you feel comfortable with you. I hope you feel comfortable with the day feel.
+  introductions->positive_emotions: 3 representative example(s)
+    index 68: I am glad you are going well. I hope you feel comfortable with you too.
+    index 236: I am glad you are going well. I hope you feel comfortable with that.
+    index 274: I am glad you are going well. I hope you are going well.
+  negative_emotions->encouragement: 1 representative example(s)
+    index 26: That is a good thing to hear about. I hope you feel comfortable with the next step.
+  negative_emotions->good_morning: 1 representative example(s)
+    index 282: Good morning! I hope you feel comfortable with you too. I hope you feel comfortable with that.
+  negative_emotions->good_night: 3 representative example(s)
+    index 35: Good night. I hope you feel comfortable with you too. I hope you feel comfortable with the rest of your day.
+    index 357: Good night. I hope you feel comfortable with you too. I hope you feel comfortable with the rest of your day.
+    index 473: Good night. I hope you feel comfortable with you. I hope you feel comfortable with the rest of your day.
+  negative_emotions->positive_emotions: 3 representative example(s)
+    index 71: I have been so far; I am glad we can see it. I hope we can talk about it.
+    index 75: I have been so far; I am glad we can see it together. I hope we can talk about it.
+    index 87: That is good to hear more than I am glad I am glad we can talk about. I hope we can talk about it.
+  offering_help->encouragement: 3 representative example(s)
+    index 227: That is a good step at a time. I hope the next step is going well.
+    index 250: That is a good thing to hear it. I hope you feel comfortable with the next step.
+    index 372: That is a good thing to hear about. I hope you feel comfortable with the next step.
+  offering_help->good_night: 3 representative example(s)
+    index 381: Good night. I hope you are going well so far. I hope you feel comfortable for now.
+    index 435: Good night. I hope you feel comfortable for now. I hope you feel comfortable with that.
+    index 550: Good night. I hope you feel comfortable for now. I hope you feel comfortable with that.
+  offering_help->positive_emotions: 3 representative example(s)
+    index 103: I have been so far, and I am glad we can see it again. I hope we can talk about it.
+    index 121: I am glad you are going well. I hope you are going well so far.
+    index 186: I am glad I would be glad to hear it. I hope you feel comfortable with that.
+  positive_emotions->encouragement: 3 representative example(s)
+    index 131: That is good to hear! I hope you feel comfortable with you too. I hope you feel comfortable with the next step.
+    index 288: That is a good thing to hear that. I hope the next step is easier.
+    index 662: That is nice to hear that. I hope you feel comfortable with the next step.
+  positive_emotions->good_morning: 1 representative example(s)
+    index 197: Good morning! I hope you feel comfortable with you too. I hope you feel comfortable with that.
+  positive_emotions->good_night: 3 representative example(s)
+    index 39: Good night. I hope you feel comfortable with you too. I hope you feel comfortable with the rest of your day.
+    index 172: Good night. I hope you feel comfortable for now. I hope you feel comfortable with that.
+    index 193: Good night. I hope you feel comfortable with you. I hope you can enjoy the rest of your day.
+  small_talk->encouragement: 3 representative example(s)
+    index 344: I have been so far well. I hope you feel comfortable with the next step.
+    index 470: I have been so far? I hope you are going smoothly so far. I hope the next step is going well.
+    index 860: I have been so far. I hope you feel comfortable with the next step.
+  small_talk->positive_emotions: 3 representative example(s)
+    index 13: I have been so far; I am glad we can see it again. I hope we can talk about it.
+    index 55: I am glad you are going well. I hope you feel comfortable with the day is going.
+    index 83: I have been so far? I am glad we can see it together. I hope we can talk about it.
+  thanks->encouragement: 3 representative example(s)
+    index 311: That is a good step at a time. I hope you feel comfortable with the next step.
+    index 456: That is a good step at a time. I hope you feel comfortable with the next step.
+    index 725: That is a good step at a time. I hope you feel comfortable with the next step.
+  thanks->good_morning: 1 representative example(s)
+    index 682: Good morning! I hope you feel comfortable with you too. I hope you feel comfortable with that.
+  thanks->good_night: 3 representative example(s)
+    index 114: Good night. I hope you feel comfortable with you. I hope you can enjoy the rest of your day.
+    index 116: Good night. I hope you feel comfortable with you. I hope you feel comfortable with the rest of your day.
+    index 128: Good night. I hope you feel comfortable with you a little easier. I hope you can handle the rest of your day.
+  thanks->positive_emotions: 3 representative example(s)
+    index 278: I am glad you are going well. I hope the day is going well.
+    index 292: I am glad you are going well. I hope you feel comfortable with that.
+    index 392: I am glad you are going well. I hope you feel comfortable out.
+  wellbeing->encouragement: 3 representative example(s)
+    index 23: I have been so far. I hope you feel comfortable with that. I hope the next step is going well.
+    index 77: I have been so far. I hope you feel comfortable with the next step.
+    index 568: I have been so far. I hope you feel comfortable with the next step.
+  wellbeing->positive_emotions: 3 representative example(s)
+    index 9: I am glad you are going well. I hope you are going well so far.
+    index 14: I have been so far, and I am glad we can talk about it. I hope we can talk about it.
+    index 101: I am glad you are going well. I hope you feel comfortable for now.
+
+Exp010 versus Exp011 comparison is available in the JSON artifact; no overall score or ranking is produced.

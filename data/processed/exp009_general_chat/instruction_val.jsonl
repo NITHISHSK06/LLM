@@ -1,0 +1,855 @@
+{"prompt": "Good morning, sir. Is there a bank near here?", "response": "There is one. 5 blocks away from here?"}
+{"prompt": "Good afternoon. This is Michelle Li speaking, calling on behalf of IBA. Is Mr Meng available at all?", "response": "This is Mr Meng speaking, Michelle."}
+{"prompt": "What qualifications should a reporter have?", "response": "As a reporter, he must have acute insight and language skills. At the same time, he must have good judgment, the respect for his job and tactical cooperation with others."}
+{"prompt": "Hi, good morning, Miss? what can I help you with?", "response": "Good morning I'd like to mail this box of books to Taiwan."}
+{"prompt": "Excuse me, ma'am. Can you tell me where the nearest postoffice is?", "response": "Of course. Go straight ahead. Turn right at the next street. You'll see a tall, yellow building.The post office is on the first floor."}
+{"prompt": "Could you give me some advice on how to bring up my son properly?", "response": "He's a bright boy, isn't he?"}
+{"prompt": "I'm in 507. I have a few problems with my room.", "response": "What is that problem, sir?"}
+{"prompt": "Excuse me, sir, I'm afraid you can't park your car here.", "response": "Why not? It's my parking space."}
+{"prompt": "Oh, well. It was fun to be the winner. But... it's too big. I must be an extra small in the States.", "response": "So what about the tennis racket?"}
+{"prompt": "Can I help you?", "response": "I'm looking for someone who works here, but I lost his business card. His name's Long or Sang or something like that."}
+{"prompt": "Hello, Sir. You're here to discuss the Network Settlement Service, right?", "response": "Yes, that's right. We want as much info as possible before we agree to anything."}
+{"prompt": "Dear, time is up, let ’ s go there now.", "response": "Just a minute. I ’ m putting on my clothes."}
+{"prompt": "Excuse me, sir. You can't park here.", "response": "I am just waiting for my friends. It won't be long."}
+{"prompt": "Are you a goal-oriented person?", "response": "Yes, I am. I always make a plan before I do anything."}
+{"prompt": "I'd like to open a current account.", "response": "Certainly. May I see your social security and your ID, please."}
+{"prompt": "Good morning, Helen.", "response": "Good morning, Steven."}
+{"prompt": "I'd like to taste some local dishes. What would you recommend?", "response": "That's fine. You must try this dish."}
+{"prompt": "Taxi!", "response": "Where will you go, sir?"}
+{"prompt": "Mr. Johnson ’ s office. Cindy speaking.", "response": "Hi, Cindy. It ’ s Michael Kurt. Is Mr. Johnson in?"}
+{"prompt": "Hi, Mark.", "response": "Hi, Bill. I ’ d like to take the apartment I looked at yesterday."}
+{"prompt": "Good morning! What can I do for you?", "response": "I'm thinking of travelling to Suzhou in July. Could you recommend some tourist programs for that?"}
+{"prompt": "I can't believe you wear jeans to the office! Are you trying to lose your job?", "response": "Of course not. I'm just observing casual day. On Fridays, the company doesn't require us to wear formal business attire."}
+{"prompt": "Why didn't you go to school yesterday?", "response": "I stayed home because I wasn't feeling well."}
+{"prompt": "Excuse me, but please empty your pockets of all the metal things and put them in this tray.", "response": "Including my keys?"}
+{"prompt": "Welcome to Flash Foot, sir.How can I help you?", "response": "I ’ d like extra prints made of these photos."}
+{"prompt": "Is there anything I can do for you?", "response": "I'm interested in taking a tour to Sydney."}
+{"prompt": "Hello, Mr. Wang. I am glad to meet you here at the fair.", "response": "Like wise. Take a seat, please. How about a cup of tea?"}
+{"prompt": "I'm glad these batteries are on sale.", "response": "I'm sorry. These batteries are not on sale."}
+{"prompt": "Hi, Jack, we are having a party tonight, wanna coming enjoy us? You can bring your girlfriend, Tina.", "response": "I don't have a girlfriend. I'm single."}
+{"prompt": "Yes, sir?", "response": "Can I have Mr. J. Smith paged? He said he'd be in the main dining room. I'm Mr. J. B. White."}
+{"prompt": "Can you help me find a lotion for a problem I am having?", "response": "That ’ s what I am here for. What questions can I answer for you?"}
+{"prompt": "Excuse me. Something is wrong with my bank card. Can you help me?", "response": "Yes. What's the problem?"}
+{"prompt": "We are doing Secret Santa at the office again this year.", "response": "Whose name did you pick?"}
+{"prompt": "Excuse me, are you Jane?", "response": "No, I'm Mary."}
+{"prompt": "Excuse me, but I'm not feeling too well. I think I'm going to throw up.", "response": "There's an airsickness bag behind the seat that's in front of you."}
+{"prompt": "Welcome to Al's Bakery. What can I get you?", "response": "Hi! Let me get a dozen croissants, four blueberry muffins and a loaf of sourdough bread."}
+{"prompt": "Good morning, ladies and gentlemen, we are happy you have all come out for our training workshop. Today we have a great line-up of speakers to talk to you. First on our program is a well-renown expert in the field of international economic development, Harvard's own Dr. James Smith. Dr. Smith has been involved in economic research for over twenty years, and has taught at Harvard since 1995. And now, without further adieu, we'd like to welcome Mr. James Smith.", "response": "Thank you, Mr. Jackson, ladies and gentlemen, colleagues, friends. The subject of my talk is international relations in a morgen world. I plan to say a few words about the current situation in the Middle East and how it affects world economy. I'd like to give you an overview of the way that the economies of seemingly unrelated countries are intertwined. I've divided my talk into three parts, first an overview of international relations, second a discussion of current political situations, and lastly trends for the future. My presentation will take about two hours, but there will be a twenty-minute break in the middle. We'll stop for lunch at 12."}
+{"prompt": "You're looking rather pale, why?", "response": "I couldn't sleep well recently."}
+{"prompt": "Hello Mrs Parker, how have you been?", "response": "Hello Dr Peters. Just fine thank you. Ricky and I are here for his vaccines."}
+{"prompt": "Why is the car before us stopping?", "response": "What's going on?"}
+{"prompt": "This is today ’ s schedule. At 8 thirty AM, conference with the department managers. At 9 o ’ clock, live for the workshop where you ’ ll award prizes to the staff for preventatives.", "response": "That ’ s great. What are the prizes?"}
+{"prompt": "This is Lincoln Bank, Consumer Credit Department. How can I help you?", "response": "Ah, hello. I'm calling to find out how I apply for a car loan."}
+{"prompt": "So, Jimmy, how does it feel to have your own money?", "response": "It ’ s great, dad. I don ’ t mind delivering papers, but the real fun is collecting the money."}
+{"prompt": "Is this where I can catch a bus to the theater?", "response": "Yes, but you can't get there with out a change."}
+{"prompt": "Here we are, Joan. This is the Palace museum, also known as the Forbidden city.", "response": "Oh, how splendid! Can you take a picture of me here?"}
+{"prompt": "Excuse me. I'm afraid I got lost. Where am I on this map?", "response": "We are here, bus station, we are in the heart of the city."}
+{"prompt": "Tony, could you tell me if there are any special rules about the job?", "response": "Working hours are from 8: 30 a. m. to 5:00 p. m. Be sure not to be late or absent. Report to the manager by filling in the ' Monthly Report ' every month."}
+{"prompt": "Kate, you never believe what's happened.", "response": "What do you mean?"}
+{"prompt": "Overseas operator.", "response": "I would like to make a collect call to Taipei, Taiwan, please."}
+{"prompt": "Hello. Excuse me.", "response": "Yes. Can I help you?"}
+{"prompt": "Good morning, young lady. You can call me Ma. Do you see anything you like?", "response": "Yes. Many things! I especially love this beautiful quilt."}
+{"prompt": "Have you got change for a thousand?", "response": "Let me see."}
+{"prompt": "May I come in, Mr Sun?", "response": "I ’ d rather you didn ’ t, Miss Yang. I ’ m very busy now."}
+{"prompt": "Recently I have been getting headache and my eyes don't seems to see focus properly.", "response": "When did you last time have your eyes checked?"}
+{"prompt": "Is there a car park near the supermarket?", "response": "Yes, there is an underground car park near the supermarket."}
+{"prompt": "Oh, come on, Ultraman!", "response": "What's up, Bro? What's in the bulletin?"}
+{"prompt": "Yes, ma'am, how could I help you?", "response": "I am wondering if you do facial care?"}
+{"prompt": "Can I help you, Miss?", "response": "I would like to order 2 office-style cabinets and desk calendars. We want office-style cabinets in white. The catalogue number is 90 - f - 2356."}
+{"prompt": "I hate to do this to you, Alice, but I ’ m going to have to ask you to put in some more overtime.", "response": "Does it have to be this afternoon, Mr. Fairbanks? I ’ Ve already made plans."}
+{"prompt": "What ’ s your attitude when do wrong things at work?", "response": "The buck stops here."}
+{"prompt": "Hello! Is your company advertising for administrative assistant on the newspapers?", "response": "Well, Administrative assistant with shorthand and typing skills are badly needed here."}
+{"prompt": "Just as the saying goes, every potter praises his own pot. You should pay special attention to selling yourself properly in the interview.", "response": "It is especially important for the graduates who step into the job market for the first time."}
+{"prompt": "Hello?", "response": "Hi, Deborah! This is John. I'm calling from Australia."}
+{"prompt": "John hasn't turned up and Stefan is ill. Do we have anyone on stand-by?", "response": "I'm afraid not, we're very short-staffed at the moment. Can you ask the shift supervisor to ask one of his team to do some overtime? Perhaps Tommy can stand in for an hour or two until we find a replacement."}
+{"prompt": "Jack, let ’ s go!", "response": "Oh, you are out of breath! What happened?"}
+{"prompt": "Hello. May I speak to Jerry, please?", "response": "Sorry, but he is out for lunch right now."}
+{"prompt": "Excuse me, Miss.", "response": "What can I do for you?"}
+{"prompt": "Hey, buddy, can ’ t you see there ’ s a line?", "response": "Oh, sorry. I didn ’ t know."}
+{"prompt": "Can I help you?", "response": "I'd like the double cheese burger meal, please."}
+{"prompt": "Do you have any night tours?", "response": "Yes, we will depart in 10 minutes."}
+{"prompt": "I am sure we will make it up as soon as possible.", "response": "That's nice."}
+{"prompt": "I would like to purchase some meat.", "response": "What kind of meat would you like to get today?"}
+{"prompt": "I think you know already that I want to discuss the represent - ton for your alarm clocks.", "response": "Yes, Mr. Bergeron. You mentioned that in your letter. To tell you the truth, your proposal surprised us."}
+{"prompt": "Have you worked out the offers. Mr. Thou?", "response": "Yes, we have. Here's our CIF quotation sheet. Please have a careful look."}
+{"prompt": "We have been over this a hundred times! We are not getting a pet!", "response": "Why not? Come on! Just a cute little puppy or a kitty!"}
+{"prompt": "Good evening, Mr. Lee and thank you for choosing our airline. We have just discovered that this flight is overbooked. Would you like to volunteer to give up your seat?", "response": "Overbooked? Give up my seat? I don ’ t understand."}
+{"prompt": "I want to rent this apartment.", "response": "I ’ m glad to hear that."}
+{"prompt": "Welcome to the McDonald's. What will it be for you, madam?", "response": "One Big Mac and French Fries."}
+{"prompt": "What's the name of this street?", "response": "University Street."}
+{"prompt": "Excuse me.Could you tell me how to return to the Hilton Hotel? I am afraid I lost my way.", "response": "Do you have a hotel card or something?"}
+{"prompt": "Excuse me, but could you tell me the way to the railway station?", "response": "The railway station? Just go down this street and turn left at the second corner. The station is at the end of that street."}
+{"prompt": "How does the political system work in your country?", "response": "We have hundreds of constituencies and the voters in each one elect a member of parliament. Most people call them mp ’ s."}
+{"prompt": "How was your interview?", "response": "Pretty good. The HR manager asked me the usual questions. Then he wondered why I had decided to leave my previous job."}
+{"prompt": "What qualities do you think a senior executive should possess?", "response": "Generally speaking, he needs creativity, the ability to communicate, sense of personal responsibilities, the ability to solve problems and so on."}
+{"prompt": "Hi. I need more amenities, please.", "response": "Could you be a little more specific, sir?"}
+{"prompt": "Am I ever hungry? When will supper be ready?", "response": "It's almost ready. Can you set the table?"}
+{"prompt": "Good morning, Kate. Long time no see.", "response": "Good morning, Vera, Nice to meet you."}
+{"prompt": "Can you fix me a cup of tea, Johnny?", "response": "Well... uh... how about a glass of juice instead?"}
+{"prompt": "Good morning, sir. May I help you?", "response": "Yes, I'd like to settle my bill."}
+{"prompt": "Hi, Sam. I want to buy a pet. Do you have any ideas?", "response": "You really should go to Rachel's pet store."}
+{"prompt": "I ’ m a new student. My name ’ s Robert.", "response": "Nice to meet you. My name ’ s Sophie."}
+{"prompt": "I can ’ t believe Obama is our President.", "response": "I am proud to know that he is our President."}
+{"prompt": "Do you have a reservation, sir?", "response": "No, I ’ m afraid we don ’ t."}
+{"prompt": "Do you have coffee shops in China, too?", "response": "Yes, of course. There are many tea houses and bars in China, too. People can drink, eat and relax at these places."}
+{"prompt": "IBA, Jane speaking. How can I help you?", "response": "Hello. I'd like to speak to someone regarding my card."}
+{"prompt": "What can I do for you, sir?", "response": "We'd like to order breakfast for tomorrow morning."}
+{"prompt": "What shall we do when we find a shortage in the shipment?", "response": "You should do one of the two things - either to lodge a claim with the shipowner or with the insurance company."}
+{"prompt": "I'll be on business for a couple of days, could you take care of your sister?", "response": "OK, Mum, when will you be back?"}
+{"prompt": "Passport, please, madam.", "response": "Just a minute, please. It's in my bag. Here it is."}
+{"prompt": "I ’ m hungry, let ’ s go grab a bite to eat.", "response": "Yeah me too. Oh! Can we stop at the shop really fast? I lost my makeup bag at the airport and I want to pick up a few things."}
+{"prompt": "Can I borrow five bucks?", "response": "No!"}
+{"prompt": "May I help you, sir?", "response": "Yes, please. I'm looking for a cotton polo shirt."}
+{"prompt": "I ’ m so surprised to meet you in this remote village. Long time no see.", "response": "Yeah. How are you these days?"}
+{"prompt": "You look terrific and in good shape.", "response": "Thank you."}
+{"prompt": "no, no, you helped me with my computer last week. I want to repay the favor.", "response": "no, it's definitely my turn to treat you... you paid last time!"}
+{"prompt": "Hey, Jim. It's time to wake up and get out of bed.", "response": "Do I have to get up now?"}
+{"prompt": "I ’ Ve been told you might have a vacant room.", "response": "Yes. I have a spare room."}
+{"prompt": "Sit down, please. What's wrong with you?", "response": "I feel cold, and I'm shivering. I have a terrible headache and a sore throat."}
+{"prompt": "Yikes! What was that noise?", "response": "I had to blow my nose."}
+{"prompt": "Can I have the check please?", "response": "Right away, sir."}
+{"prompt": "Nowadays fewer and fewer people go to the movie theaters to see films. So I am afraid that the film studios are really getting hard time to survive.", "response": "What you said is true. But the film producers there are more flexible ways to get more audience. For example, to make more movie Ccds, so people will spend money buying them."}
+{"prompt": "We need to take the accounts system offline to carry out the upgrade. But don't worry, it won't cause too much inconvenience. We're going to do it over the weekend.", "response": "How long will the system be down for?"}
+{"prompt": "Welcome to IBA. Can I help you?", "response": "Yes, please. I'm here for an International Settlement. Our company has to effect payment, and it needs to be done today. Here's the advice slip for the payment."}
+{"prompt": "That's the warehouse where the large items of office equipment are stored.", "response": "If I ordered a desk today, how would it be before I got delivery in Scotland?"}
+{"prompt": "Excuse me. I have just missed the connection plane due to the heavy fog in London. Can I change my ticket now?", "response": "Please Show your ticket and passport."}
+{"prompt": "Hi, can I speak with the apartment manager, please?", "response": "Hello, this is the apartment manager speaking."}
+{"prompt": "How much does it cost for a bus pass?", "response": "It'll be $ 65 for a monthly pass."}
+{"prompt": "I see there are some workmen on the site. When is the building work due to start?", "response": "Well, it'll take three weeks to demolish the old building and clear away the debris. We should be ready to start the construction work in week 23."}
+{"prompt": "Andrew's Hair Salon, this is Andrew.", "response": "Andrew, this is Linda Chen."}
+{"prompt": "Have you bought a bus pass yet?", "response": "I'm not getting one."}
+{"prompt": "Are you ready to order, sir?", "response": "Yes, I would like a roast duck and my friend wants steaks."}
+{"prompt": "Hello, I want to know how much it costs to have a manicure and pedicure.", "response": "Usually it's 60 dollars for a manicure, and 80 dollars for a pedicure. But with this special discount, the total for both is only one hundred and 20 dollars, and you can get them painted."}
+{"prompt": "Hello, this is Lucy. May I speak to Mr. Smith?", "response": "Oh, hello, Lucy. What's up?"}
+{"prompt": "Waiter, we have been waiting for 20 minutes. Would you mind hurrying?", "response": "I am sorry, sir, the fish you ordered will take a longer time because we make it with fresh fish."}
+{"prompt": "Hi Bob, I won't be in work tomorrow.", "response": "Why, what's the problem?"}
+{"prompt": "I've come about your wools. According to our market survey, wools are likely to find a ready market in our country.", "response": "Wonderful! We can meet your requirements and the offer is ready for you. Here it is. The unit price is USD 15.00 per kilogram."}
+{"prompt": "Hi! Do you want a fill-up?", "response": "Yes, please."}
+{"prompt": "Excuse me. I need some storybooks in easy English. Do you have anything likethat?", "response": "Well, there are a lot of storybooks upstairs in our children's section. Some are written for young children, others for teens. Maybe some of them will suit your needs."}
+{"prompt": "Good morning. I need to speak with the property manager, please.", "response": "Good morning. You are speaking to the property manager."}
+{"prompt": "How much is your last salary?", "response": "I have earned 10,000 a year including bonuses."}
+{"prompt": "I hope you can help. I've got a bit of a problem with your ATM.", "response": "Of course, that's my job. Oh, dear. What's happened?"}
+{"prompt": "Is this the counter to pick up parcels?", "response": "Yes, it is."}
+{"prompt": "Hi Brittany. What are you doing with all of your clothes on your bed?", "response": "I'm trying to decide what to wear to school the first day."}
+{"prompt": "What would you like for your main dish?", "response": "Steak, please."}
+{"prompt": "Mr. Smith, do you like the hotel we booked?", "response": "Yes, we do. We like it very much."}
+{"prompt": "David, we have been doing business for three years, haven't we?", "response": "Yes, I'm glad we've had very pleasant cooperation in the previous years. And your achievement for promoting our clothes was great in the three years."}
+{"prompt": "Where can I find the produce?", "response": "Aisle A is where you'll find all the produce."}
+{"prompt": "Hello, this is Steven from Blue Sky Co. May I speak to Mr. James?", "response": "Speaking."}
+{"prompt": "Ms.Dawson, I need you to take a dictation for me.", "response": "Yes, sir..."}
+{"prompt": "Do you have everything?", "response": "Let's see... my ID card, my passport, and my suitcase. I'm pretty sure I've got everything."}
+{"prompt": "This is Dunlin. Is this Mrs Smith speaking?", "response": "Yes, what can I do for you?"}
+{"prompt": "I often sneeze after having a bad itch inside my nose. Sometimes this is accompanied by an itching throat.", "response": "Any other discomfort?"}
+{"prompt": "Miss, would you like to try this free sample of our new suntan cream?", "response": "Sure, why not?"}
+{"prompt": "So how can I make it?", "response": "First you make a list of what you wanna buy..."}
+{"prompt": "Hi. May I help you?", "response": "Yes. What's the buying rate for euro?"}
+{"prompt": "Why are you reading the classifieds? What do you need?", "response": "I'm looking for a bookcase, but I don't want to buy a new one."}
+{"prompt": "Do you do a lot of your shopping online?", "response": "Not really. I like looking on the internet at what ’ s available, but I usually prefer to actually see and touch what I ’ m buying before I pay for it. Sometimes, I ’ ll look at something in a shop, but lat"}
+{"prompt": "Please help yourself at your dishes. I hope you ’ ll enjoy what you ’ Ve got.", "response": "It suits my taste. You are really a good cook."}
+{"prompt": "Mr. Dick. Does the recommendation of the university play an important role?", "response": "Yes. In fact, the recommendation letter written by the university is an indirect self-recommendation. In the long period of cooperation, the university has established good relationship with the companies or organizations, they trust each other well. If your university recommends you, you can be approved more easily."}
+{"prompt": "Taylor, can you tell me how to apply for a job on the Internet?", "response": "Just fill out an application."}
+{"prompt": "Don ’ t throw your weight around. I can ’ t bear you any more.", "response": "I dare you to say that again."}
+{"prompt": "Were you a leader when you were in college?", "response": "Yes. I was Propaganda department minister of our university."}
+{"prompt": "You want to argue your ticket today?", "response": "Yes. That is why I'm here."}
+{"prompt": "Annie, do you like shopping online?", "response": "Yes, I like it, because it's convenient."}
+{"prompt": "Ah, Bob. Just the person I wanted to see.", "response": "So what is it?"}
+{"prompt": "Hey! What happened?! My song was only half way through and it skipped to the next song.", "response": "I don't know what happened!"}
+{"prompt": "Good evening, Do you have a reservation?", "response": "Yes. The reservation under Mr. Watson."}
+{"prompt": "Hello, ma ’ am. Can I help you?", "response": "I ’ m looking for a sweater."}
+{"prompt": "Do you have any cars available?", "response": "We have only one mid-size car left."}
+{"prompt": "Are you ready to order?", "response": "I think that we have a pretty good idea of what we would like to order."}
+{"prompt": "I can't open this email attachment our Paris office has sent me.", "response": "Are you sure you're using the right program?"}
+{"prompt": "What kind of character do you think you have?", "response": "Generally speaking, l am an open-minded person."}
+{"prompt": "Hi, I need to make an appointment to see the doctor.", "response": "What seems to be the problem?"}
+{"prompt": "Wow! What's the hold up?", "response": "It ’ s probably just people trying to get an early start out of the city for the weekend. Nobody sticks around in the summer."}
+{"prompt": "Hello, how can I help you today?", "response": "I'd like to withdraw some money from my account."}
+{"prompt": "Quality is very important to us. We work to very low tolerance levels. We need to have guaranteed supplies of consistently high quality raw materials. Over the years we've built up very good relationships with our suppliers.", "response": "Do you have many different suppliers?"}
+{"prompt": "Mary, can you tell me how you keep in shape?", "response": "You'll never be in shape until you eat less and take more exercise."}
+{"prompt": "I am sorry, but I cannot stay for the rest of class today.", "response": "Why do you need to leave early?"}
+{"prompt": "Your boyfriend is so considerate to you. When do you plan to marry?", "response": "It ’ s still up in the air. There is something wrong between us."}
+{"prompt": "We're considering of ordering 200 computers, but I'm wondering about the price you'll possibly offer.", "response": "Our price will be not less than $ 5000."}
+{"prompt": "I'm now on the Songshan airport getting ready for departure. I realized that I might have left my watch.", "response": "Yes, Ma'am. May I have your name and room number?"}
+{"prompt": "What are your thoughts on the apartment?", "response": "I think that it ’ s absolutely gorgeous."}
+{"prompt": "That China-gown of Tang-Dynasty style is so beautiful. Would you show it to me, please?", "response": "Absolutely. Here it is."}
+{"prompt": "Mrs. Wang, would you give us an idea of the price you regard as workable?", "response": "As I said before, your price is so high that we find it difficult to make a bid. We hope you will take the initiative and bridge the gap."}
+{"prompt": "Good morning.", "response": "Good morning.This is Mary.Can I speak to Anne please?"}
+{"prompt": "We've been waiting here for nearly ten minutes now, and there still isn't a bus in sight.", "response": "I'm afraid we'll be late for the party."}
+{"prompt": "Hi, Mr. Smith. I'm Doctor Hawkins. Why are you here today?", "response": "I found it would be a good idea to get a check-up."}
+{"prompt": "Good afternoon. Mr. Tylor's office?", "response": "I'm afraid you've got the wrong extension."}
+{"prompt": "Good afternoon, Lexington Software. Angelina Dawson, how can I help?", "response": "Hello, this is Quinn from IBA."}
+{"prompt": "Oh!!! I have a horrible toothache.", "response": "You should go to the dentist."}
+{"prompt": "I would like to take a trip to the beach this weekend.", "response": "A trip to the beach would be fun. How is the weather going to be?"}
+{"prompt": "Some companies use to ban dating among employees, but now they have realized it is something in avertable. People spend so much time at work. It is not surprising for one to have a crash on the other.", "response": "If we think positively, office love can be beneficial to company."}
+{"prompt": "Do you eat a lot of healthy food?", "response": "Compared with healthy food, unhealthy food just tastes so much better. And anyway, I believe if you live a low stress Life and are active, you can get away with eating whatever you like. It's all in the mind."}
+{"prompt": "I've been so tired recently. I've been trying, but I don't think I'm up to this job.", "response": "You need to take a break, maybe a vacation."}
+{"prompt": "The train is leaving. Hurry up! Which car are we in?", "response": "Let me see. Oh, No. 11."}
+{"prompt": "So, how should we get to the theatre?", "response": "Let's take the bus."}
+{"prompt": "Let's go over this plan again.", "response": "From Vancouver, we bike along the border all the way to Winnipeg."}
+{"prompt": "Good morning, sir. What can I do for you?", "response": "I'm Bill. I'm in Room 908. Can you change the room for me? It's too noisy. My wife was woken up several times by the noise the baggage elevator made. She said it was too much for her."}
+{"prompt": "It's time for bed.", "response": "I'm not ready to go to sleep. I'm not tired."}
+{"prompt": "I see myself as being honest, diligent, persevering and creative. And I have a strong sense of responsibility.", "response": "How about your psychological resilience?"}
+{"prompt": "Karen? I need to go over a few things with you.", "response": "Certainly. Mr. Graham. When would you like to meet?"}
+{"prompt": "I believe we ' Ve met before. My name's David.", "response": "Yes, at your company, I think. I'm Frank."}
+{"prompt": "I made my little brother cry.", "response": "Shame on you!"}
+{"prompt": "I need some mascara. Do you have good thickening mascara?", "response": "Of course. Here is our thickening mascara. We also have mascara designed to lengthen the eyelashes."}
+{"prompt": "Is this the baggage claim area for flight KB256?", "response": "Yes, we are on the same plane."}
+{"prompt": "This is your schedule.", "response": "You're going out of your way for us, I believe."}
+{"prompt": "Are there any vacancies still available?", "response": "Yes. We need a plumber here."}
+{"prompt": "I am waiting for a fax but just now I found there's something wrong with the fax machine.", "response": "What's wrong with the fax machine? Is it urgent?"}
+{"prompt": "I would like to speak to you, if you don ’ t mind.", "response": "What would you like to speak to me about?"}
+{"prompt": "We hope that there will be no repetition of this kind of trouble in the future.", "response": "Yes. I promise it will not happen again."}
+{"prompt": "Hello, Steven. How do you get along with your job?", "response": "Actually, I learn many things from it. I find that I am a quick learner in new things."}
+{"prompt": "Where on earth are we?", "response": "Judging by all the traffic, I'd say we're near the outskirts of the city."}
+{"prompt": "Hello. Front desk.", "response": "Yes. This is Bob Robinson. I ’ m calling from room number 627."}
+{"prompt": "How long will it take for our order to be delivered?", "response": "Let's see. You are importing fifty containers of textiles from China. They should be able to place your order before the end of next week. It will take 2 days for shipping to the port city of Ningpo. The freight will take 3 weeks on the open ocean and will arrive in Los Angeles approximately a month from today. Domestic shipping will be your responsibility, you can make arrangements with the pier in Los Angeles."}
+{"prompt": "Now you're my boss, Mr. Henry.", "response": "Do you have any other particular conditions that you would like the company to take into consideration?"}
+{"prompt": "What are you doing here today?", "response": "I would like to fight my ticket."}
+{"prompt": "Hey Joe, what are you doing in this department store?", "response": "Hi, Rita, I'm just looking for a pair of shoes. I won't be here for long."}
+{"prompt": "what shall we do after the volleyball match?", "response": "how about going to the Olympic souvenir store to have a look? I remember there is one in the gym."}
+{"prompt": "Mom! I hate eating vegetables!", "response": "You don ’ t have to eat them. I don ’ t mind."}
+{"prompt": "It was very kind of you to give me a tour of the place. It gave me a good idea of your product range.", "response": "It ’ s a pleasure to show our factory to our customers. What ’ s your general impression, may I ask?"}
+{"prompt": "Is the factory fully-automated?", "response": "Not completely. Our production process is partially-automated. We use robots on the production line for routine assembly jobs but some of the work is still done manually."}
+{"prompt": "I'm glad you're on your ten-year reunion planning committee.", "response": "Yeah, you get the TV to yourself while I spend my nights surfing the Net for missing classmates."}
+{"prompt": "What does your job involve?", "response": "I'm the Project Manager so I have to make sure our projects run smoothly. I work with three Project Engineers. They take care of after-sales service and look after the maintenance side of the business."}
+{"prompt": "What can I get for you? Here is the menu.", "response": "Let me have a look. Well, how many kinds of steaks do you have?"}
+{"prompt": "Are you ready to go shopping?", "response": "Just a minute. I need to make a list of thinks that we need."}
+{"prompt": "Hello, can you tell me how to use the telephone?", "response": "If you want to order meals, call 8801.If you need other help, call 8803 and someone will be there."}
+{"prompt": "How many years have you done business with China?", "response": "Let me see, about five years, we established our business relationship with Hua Mei of China Import & Export Corporation in 2003."}
+{"prompt": "Give me a pack of first-class stamps, please.", "response": "Here you are. That will be five dollars. Anything else?"}
+{"prompt": "Hello, thank you for taking the time to interview me.", "response": "Hi there, I ’ m Bill Gotcha, the owner of Gotcha Enterprises. Did you find your way here OK?"}
+{"prompt": "Right, let me run through your options. You can go ahead and cash your undue Large-Amount Deposit Certificate if you really want to, but I'd recommend a Personal Durable Commodities Loan.", "response": "OK, what does that entail?"}
+{"prompt": "My aunt told me one of her secrets--cellophane tape.", "response": "I just got it at the special health store. It's for my flabby arms."}
+{"prompt": "May I have a menu, please?", "response": "Of course."}
+{"prompt": "Can ’ t you come in and have tea now, Peter?", "response": "Not yet, I must water the garden first."}
+{"prompt": "I'm broke, and I have to catch another bus.", "response": "Why don't you have any money for another bus?"}
+{"prompt": "Welcome on board. May I see your boarding pass?", "response": "Here you are."}
+{"prompt": "Hello, madam. How do you like your staying here?", "response": "Quite good. Excuse me, are there any places of interest?"}
+{"prompt": "You're here to make a deposit, is that correct?", "response": "Right. I'd like to deposit 2,000 RIB into my Current Account."}
+{"prompt": "An idea about killing time on a train?", "response": "I advise you to read Playboy.You can get a lot from it."}
+{"prompt": "Have you brought the receipt with you?", "response": "No, I don't. I left it home."}
+{"prompt": "I haven't told you what happened yet, have I?", "response": "I haven't heard anything."}
+{"prompt": "I like Chinese food.", "response": "I like Chinese food, too. I like dumplings best."}
+{"prompt": "Excuse me, can I have an earphone please?", "response": "Sure, but you have to pay $ 3 for it."}
+{"prompt": "I'd like to buy some souvenirs.", "response": "What do you think of the pamphlets with beautiful pictures?"}
+{"prompt": "I would like to open an account please.", "response": "Do you have any form of ID?"}
+{"prompt": "Hello, how can I be of service?", "response": "Hello. I'm not sure who I need to speak to. I got this 50 yuan note today and it seems a little odd to me."}
+{"prompt": "What do you reading, Linda?", "response": "I'm reading a novel, The mill on the floss, written by the famous novelist gorge alias."}
+{"prompt": "We have three dressings for salad. Which one would you like?", "response": "What kind do you have?"}
+{"prompt": "I saw a vacancy board outside for assistant. Has the vacancy been filled?", "response": "Not yet. But do you have any experience as an assistant?"}
+{"prompt": "Can I help you?", "response": "I'd like to have a look at your air conditioners. Hum, this one looks pretty good."}
+{"prompt": "Hmm. Let me try something.Wait. I have a reservation for someone named Sang here. But it's spelled J - A - N - G. It's not spelled J - I - A - N - G. It's for a Mr. C Sang.", "response": "Oh, that must be me! Probably they typed the name wrong.My husband's English isn't so good."}
+{"prompt": "Excuse me, I need to get to Cambridge today.", "response": "Would you like to go by train or by bus?"}
+{"prompt": "Have you seen the sales report for last quarter? Who do you think is our digest threat?", "response": "From the numbers, it seems like Forest Inc. is our digest competitor... Le'Ban and Markford are also major contenders in our market."}
+{"prompt": "Hello, this is Hilton Hotel. How may I help you?", "response": "Hi. I would like to make a reservation on this Friday."}
+{"prompt": "Would you mind if I ask some personal questions?", "response": "No. I don ’ t. Please."}
+{"prompt": "The consignments of chemical instruments have just reached us. We have to lodge a claim against you for inferior quality I am afraid.", "response": "Is there anything wrong?"}
+{"prompt": "I don't think you've met my sister, Mary.", "response": "No, I haven't had the pleasure."}
+{"prompt": "Excuse me, would you tell me how to return to Hilton Hotel. I'm afraid I lost my way.", "response": "Did you have hotel card or something?"}
+{"prompt": "The bathroom looks lovely. Did you redecorate it yourself or did you get someone in to do it for you?", "response": "I did it myself. I went online and found a lot of website devoted to home improvement. Then I went to DIY shop and bought everything I needed. I ’ m sure I saved a lot of money by doing it myself and it was fun too. I learnt a lot by doing it myself."}
+{"prompt": "I'd like to see that pen, please.", "response": "You mean this one?"}
+{"prompt": "I ’ Ve come to hear about your offer for bristles.", "response": "We have the offer ready for you. Let me see... here it is. 100 cases Houston Bristles, 57 mm, at 10 pounds sterling per kilogram, C. I. F European Main Ports, for shipment in June 2001. The offer is valid for five days."}
+{"prompt": "Good morning.sir.My name is Liu Peng from Tsinghai University. I am here for the interview relating to my visa application.", "response": "Glad to meet you.Would you mind if I ask you some questions?"}
+{"prompt": "Could you say something about your educational background?", "response": "Yes. I graduated from shanghai University and later obtained a master's degree from Oxford."}
+{"prompt": "Hello, I'd like to open an account.", "response": "Which account would you like to open?"}
+{"prompt": "Hello Mr. Jones, please have a seat. Thank you for coming in today. I have read your resume. You completed University in England?", "response": "Yes, I went to Cambridge. After graduation, I started right away into the advertising industry. Later, I made a bit of a switch to focus on marketing research."}
+{"prompt": "My lease ends next month, so I have to find a new place.", "response": "I feel sorry for you. It's a jungle out there."}
+{"prompt": "Excuse me, but can I draw on my account for payment of things I buy in China?", "response": "Certainly, sir. How much do you draw?"}
+{"prompt": "Are you here about your ticket?", "response": "Yes, I am, Your Honor."}
+{"prompt": "Yes! I finally lost that last five pounds I've been working on forever!", "response": "How did you finally do it?"}
+{"prompt": "This is our Submission of Tender which includes the information about volume of the project, the cost and so on.", "response": "OK! We'll see it."}
+{"prompt": "May I recommend you Tsingtao beer?", "response": "Tsingtao beer?"}
+{"prompt": "I want to find a job in your bank as an accounting clerk.", "response": "Do you know various funds and accounts?"}
+{"prompt": "Mrs. Phoebe, here are your ordered goods. Please inspect the goods now.", "response": "All right. Let me have a check. Can you tell me how can you inspect your exported goods?"}
+{"prompt": "Daddy, are you going to the park with us this weekend?", "response": "Honey, I have a lot of work to do."}
+{"prompt": "Please give me a piece of ' New York Daily '.", "response": "You are late. The last piece has sold out."}
+{"prompt": "Hi there. Do you need any help?", "response": "I've been told about something called Southern Fund. How can I buy it?"}
+{"prompt": "Harry, come here immediately!", "response": "What?"}
+{"prompt": "Have you seen the new girl in school?", "response": "No, I haven't."}
+{"prompt": "Please sit down.", "response": "Thank you."}
+{"prompt": "Excuse me, Dr.Steward, I wonder if I could talk with you about my paper.", "response": "Yes, of course.When?"}
+{"prompt": "Marry Lin's Office, this is Linda.", "response": "Linda, this is David Wang."}
+{"prompt": "Here's some flowers, love. Happy Valentine's Day.", "response": "Those are beautiful. They smell lovely. Thank you."}
+{"prompt": "Um, hello again. Are you sure you don't want to make a purchase, sir?", "response": "I have a question."}
+{"prompt": "Oh, you look kind of pale. What's the matter?", "response": "I feel sick."}
+{"prompt": "Excuse me. I bought the CD here two days ago. It's scratched, and doesn't play properly.", "response": "I'm sorry about that, sir. I'll get you another one."}
+{"prompt": "Hello. Mr. Othman? This is Michael in Mr. Emory ’ s office. He ’ d like to set up and appointment with you to talk about buying a new copier.", "response": "Sure, I ’ d be glad to. What time frame did he have in mind?"}
+{"prompt": "Oh, I ’ m staving. I ’ d like to try some real Chinese cuisine. What would you recommend waiter?", "response": "Well, depends. You see, there are eight famous Chinese food cuisines, for instance, sichuan cuisine and HUNAN cuisine."}
+{"prompt": "Hello, China Southern Airlines. Can I help you?", "response": "Yes, could I make a reservation to New York on July 21st, next Friday?"}
+{"prompt": "Can we talk about this bonus plan of yours? I ’ Ve got a few problems with it.", "response": "Sure, Richard. What ’ s on your mind?"}
+{"prompt": "I want to buy some flowers for my wife's birthday.", "response": "Red roses are always a popular gift for birthdays."}
+{"prompt": "Hello, may I speak to you for a few minutes?", "response": "About what?"}
+{"prompt": "Hey, Steven. What are you going to do this Saturday?", "response": "If the weather is good, I'll go to climb mountains."}
+{"prompt": "You have the right to remain silent. Anything you say can and will be used against you in a court of law. You have the right to have an attorney present during questioning. If you cannot afford an attorney, one will be appointed for you. Do you understand?", "response": "Yes."}
+{"prompt": "Hello. It's good to see you again, Ms Harrow, sending more money to your grandson today?", "response": "Today I'm here to find out about paying in foreign currency. You do that here, I suppose?"}
+{"prompt": "I ’ m going to Bihai park. Is this the right bus please?", "response": "No. you ’ re going the wrong way. You wanna 103 from the Beijing zoo."}
+{"prompt": "Peter, enough with your computer games. Go do your homework now.", "response": "Can't I play more?"}
+{"prompt": "Hello, sir. I'm ready for you.", "response": "Is it my turn?"}
+{"prompt": "How long have we been flying?", "response": "About 12 hours."}
+{"prompt": "How do I use this adhesive?", "response": "This is a special adhesive for easing the pain. Apply it to the painful area and change it in every 2 days."}
+{"prompt": "Cindy. We were going to try to surprise you for your birthday. But you ’ re just too busy! Can you tell me when you ’ ll be free?", "response": "Oh, Brian. That ’ s really sweet of you guys. I would love to get together with all of you. How about Friday?"}
+{"prompt": "I ’ ll need to meet with you before you go on vacation, Alex. I have a few things to clear up.", "response": "I ’ ll be glad to. But my schedule is super tight this week. I think the only time I have free is at lunch on Wednesday."}
+{"prompt": "I've got a temperature and my stomach hurts.", "response": "How long have you been feeling this way?"}
+{"prompt": "What would you like to eat tonight?", "response": "I'm not sure, what about you?"}
+{"prompt": "Did you clean your room today?", "response": "No, not yet."}
+{"prompt": "Hello, can I help?", "response": "I'm from Lexington Software and I'm here to collect an export L / C."}
+{"prompt": "I can't stand the stupid guy any longer. It ' s unbelievable!", "response": "Oh, my dear lady. Take it easy. You should forgive a green hand like him."}
+{"prompt": "hey, you look great! how's everything?", "response": "yeah, you know what? I've been going to the club regularly. The training really pays off. Now I am in a good shape and I know more about how to keep fit."}
+{"prompt": "Staying out all night, you frightened me to death.", "response": "I stayed with my friends."}
+{"prompt": "Did anyone call?", "response": "Just Mr. White."}
+{"prompt": "What kind of job do you intend to do?", "response": "I want to do some management job since I have three-year's work history."}
+{"prompt": "You stepped on my foot!", "response": "Sorry. I didn't mean to."}
+{"prompt": "what do you think about the public service advertisement for quiting smoking?", "response": "while I think it's great that they're trying to get people to quit smoking, but I don't really care for the advertisement."}
+{"prompt": "Good morning. Could I speak with Mr. Willard please?", "response": "This is he. Who ’ s calling, please?"}
+{"prompt": "Can you tell me the differences between a letter and a memorandum, Miss Thong?", "response": "Certainly. A letter must be sent out of the company and must be mailed or posted. A memorandum is a communication within an organization."}
+{"prompt": "Lily, I am terribly sorry about this. But we have to put off or cancel tomorrow's meeting.", "response": "Cancelled? That's just can't happen!"}
+{"prompt": "Overseas operator, may I help you?", "response": "Yes. I would like to place a collect call."}
+{"prompt": "Would you help me figure out what to do about the office party?", "response": "I would be happy to help. What would you like me to help with, food or entertainment?"}
+{"prompt": "I can't find the price tag.", "response": "It's right here. $ 100."}
+{"prompt": "Peter, how often do you exercise?", "response": "Well, I swim and run every day."}
+{"prompt": "Where can I call a taxi?", "response": "There's a taxi rank over there, right outside the gate."}
+{"prompt": "How did your company's fundraiser go?", "response": "The fundraiser events went really well. We were able to partner with a few of our competitors, all in fun of course, to sponsor a marathon for the American Cancer Society. All of the people who participated it had a great time, and we were able to raise a lot of money to contribute to cancer research."}
+{"prompt": "How may I help you today?", "response": "I need to open a second account."}
+{"prompt": "How about your grades of study?", "response": "I have been doing quite well. As reach 90 % and Bs reach 100 %. And I ’ Ve received Scholarship two times."}
+{"prompt": "What kind of a car do you have?", "response": "An old one."}
+{"prompt": "What is my prime responsibility in daily work?", "response": "Your main job is serving the clients and giving them what they want."}
+{"prompt": "How about your interview?", "response": "They turned me down."}
+{"prompt": "We are here.", "response": "OK. How much is the fare?"}
+{"prompt": "Excuse me. Would you mind trading seats with me?", "response": "Not at all."}
+{"prompt": "Do you plan to further your study?", "response": "Yes, I have been always learning the Economics on my own. My dream is to get a master's degree in Economics."}
+{"prompt": "Ahem... uh, sir, I beg your pardon... Uh, mister, are you waiting to buy a ticket for the movie?", "response": "What's it look like, lady? This is the ticket line I'm standing in, isn't it?"}
+{"prompt": "May I help you?", "response": "Yes. Fill it up, please."}
+{"prompt": "Darling, the airplane is going to take off. I have to go.", "response": "Take care! I will miss you so much."}
+{"prompt": "Is there anything I can do for you?", "response": "I haver run out of gas."}
+{"prompt": "I'm starving. Let's get something to eat.", "response": "Can we go somewhere nearby? I don't feel like walking too far."}
+{"prompt": "May I help you, madam?", "response": "Yes. I ’ m trying to find a pair of earrings to match my necklace. Can you recommend some to me?"}
+{"prompt": "I ’ Ve lost my purse.", "response": "Oh, dear. What was in it?"}
+{"prompt": "Come in, please.", "response": "Good morning! I am Anna Lu. I've come for an interview which was arranged."}
+{"prompt": "Don't tell me you're pregnant again.", "response": "I'm afraid so."}
+{"prompt": "Good morning. Wilson Association.", "response": "This is Mr Brown speaking. I'd like to speak to Mr. Thomas, please."}
+{"prompt": "I see you have bought the latest copy of “ beauty and fashion ”. Are there any interesting articles in it?", "response": "There ’ s an interesting interview with a top fashion designer about the latest fashions. I enjoyed reading her thought. The “ which? ” section is very interesting this month. They tested facial cleaners. The article recommends “ all clear ” for effectiveness and price."}
+{"prompt": "Marry Wang's Office, this is Marry.", "response": "Hi Marry, this is Tom."}
+{"prompt": "Put on the helmet, please.", "response": "Do we need to put on the jackets too?"}
+{"prompt": "Excuse me. May I take you a picture?", "response": "With pleasure."}
+{"prompt": "Hello. This is the Directory Assistance. Can I help you?", "response": "Can you give me the number for Jessica Hanson on locks Ave?"}
+{"prompt": "I ’ d like to open a savings account. Can you tell me how to do it?", "response": "Ok, you have to fill out the form. And I let me see three identification cards or documents."}
+{"prompt": "We are willing to participate in the bid which you advertised in China Daily. Would you please tell me the detail of the tender conditions?", "response": "You will receive the tender notice next month and you'll find the information."}
+{"prompt": "Good morning, Mr Zhang, I wonder whether you have got an answer from your superior.", "response": "Yes, we had a meting about it yesterday afternoon."}
+{"prompt": "Be careful. The floor is wet.", "response": "What happened?"}
+{"prompt": "Hello, this is Lucie Jing calling from Lincoln Bank. May I speak to Mr Was, please?", "response": "Speaking."}
+{"prompt": "What are we eating for lunch?", "response": "I have no idea. What about you?"}
+{"prompt": "Did you bring your certificate for nursing?", "response": "Yes, here is my Certificate of Nurse."}
+{"prompt": "Have you ever thought about having children, Kaitlyn?", "response": "My husband and I have thought about it, but we've decided not to have any. They're just too expensive. Besides, with all the news about global warming on the news lately, who knows what kind of Worl"}
+{"prompt": "Is Tom in?", "response": "No, he is at work now."}
+{"prompt": "What about driving to Shanghai?", "response": "Driving? No way, it's too far."}
+{"prompt": "Good afternoon. I'll show you to your room.", "response": "Thank you."}
+{"prompt": "Excuse me, sir. Is there anything I can do for you?", "response": "Yes. I bought the can two days ago, but today I found that is beyond the guarantee period."}
+{"prompt": "Excuse me! Does this bus go to the railway station?", "response": "No, You're got on the wrong bus. You can take a No. 22 bus at the University station and then transfer to a No. 83 bus at the railway station."}
+{"prompt": "I have here our price sheet on a F. O. B. basis. The prices are given without engagement.", "response": "Good, if you ’ ll excuse me, I ’ ll go over the sheet right now."}
+{"prompt": "I'm sorry, but I didn't catch what you said.", "response": "I said, ' Do you want me to help you?"}
+{"prompt": "It says here that you graduated from Beijing Normal University with a major in English Language and Literature.", "response": "Right. Then you may think that I am not fit for this job according to my educational background."}
+{"prompt": "This needs dry-cleaning.Can you remove this stain without harming the fabric?", "response": "Let me see. We ’ ll try, but I ’ m not sure that we can remove it."}
+{"prompt": "What's the problem?", "response": "I have a laceration on my left forearm."}
+{"prompt": "What time is it?", "response": "Ten to nine."}
+{"prompt": "Canton Hotel.", "response": "I'd like to reserve a double room. I will be arriving next Monday, the 12th. My name is Wilson."}
+{"prompt": "How is the result of your lab test?", "response": "When it comes to that, I have a lot to say."}
+{"prompt": "Could you tell me something about your family?", "response": "OK. There are five people in my family, Father, mother, elder brother, younger sister and I."}
+{"prompt": "I'm in heaven! A Whirlpool dryer!", "response": "I love them, too. Let's move into the kitchen. Wait until you see the refrigerator."}
+{"prompt": "Good afternoon, Sir. You're here to see about a Temporary Loan, right? The loans we offer are for purchasing income-generating assets. Is that what you require?", "response": "Yes, that's exactly what I need. How about terms for these?"}
+{"prompt": "Mr. Wang, I've had scheduled for your two days stay in Shanghai. You can make some changes if it does not suit you.", "response": "All right. Please read it to me."}
+{"prompt": "Hi, I would like to return this TV.", "response": "Sure, do you have the receipt?"}
+{"prompt": "There are so many people that the tickets are all sold out!", "response": "Luckily we got the last two."}
+{"prompt": "Do you believe in god?", "response": "Not at all. I ’ m an agnostic. do you?"}
+{"prompt": "Didn't you say your friend was American? Where is she going on her honeymoon?", "response": "They're going skiing in Colorado."}
+{"prompt": "Hello!", "response": "Is that Sue?"}
+{"prompt": "Excuse me.", "response": "Hello sir, may I help you?"}
+{"prompt": "Hello, this is Li Bo speaking.", "response": "Hi, I am Liu Ming. I am calling to tell you that I have got the job."}
+{"prompt": "I am a student in Cambridge University. I read your ad, I want to know something more about your room, please?", "response": "It's a big bedroom with a drawing room, facing a beautiful wood."}
+{"prompt": "Hello, this is Dunlin. May I speak to Mrs Smith?", "response": "This is Mrs Smith. Can I help you?"}
+{"prompt": "Hi there. Welcome to Lincoln Corporate Services. How can we help?", "response": "Hi. I was wondering what kind of fixed asset loans you have? Do you have Fixed Asset Loans?"}
+{"prompt": "There are many art craft items in this shop. I suggest you take your time, and you might find something you like.", "response": "That's what I am going to do."}
+{"prompt": "Operator. Can I help you?", "response": "I'd like to make a person-to-person call to Beijing, China. The number is 2135367 8, and I want to speak to Mr. Zhang."}
+{"prompt": "Are there any special requirements on the project? And shall we talk around it in details?", "response": "Yes, there're some samples in our office and you can take some to study it. Besides, you see, in recent years, we've visited a diversity of factory buildings all over the world and we hope that our building is the perfect match of advanced technology and attractiveness."}
+{"prompt": "Did you ever get a parking ticket?", "response": "Only a few."}
+{"prompt": "Are you doing anything right now, Diana?", "response": "I am typing a report for the moment, Mr. Robbins. Anything I need to do?"}
+{"prompt": "You're finally here! What took so long?", "response": "I got stuck in traffic again. There was a terrible traffic jam near the Carrefour intersection."}
+{"prompt": "That's really convenient. We were wondering if you could take a little off the rent, though.", "response": "I can take two thousand off. That'll make the rent twenty-eight thousand."}
+{"prompt": "Hello. I sent out my laundry yesterday.Aren ' t they ready?", "response": "They'll be ready by this afternoon."}
+{"prompt": "Hello, welcome to Lincoln Bank. What can we do for you today?", "response": "I want to effect payment under an L / C today."}
+{"prompt": "How can I help you, sir?", "response": "I am here to have a discussion on your company's investment issue."}
+{"prompt": "Excuse me. Would you please make a suit with this material?", "response": "Sure. May I take your measurements?"}
+{"prompt": "Good morning everyone. Thank you for attending the meeting today. I'm sure you all have a copy of the agenda. So let's get started with the first issue.", "response": "We're here today to present to you the results of our marketing research regarding the consumer behavior."}
+{"prompt": "It seems that many boys are fighting there.", "response": "Break it up! I will not permit fighting in this campus."}
+{"prompt": "the air quality in this city is horrendous! The pollution levels were so high that we weren't supposed to go outside with a face mask again!", "response": "exhaust fumes from vehicles cause a great deal of damage to the environment."}
+{"prompt": "Would you like some cookies? I just made them.", "response": "Thank you. Yes, I would."}
+{"prompt": "Can I help you?", "response": "I'd like to buy a ticket to Casablanca on flight US125 tomorrow."}
+{"prompt": "How do you use an ATM card, Billy?", "response": "It ’ s easy grandpa. Insert you card into the machine here. Then wait a moment. Ok. Now you enter your PIN. It should have four numbers."}
+{"prompt": "Hello, is Jennifer in?", "response": "I am sorry, you have the wrong number."}
+{"prompt": "Can you give me a hand with the dishes?", "response": "Sure. Should I wash or dry?"}
+{"prompt": "Excuse me, do you have the latest issue of Newsworld?", "response": "Yes, this week's issue just came in. Here it is."}
+{"prompt": "Good afternoon, Miss. What can I do for you?", "response": "Could you tell me my account balance? My account number is..."}
+{"prompt": "We will go to Luoyang for a vacation next month.", "response": "How long will you stay there?"}
+{"prompt": "You look great! How do you stay in such good shape?", "response": "Well, I go jogging every morning, eat a healthful diet and work out in a gymnasium twice a week."}
+{"prompt": "Bob from accounting is on the line. Do you want to speak with him?", "response": "Yes, I need to talk to him."}
+{"prompt": "I want to send some money to Australia. Could you handle it for me?", "response": "Yes, madam, how much would you like to remit?"}
+{"prompt": "Kate, can we change the channel?", "response": "Why?"}
+{"prompt": "Excuse me, is there any summer resort around the town?", "response": "As far as I know, the nearest one is next to the Willdon."}
+{"prompt": "Every honored guests, welcome to Hang Thou. Now we are visiting Tiger-running Spring.", "response": "How can we relate tiger to this spot, Miss Zhang?"}
+{"prompt": "Can I give you a hand?", "response": "Thanks."}
+{"prompt": "You have been staying at home for several days. Would you like to hang out with me?", "response": "No problem. Wait a moment."}
+{"prompt": "May I speak to Mr. Baker?", "response": "I ’ m afraid he's not in."}
+{"prompt": "I'm afraid we can't increase salary this year, money is just too title.", "response": "I'm not sure I can't agree, dan"}
+{"prompt": "I've got some great news for you!", "response": "Did you get the position you wanted?"}
+{"prompt": "Thank you for a lovely day. I really enjoyed it.", "response": "It was nice to have you with us."}
+{"prompt": "Hi, Customer Service Desk. What can I do for you today, sir?", "response": "Good morning. I bought this vacuum here a few months ago. It doesn ’ t work now. Can I return it or get it fixed?"}
+{"prompt": "Excuse me. I'd like to check out, please.", "response": "Of course, sir. Did you have anything from the minibar?"}
+{"prompt": "Can you tell me a little bit about yourself?", "response": "I am a graduate of a technical university and have been employed as a technician with Company or approximately 10 years."}
+{"prompt": "May I help you?", "response": "Yes, do you have sweaters?"}
+{"prompt": "Sorry, I overslept. My clock didn't go off this morning.", "response": "Again?"}
+{"prompt": "I was really glad to hear about your award. Congratulations!", "response": "Thanks, Denise. Actually, I was really surprised. I mean, there were a lot of qualified people out there."}
+{"prompt": "Could you tell me where you put all the pots and pans?", "response": "They ’ re in the cabinet next to the sink."}
+{"prompt": "Oh hi, Linda, this is Todd.", "response": "Yes, Todd, how nice to hear your voice!"}
+{"prompt": "Can I help you?", "response": "I need some stamps for this letter."}
+{"prompt": "Do you want to know what really motivates Vince to be nice to me?", "response": "OK. What?"}
+{"prompt": "May I help you?", "response": "Yes, I am wondering if I can join the sightseeing tour in your hotel."}
+{"prompt": "it's a lovely day out today, isn't it?", "response": "it's beautiful. Enjoy it while it lasts. It's supposed to get cold tomorrow."}
+{"prompt": "Can you tell me what's included in your warranty?", "response": "Certainly. The product has a two-year guarantee. If it breaks down during that period we offer a replacement unit completely free of charge. Our products are very reliable but we recommend you take out an extended warranty. This covers you for a further two years."}
+{"prompt": "Do you have any particular conditions that you would like our company to take into consideration?", "response": "No, nothing in particular."}
+{"prompt": "Did you ever buy food from the snack stands near our hotel?", "response": "Yes, several times."}
+{"prompt": "I need my minibar restocked.", "response": "Everything is gone, sir?"}
+{"prompt": "I will travel to Southeast Asia this summer, so I need to exchange some US dollars. Can I get the foreign currency at any bank?", "response": "I don't think you can. In China, our currency is not freely convertible yet."}
+{"prompt": "can you squeeze me in sometime today?", "response": "That ’ s a big order, Jane. I am really swamped."}
+{"prompt": "You seem to be upset. What ’ s eating you?", "response": "It ’ s because of my son. Dick keeps getting on my nerves"}
+{"prompt": "Bring me some toast, please.", "response": "Would you like butter or jam on your toast or do you just want it plain?"}
+{"prompt": "Peter, it's time to get up.", "response": "Ten more minutes, mom."}
+{"prompt": "shall we dance?", "response": "sure. i suppose you dance much."}
+{"prompt": "Well, it's illegal to bring food and drinks into the theater.", "response": "Too bad. I did anyway."}
+{"prompt": "I think that you look very cute today.", "response": "Is that right? This is a brand new outfit."}
+{"prompt": "What can I do for you?", "response": "I'd like to be waken up tomorrow morning."}
+{"prompt": "I have a reservation. My name is John Sandals.", "response": "May I see your ID, please, Mr. Sandals?"}
+{"prompt": "Sandy, can you help me contact these people?", "response": "Sure, what do you want me to tell them?"}
+{"prompt": "How long does it take to get to downtown from here?", "response": "It is 15 minutes ' drive."}
+{"prompt": "Good morning. Can I see Mr Jackson, please?", "response": "Well. Have you got his permission?"}
+{"prompt": "The environment varies greatly because of difference in language, customs and traditions.", "response": "Yes. This gap can be filled by export market research before exporting."}
+{"prompt": "Hello, I really appreciate the opportunity to interview for this position.", "response": "I was wondering if you like team projects, or projects that you work on alone."}
+{"prompt": "Hello, could I speak to Allison, please?", "response": "I'm sorry, he's out at the moment."}
+{"prompt": "I am sorry. I didn ’ t accomplish the job on time.", "response": "That ’ s all right. Everyone feels under the weather sometimes. Just finish the rest when you feel well."}
+{"prompt": "Waiter!", "response": "Yes, can I help you?"}
+{"prompt": "Good afternoon, madam. Is there anything I can do for you?", "response": "Yes, I spent so much time sightseeing here. It is already so late now. I am afraid I can't catch the last bus back to downtown."}
+{"prompt": "Looks like dinner's ready.", "response": "Just about."}
+{"prompt": "I'm done. Can I watch TV?", "response": "Here's some water. Take these multi-vitamins and Tylenol."}
+{"prompt": "Hello, Mary.", "response": "Oh, hello, Tom! Beautiful day, isn ’ t it?"}
+{"prompt": "Excuse me, is this the Auto Consumer Loan Center?", "response": "Yes. Is there anything I can do for you?"}
+{"prompt": "You really need to look at some of the problems we are having with the apartment.", "response": "That apartment never had any problems before. Are you sure the problem isn ’ t you?"}
+{"prompt": "Taxi!", "response": "Yes, sir. Where to?"}
+{"prompt": "I ’ m thinking about getting a pet, but I ’ m really not sure which animal would be suitable. Could you give me some advice?", "response": "Certainly! The first thing is to be honest about how much time for you can devote to your pet. Dogs are very demanding. You need to take them for walks and they love to play. Cats, on the other hand, are more independent."}
+{"prompt": "I'd like to make sure my plane reservation is in order.", "response": "May I have your flight number, please?"}
+{"prompt": "I really think if I can get my foot in the door at this company it will do wonders for my career. Do you think you can help me polish my interview style?", "response": "Sure. Doing your homework and preparing for an interview really pays off."}
+{"prompt": "After I am accepted for unemployment benefits, what will happen next?", "response": "You will receive a Notice of Unemployment Insurance Award letter."}
+{"prompt": "Hello, I was wondering if I could talk with the apartment manager.", "response": "I am the apartment manager. How can I help you?"}
+{"prompt": "Good morning, Miss.", "response": "Good morning. Could you tell me where I can find the Clothing Department?"}
+{"prompt": "I'm ready to place an order with you, but only one condition that the goods are confined to Australia. Can you do that?", "response": "Well, I haven't made such arrangements with the factory yet. So I'd like to make sure if it is acceptable to the factory before making a commitment to you."}
+{"prompt": "Holly? Holly Madison, is that you? You look great! You haven't changed a bit.", "response": "Uh... Andrew. Hello. I can't quite remember you."}
+{"prompt": "Excuse me. What's the actual flight time from here to San Francisco?", "response": "It's about twelve hours."}
+{"prompt": "I am dropping off my prescription to get it filled.", "response": "You can come back in twenty minutes, and it will be ready."}
+{"prompt": "Hello! My name is Sandals, I have a reservation.", "response": "May I see your identification, please, sir?"}
+{"prompt": "Are you ready to order, madam?", "response": "I'm on a diet. So I have to avoid food containing too much fat. Do you have vegetarian dishes?"}
+{"prompt": "Hello, is John in?", "response": "No, can I take a message?"}
+{"prompt": "Mom, what are we going to make tonight?", "response": "Curry and rice. What do you think?"}
+{"prompt": "Do you live in the red house at the end of the road?", "response": "Yes, I live in that house with my parents and my sister."}
+{"prompt": "That is a long line.", "response": "Yes indeed. It has a very strict inspection so it takes a pretty long Be for everyone."}
+{"prompt": "Hello, Fred. What are you doing?", "response": "I'm doing the business online."}
+{"prompt": "Good afternoon, Mrs.Vale.Please sit down.", "response": "Thank you."}
+{"prompt": "Have you decided where to go for the vacation?", "response": "I will join John in his mountaineering trip."}
+{"prompt": "May I see the manager of your company?", "response": "I am.What can I do for you?"}
+{"prompt": "Excuse me. Do you mind telling me the time when the recruitment will officially start?", "response": "It will be held on October 15th."}
+{"prompt": "How do you like your overcoat, sir?", "response": "It's a bit too large. Would you please shorten the sleeves?"}
+{"prompt": "We need a person who knows how to operate and repair all kinds of office appliances.", "response": "I used to hold a similar job for six years."}
+{"prompt": "Yes, sir.May I help you?", "response": "Please I'd like a ticket to New York."}
+{"prompt": "We have settled the question of price, quality and quantity. Now I am calling to talk about the terms of payment. What are your terms of payment?", "response": "Well. We only accept the payment to be made by confirmed and irrevocable L \\\\ C, payable against shipping documents."}
+{"prompt": "What may I help you with?", "response": "I need to file a complaint."}
+{"prompt": "Smells good! What ’ s for breakfast?", "response": "Well, since we are getting up so late, I decided to make a big breakfast!"}
+{"prompt": "Come on, fellows. Let's enjoy my wife's cooking!", "response": "Em, it's delicious!"}
+{"prompt": "Our advertisement says English competence is a key requirement of this position. Then how do you think of your proficiency in written and spoken English?", "response": "I have learned English for 10 years, and I have passed College English Test Band 4 and 6.My spoken English is fairly good enough to express myself fluently."}
+{"prompt": "Why did you apply for the position?", "response": "I learned from your ad.That you will provide on-the-job training for new employees.This is just what I need, because I'm a recent college graduate. I have the necessary knowledge and skills but I lack experience."}
+{"prompt": "Linda, would you care for some candies or cookies?", "response": "No, don't try to tempt me. I'm becoming chubby, and I have to slim down."}
+{"prompt": "How about your grades of study?", "response": "I had been doing quite well. In all subjects, I got excellent scores."}
+{"prompt": "Excuse me, I'd like to have these pants I bought here yesterday altered. Here's my receipt.", "response": "Certainly, sir. What would you like done to them?"}
+{"prompt": "Hi, Doris. I hear you are going to the United States next week.", "response": "So I am."}
+{"prompt": "Hi, how are you?", "response": "It's nice to meet you. Thanks for coming."}
+{"prompt": "Good afternoon, ladies. May I help you?", "response": "Can we have two adjoining double rooms, sir?"}
+{"prompt": "Hello, I brought a lap-top computer with me. Do you know how can I use the internet in my room?", "response": "Well, right now, we can't afford internet use in the rooms. But you can go to the web bar in our hotel. It's on the 12 floor."}
+{"prompt": "Hello, I wish to speak to Mr.Zhang.", "response": "This is he speaking."}
+{"prompt": "Where do you come from?", "response": "I come from Greece."}
+{"prompt": "It's your turn to go first.", "response": "I went first last time."}
+{"prompt": "Excuse me. Could you please tell me how to get to the nearest cinema?", "response": "Turn left at the second light. You can't miss it."}
+{"prompt": "Nice to meet you, sir. I come from New Times Clothes Company. We learnt that your exhibits on the Trade Fair in Shanghai this month were marvelous. Would you please quote the price?", "response": "Before we discuss the price, may I ask you what kind of exhibits you are interested in?"}
+{"prompt": "Welcome. Can I help you?", "response": "Do you have any postcards?"}
+{"prompt": "So what do you think of my new dress?", "response": "I think it ’ s great! I really like the color, and it goes really well with your eyes. I ’ Ve actually been eyeing that dress at Maxine ’ s for a while now, but I wasn ’ t sure I could afford ninety-five dollars for a dress at the moment."}
+{"prompt": "Long time no see, George!", "response": "Yes, a very long time."}
+{"prompt": "Which one of them is Marys brother?", "response": "The one with a very big nose."}
+{"prompt": "What should be put in my education background?", "response": "You are expected to write the educational experience about your high school and college, even the time span."}
+{"prompt": "What date would you like to depart, sir?", "response": "Do you have any seats for September 16th?"}
+{"prompt": "Hilton hotel, may I help you?", "response": "We would like to book a table for 6 at 7:00 in the evening."}
+{"prompt": "Hello. This is Dr. Galas Office. Can I help you?", "response": "Yes. I ’ d like to make an appointment with Dr. Galas. Could you arrange it for me?"}
+{"prompt": "What do you think of the project?", "response": "Very interesting. Thank you for bringing it to us."}
+{"prompt": "David, how is your interview?", "response": "I was nervous at that time. What about you?"}
+{"prompt": "Good morning, I made an appointment with Dr. Smith, but I have to change it.", "response": "When you made your appointment, what day did you choose?"}
+{"prompt": "Can I help you?", "response": "En, I am looking for a porter, do you know where I can find one?"}
+{"prompt": "Do you think we should travel by bus or by train?", "response": "It's a difficult choice.The train is a little faster, but much more expensive."}
+{"prompt": "Did you hear about Lulu?", "response": "No, what?"}
+{"prompt": "Here's a model of our latest design. What do you think of it?", "response": "Well, I'm not too happy about it."}
+{"prompt": "Hello, this is the International Youth Hotel. How can I help you?", "response": "oh, yes. I want to check whether you still have any vacancies. I need three single rooms for next Monday."}
+{"prompt": "What sort of shopping is nearby, Mr. Taylor?", "response": "Call me John. This is a great area of the city for shopping. There ’ s a grocery store just around the corner."}
+{"prompt": "Now darling, I know that we've bought this house together, but it's just going to be far too expensive to decorate it. I think we should sell it.", "response": "Oh, no, Nathan, I... I really think we've bought this flat at the right time, you know.Market prices are going to go up, and I think you'll find in a year or two it will be worth a lot more."}
+{"prompt": "Hi, Bob, everything okay?", "response": "More or less. There's just one thing bothering me."}
+{"prompt": "I've been looking for a swimming pool, but I haven't found one yet.", "response": "We have no pool, sir, but we do have swim stations in our gym."}
+{"prompt": "Hi. Today, I am the interviewer for your visa application.", "response": "OK. Here is my application form and all the documents."}
+{"prompt": "What a pity you are leaving so soon. I wish you could stay a few more days. Sir, can you deliver a speech for us?", "response": "Dear friends. Here, I wish to say a word of thanks for holding this send-off party for me. Actually I didn't expect at all for this. I owe a lot to all of you here. It's been 5 days since I came to visit here. Time really flies. I feel grateful for your welcome and help in the five days. I will miss you while I am leaving. Let's keep in touch in any way. What's more, to the success of our face-to-face meeting, to the upcoming cooperation of our two companies, bottom up!"}
+{"prompt": "I have been thinking of buying a house and would like to speak with you.", "response": "I have time to speak with you. Where would you like to purchase your house?"}
+{"prompt": "Waiter.", "response": "Would you like anything else?"}
+{"prompt": "If this coat doesn't fit, may I bring it back later?", "response": "Sorry, We don't take returns on sale items."}
+{"prompt": "What are the attractions of that city?", "response": "It's famous for beautiful countryside with clean air."}
+{"prompt": "I would like to order a waistcoat.", "response": "Have you chosen the material?"}
+{"prompt": "Hi, I'm George. I'll be your waiter this evening. Are you ready to order or do you need a few more minutes?", "response": "I'm ready now. I'd like the roast chicken and a side order of corn."}
+{"prompt": "What is your salary at present?", "response": "My present pay is 100,000 Yuan per year."}
+{"prompt": "Excuse me. I've been waiting for my main dish for quite a time.", "response": "Yes, sir.Just a minute, please, I'll check with the kitchen."}
+{"prompt": "Hi, Sally! You are talking to the proud father of a new baby girl!", "response": "Congratulations, Bob! That ’ s great news, what ’ s her name?"}
+{"prompt": "Excuse me, can you tell me where is the taxi stand?", "response": "You can find one at the end of the street."}
+{"prompt": "Would Dr.Black be able to see me at 9:00 a. m. tomorrow?", "response": "I'm sorry, but she won't have any openings until 11:00, unless there's a cancellation."}
+{"prompt": "Sally, you look so corporate! What interview do you have today?", "response": "Amalgamated Trading Company. It's Swiss. Don't you think working at a foreign company would be glamorous?"}
+{"prompt": "I'm calling to tell you that the merchandise ordered last month has not arrived yet.", "response": "I'm sorry, hold on a moment. I'll check it out. But we have already shipped it to you last month. Would you like us to contact the express company to know what's going on?"}
+{"prompt": "I really want to make something for dinner.", "response": "What are you going to cook?"}
+{"prompt": "Excuse me, waiter, would you please bring us a nest? A friend of mine will join us.", "response": "Wait a moment. Here you are."}
+{"prompt": "Can you help me out, Chuck?", "response": "Sure. What's it, Yvonne?"}
+{"prompt": "Good morning. Madam. What can I do for you today?", "response": "Hello. I hope you can help me; I'm a little worried about my new card."}
+{"prompt": "Can you manage chopsticks?", "response": "Why not? See."}
+{"prompt": "Do you have any seat preferences, sir?", "response": "Yes, could you put me in the no-smoking section?"}
+{"prompt": "morning. Rent-A-Car Agency. May I help you?", "response": "Good morning. This is Paul Alexander calling from the Isis Advertising Firm. We need a car to the airport for Mr. Phillips."}
+{"prompt": "I'm calling today about a bill that I never received.", "response": "Can you tell me which credit card it was for?"}
+{"prompt": "Jenny, don't you think it's really charming?", "response": "Yes. It's a feast of eyes to walking in the museum."}
+{"prompt": "OK, Allen. It's your turn. Are you ready?", "response": "I really would rather just listen. Isn't there anyone else who wants to sing?"}
+{"prompt": "How are you doing, Jim?", "response": "Fine, just fine.How about you?"}
+{"prompt": "I think your presentation impressed the client, Daniel. You did a good job.", "response": "Thank you, Mr. Cooper. I hope we get the contract."}
+{"prompt": "What's for lunch?", "response": "Pork chops."}
+{"prompt": "What happened to you?", "response": "I think I caught a cold."}
+{"prompt": "What kind of place shall we rent?", "response": "It should be close to the university. Neither of us are good at getting up in the mornings and closer it is, the later we can get up."}
+{"prompt": "I don't think we can meet the delivery date you suggest. It's too soon.", "response": "Well, is it possible for you to effect shipment by the middle of June?"}
+{"prompt": "Did you have any working experience during college?", "response": "Yes, I did some part-time jobs such as English tutor, salesman, and model."}
+{"prompt": "Can you tell me if there is a flight to New York?", "response": "Yes. Flight DB117 departs at 5:38 pm and arrives in New York at 6:00 am with a layover in Chicago. It also makes a refueling stop at Colombia."}
+{"prompt": "Hello.Hot water overflowed from the bathtub.Will you help me?", "response": "Would you turn off the tap?"}
+{"prompt": "Would you like some more coffee?", "response": "No thanks. I'm full. We need to find our waitress and get our bill."}
+{"prompt": "Freeze! Police! Put your hands over your head.", "response": "What crime did I commit?"}
+{"prompt": "Would you like to come by and play bridge?", "response": "Well, let's see. Why don't we go dancing for a change? We haven't done that for a long time."}
+{"prompt": "Tom, it's time for you to go to bed.", "response": "Good night, mum."}
+{"prompt": "Operator. May I help you?", "response": "Yes. How do I get an outside line, please?"}
+{"prompt": "What's our target audience for this campaign?", "response": "This go-around we're focusing on new moms, families with median income and one or more children under the age of two."}
+{"prompt": "John, I'd like to see you in my office for a minute.", "response": "Yes, sir, I'll be there in just a moment."}
+{"prompt": "How can I help you today?", "response": "I am returning something that I bought yesterday."}
+{"prompt": "I miss grandma. I dreamed about her yesterday.", "response": "Dear, let ’ s drop the subject."}
+{"prompt": "Good morning, sir. Can I help you?", "response": "Good morning. I'd like to cash this check."}
+{"prompt": "Could you fill in this form, please?", "response": "All right."}
+{"prompt": "I want to fly to Congo on Monday, the 17th.", "response": "Let me see what's available."}
+{"prompt": "How much was your watch?", "response": "Take a guess."}
+{"prompt": "A guy in my office got the flu the other day. Today I seem to have come down with it, too.", "response": "Very likely. You have a slight fever. Do you have a headache, too?"}
+{"prompt": "Would you care for a drink?", "response": "No, thanks. I'm fine."}
+{"prompt": "Let's go practice your driving.", "response": "If that's what you want to do, then we can."}
+{"prompt": "How may I help you?", "response": "I ’ m making a deposit today."}
+{"prompt": "I'd like to extend my visa for another two years.", "response": "Are you on a tourist visa or a student visa?"}
+{"prompt": "Do you like the apartment?", "response": "I absolutely love the apartment."}
+{"prompt": "Come in, Arnold. Have a seat.", "response": "Good morning."}
+{"prompt": "Oriental China Airlines. Good morning, may I help you?", "response": "I would like the round-way ticket to Shanghai on December 10th."}
+{"prompt": "Where are you feeling the pain?", "response": "I can ’ t stand up! My stomach is killing me!"}
+{"prompt": "May I help you?", "response": "Yes, I would like to exchange some money."}
+{"prompt": "Has your son started school yet, Tom?", "response": "Next week, it ’ s going to be quite a shock for him!"}
+{"prompt": "May I speak to Mr.Huang, please?", "response": "I'm sorry. Mr.Huang is quite busy right now. Could I pass him the message?"}
+{"prompt": "Dad, hurry! The train is coming. Aha, I am a superman.", "response": "Don't rush, behave yourself please! Let the people get off first."}
+{"prompt": "Pasadena Traffic School. How can I help you?", "response": "I would like to sign up for some classes."}
+{"prompt": "Hello. This is the Stewart Resident.", "response": "Hello. Is Mr. Stewart there?"}
+{"prompt": "Waitress.", "response": "Yes sir. How can I help you?"}
+{"prompt": "I made a reservation earlier this week, but I have to cancel it.", "response": "No problem, sir. Just tell me your name, phone number, and date of reservation."}
+{"prompt": "I'm about to run out of business cards. I need some new ones.", "response": "We can print as many as you like. Just tell me how many."}
+{"prompt": "Lisa, is there a milk section?", "response": "No, there's no such section. The dairy section is where you'll find milk and cheese."}
+{"prompt": "Won't you have some of this?", "response": "Yes, thanks."}
+{"prompt": "I like these shoes.", "response": "Do you realize that all these shoes are half off?"}
+{"prompt": "Do you have experience in advertising?", "response": "Yes, I used to have a part-time job in advertising company."}
+{"prompt": "Dad, may I have a room of my own?", "response": "Oh, honey, I'm so sorry, we don't have enough space for you to have your own room."}
+{"prompt": "Our usual supplier has let us down and I ’ Ve been looking through your parts catalogue. I need fifty GT670s. How soon can you deliver?", "response": "Just a moment and I'll check. We ’ re expecting a delivery on Friday. We've only got ten in stock at the moment. I can deliver those by first thing tomorrow morning. There'll be an extra charge for special delivery. I'll have to send them by courier."}
+{"prompt": "Good afternoon, ma'am. May I help you?", "response": "Yes. Can I deposit valuables here?"}
+{"prompt": "Can you develop the roll of film?", "response": "Sure."}
+{"prompt": "Good afternoon Miss, would you be interested in buying more life insurance? You know, you can never get enough.", "response": "I think my husband has some."}
+{"prompt": "The buildings are really magnificent.", "response": "Yes, millions of travelers come here every year for the view of the buildings."}
+{"prompt": "I want to open a saving account, sir.What ' s the proper procedure?", "response": "First, you fill out the application form and then we'll issue you a passbook."}
+{"prompt": "You look depressed. What's on your mind?", "response": "Well, I had a blood test last week. The doctor said that I have high blood pressure and my blood is thick and sticky. I'm very worried."}
+{"prompt": "Excuse me, sir, but you have to put your bags here before entering the market.", "response": "Oh. I am sorry. I was busy looking for some whisky.Can you tell me the exactly place where I can find any?"}
+{"prompt": "Do you work well under pressure?", "response": "Working under pressure is exciting and challenging. I don ’ t mind working under pressure. I work well under that circumstance. People can, I can."}
+{"prompt": "What do you want?", "response": "I think I have a piece of apple pie."}
+{"prompt": "Our new production control program's going live on Monday. The old and the new programs will operate in tandem for four to six weeks. That should give us time to iron out any little problems.", "response": "Hope it all goes well. We're very busy at the moment and certainly don't want any problems at this time of year."}
+{"prompt": "Who broke my chair?", "response": "It wasn't me."}
+{"prompt": "Can I help you, Madam?", "response": "Could you tell me what Ants on the Tree is please?"}
+{"prompt": "Finance, Angie speaking.", "response": "Hi Angie, it ’ s Tom Reynolds here. Can you tell me if my tuition fees for this semester have been approved?"}
+{"prompt": "Come in, please.", "response": "Good morning, sir!"}
+{"prompt": "Good morning. May I help you?", "response": "Yes. I'm looking for an apartment, I'd like two bedrooms."}
+{"prompt": "Did you check before you left the shop?", "response": "Yes, I did. But when I got home, my son put it on and we found the hole."}
+{"prompt": "I hate to do this, but I've got to cancel a reservation I made earlier this week.", "response": "All I need is your name, phone, and reservation date."}
+{"prompt": "Did you go and buy your bus pass?", "response": "No, I didn't."}
+{"prompt": "Tomorrow is my first day at work, what do you think I should be wearing?", "response": "Well, if you want to look professional, serious and more conservative, a blue dress, white shirt and not-too-high shoes would be the best choice. But sometimes, very formal clothes will keep you at a distance from your colleagues. It depends on the company ’ s dress code."}
+{"prompt": "Excuse me. Will you please keep an eye on my suitcase? I just want to make a phone call.", "response": "Certainly, but will it take long?"}
+{"prompt": "Mike's Mechanics. Can I help you?", "response": "Yes, how do I get to your shop from Chilin?"}
+{"prompt": "Don't take too much off. I'm trying to grow my hair longer.", "response": "How about two inches?"}
+{"prompt": "Oh, damn. There ’ s another traffic jam on the highway.", "response": "How can there be a traffic jam on a 16 - lane highway every day?"}
+{"prompt": "Excuse me. Mr. Emory?", "response": "Yes, Ms. Rodriguez? How can I help you?"}
+{"prompt": "Who ate the cookies that were sitting here?", "response": "I did, Mom."}
+{"prompt": "Hello. May I speak to Brian, please?", "response": "Sorry, you have the wrong number. There ’ s no Brian here."}
+{"prompt": "Put all baggage on the conveyor belt. Walk through the detector age one at a time, please.", "response": "Excuse me, ma'ma. Could you walk back through the doorway again, please?"}
+{"prompt": "Come on. All of us are waiting for you.", "response": "Oh, sorry. Cross my fingers."}
+{"prompt": "Come on, Mary. We have to do the laundry.", "response": "Where are we going?"}
+{"prompt": "Hi, John.", "response": "Oh, hi, Mary, come on in. Any problem?"}
+{"prompt": "Excuse me, could you tell me the bookshop ’ s address?", "response": "Yes, the bookshop is just around the corner.Turn left and you ’ ll see the bookshop."}
+{"prompt": "Hello! Is this Mr. Chang?", "response": "Yes. Who is speaking?"}
+{"prompt": "Hello, Mr. Hammer. Jack Ross here. I'm calling to confirm our appointment on Monday at ten o'clock in your office.", "response": "Yes. Everything's all set."}
+{"prompt": "You look fresh recently. And.. what's your weight now?", "response": "110 pounds."}
+{"prompt": "Ahhs! I'm beat!", "response": "What happened to you? You look like you got hit by a tornado!"}
+{"prompt": "Thank god you are open! I have an emergency!", "response": "Hello, Mr. Henderson what can I do for you?"}
+{"prompt": "How often does the bus run?", "response": "Every five minutes."}
+{"prompt": "My warmest congratulations on your promotion!", "response": "Thanks. It ’ s nothing special actually."}
+{"prompt": "Yes, emergency. There is a huge fire here.", "response": "Calm down, sir. What's your name and where are you now?"}
+{"prompt": "Do you sometimes feel overwhelmed by your work?", "response": "Of course! It is the No. 1 stressor in my life. You know job stress has become a very common problem these days. So we must learn to cope with it."}
+{"prompt": "Excuse me, is this the parcel counter?", "response": "Yes, what can I do for you?"}
+{"prompt": "But Ernie, we're still missing something. We need someone to play the music!", "response": "Oh right... you know, my friend Eric is a DJ. Maybe he would like to play with us."}
+{"prompt": "Excuse me, is there any room available? I want a single one.", "response": "Yes. When do you want it?"}
+{"prompt": "What time does the museum close? Any idea?", "response": "I'm not sure, but I think It's open until 4 o'clock."}
+{"prompt": "I would like to buy some local handcrafts as gifts to my friends and relatives.", "response": "There are many stores selling handcrafts in Paris. Our store is wellknown for vase, table wear and jewelry boxes. You can take your time and choose whatever you like."}
+{"prompt": "It's so boring.", "response": "Don't you like it?"}
+{"prompt": "Where can I get my baggage?", "response": "Are you from a domestic flight or an international one?"}
+{"prompt": "Man! That car almost hit me!", "response": "Yeah, that was close."}
+{"prompt": "Doctor, save my baby, please", "response": "What symptoms does he have?"}
+{"prompt": "Wow, this is amazing. I'm glad we've come here. So cool.", "response": "I always love skiing. You know, it's a cool game for cool people. Stay with me and you will be cool, too."}
+{"prompt": "Would you like a smoking or non-smoking room?", "response": "Non-smoking, please."}
+{"prompt": "Hello. Capital Hotel. May I help you?", "response": "Yes, unlikely my flight will be 2 hours due to the fog. Would you please keep my reservation?"}
+{"prompt": "Sir, would you like some dessert now?", "response": "Please show me the menu again."}
+{"prompt": "Bruno Bistro, how may I help you?", "response": "Yes, hello, I would like to make a reservation please."}
+{"prompt": "Good morning. Madam. How can I help?", "response": "I'd like to take some money from my Fund Account at the Securities Company. Is that possible here?"}
+{"prompt": "Hello, Can I speak to Tom, please?", "response": "I'm afraid he is not in at the moment."}
+{"prompt": "Excuse me, I ’ Ve been waiting my main dish for quite a time.", "response": "Yes sir, just a minute, please. I ’ ll check with the kitchen. Thank you for waiting. It takes another 10 to 15 minutes, I ’ m afraid."}
+{"prompt": "Do you want to talk with John with tongue?", "response": "No, tell him I'm tied up."}
+{"prompt": "Now people are talking about world recession which started more than a year ago. Can you give us your personal assessment of the situation of the global economy?", "response": "As you know, we are in a very special time. This is a very hard time for many countries ' economics, both developed and developing. I think the current economic situation could be described as synchronized slowdown of major economies."}
+{"prompt": "So, what do you plan to do today?", "response": "There is a Matisse exhibition at the Museum of Modern Art. Larry and I will go."}
+{"prompt": "Finally we have a long holiday.", "response": "Yes, what about us having a tour?"}
+{"prompt": "Hello. This is John ’ s Distribution. Can I help you?", "response": "Yes. I need some ice water delivered."}
+{"prompt": "Please come in and sit down. I'm happy to finally meet you.", "response": "Same here. I've been looking forward to this."}
+{"prompt": "I'm here to conduct the annual census of foreigners living in Beijing. This is my service ID card.", "response": "OK. What do you want to know?"}
+{"prompt": "Do you wash clothes here often?", "response": "I have been coming here for the past few years."}
+{"prompt": "I've brought this dress back to exchange it.", "response": "That's not a problem. Leave it with me, and find something that you like."}
+{"prompt": "Good afternoon, sir.What Can I do for you?", "response": "Well. I can't find my key now. I think I have lost it."}
+{"prompt": "How are you today?", "response": "Very well."}
+{"prompt": "Do you like the room?", "response": "Yes. What is the rent?"}
+{"prompt": "I'd like to talk to Mr. White please?", "response": "He stepped out of the office for a little while."}
+{"prompt": "Give me a book please, Jane.", "response": "Which book? This one?"}
+{"prompt": "Do you want a shampoo?", "response": "Yes."}
+{"prompt": "Come on. Don ’ t cheat on me. It ’ s a long shot.", "response": "It ’ s true. You should be happy about that."}
+{"prompt": "What should I do to prepare for a job interview?", "response": "An understanding of the basic workings of a company and the services or goods it provides is essential. Do you have that?"}
+{"prompt": "What are your responsibilities as a secretary?", "response": "I did only simple things in the office, such as tidying up the office, serving tea, typing and filing, and so on."}
+{"prompt": "Hello. Where are you headed today?", "response": "I'm off to Barcelona for a week."}
+{"prompt": "All right. I want to bring everybody in on this project. When can we start working on this?", "response": "Well, we could probably get started with a strategy meeting tomorrow morning at 8"}
+{"prompt": "Well, Mr. Smith. That ’ s a nasty infection you have.", "response": "Yes. Is there anything you can give me to get rid of it, Doctor?"}
+{"prompt": "Our factory locates at a village in the east of the city. The area of it is 3,600 square meters.", "response": "We'd like to visit the factory. Can you show me the way?"}
+{"prompt": "My toothache started nearly a month ago. The pain's been keeping me awake. Would you please have a look?", "response": "Open your mouth, please. Which one?"}
+{"prompt": "It's raining heavily.", "response": "We have to find a shelter."}
+{"prompt": "Hi, I want to check out. Here is my room key.", "response": "One second, sir, while I print out your receipt. Here you are."}
+{"prompt": "Have you attended school today?", "response": "I attended school today. Did you?"}
+{"prompt": "Well, if you have no further questions, then we have done.", "response": "Thank you, Mr. Owens, for taking time out of your busy schedule to interview me."}
+{"prompt": "Tom. Please do not disturb me for the next hour.", "response": "Are you having a meeting?"}
+{"prompt": "Well, Mr. Smith. That's a nasty infection you have.", "response": "Yes. Is there anything you can give me to get rid of it, doctor?"}
+{"prompt": "How can I help you?", "response": "well, I'm looking for some summer clothes."}
+{"prompt": "What are you having for lunch?", "response": "I got a sandwich, some chips, and a soda."}
+{"prompt": "Could you project what you would like to be doing five years from now?", "response": "As I have some administrative experience from my last job, I may use my organizational and planning skills in the future."}
+{"prompt": "Hello? This is John Smith.Can I speak to Mr.White, please?", "response": "This is Mr.White speaking."}
+{"prompt": "Hey, Jim, you're 15 minutes late. What's up?", "response": "I got stuck in a traffic jam."}
+{"prompt": "May I have a cookie?", "response": "Help yourself."}
+{"prompt": "What's the matter?", "response": "Checking out, please."}
+{"prompt": "Mike, you're seventeen years old, right?", "response": "Yeah, Why?"}
+{"prompt": "Come in and sit down.", "response": "Thanks, Mr. Liang."}
+{"prompt": "Donna! How are you? It's good to hear your voice.", "response": "Thank you. Jack, it's always a pleasure doing business with you."}
+{"prompt": "Hi. I ’ m here for flight 514 returning to Beijing but the board shows there is a delay.How long of a delay is expected?", "response": "So far it looks like we will be leaving two hours late, but keep checking the departing flights status board just in case."}
+{"prompt": "I need to go to the ATM.", "response": "So, why don ’ t you?"}
+{"prompt": "Would you like something to drink?", "response": "Yes please. Do you have any teas?"}
+{"prompt": "I am so worried about this English contest. I have butterflies in my stomach now!", "response": "I have confidence in you. Believe in yourself."}
+{"prompt": "What would you like on your pizzas?", "response": "We want one vegetarian supreme and one double pepperoni."}
+{"prompt": "We are redecorating and I'm going to add some things.", "response": "Well, I'll be glad to help you out. We can deliver what you need to your office."}
+{"prompt": "Can you tell me the way to library?", "response": "Sure, turn left at the next crossing."}
+{"prompt": "Comfort Inn, may I help you?", "response": "I ’ m looking for a hotel near the convention center."}
+{"prompt": "I am sorry to trouble you, but there's a lot of noise in the next room.", "response": "Oh, is there? Which room is it?"}
+{"prompt": "A ticket to London, please.", "response": "A cheap day return ticket?"}
+{"prompt": "Doctor, what is the best way to stay healthy?", "response": "Having a good diet is probably the most important thing."}
+{"prompt": "Darling, I am back. What are you doing?", "response": "I am washing clothes. Are you hungry now? Wait for a moment, I'll cook dinner for you. ( Steven bends his brows )"}
+{"prompt": "Is there anything I can do for you?", "response": "Excuse me, can I change my order? I am afraid I don't have so much time to enjoy my dinner."}
+{"prompt": "Have you graduated now?", "response": "Yes. I graduated this past June."}
+{"prompt": "Once you arrive at the American airport, please call me.", "response": "OK, don ’ t worry about it. I will."}
+{"prompt": "Sorry, Mary, I can't make it in time for dinner.", "response": "Okay, Bob, when will I see you?"}
+{"prompt": "I am sorry, sir. I have broken the reading lamp in my room.", "response": "Well, sir. May I have your room number?"}
+{"prompt": "What are you doing?", "response": "I ’ m trying to put the vase on the shelf."}
+{"prompt": "Ahhchooo!", "response": "You've been sneezing a lot lately. Are you sick or something?"}
+{"prompt": "Let's have a look at the map first.", "response": "All right. Wukesong stop is quite a few stops from here."}
+{"prompt": "What do you do?", "response": "I'm an apprentice with a local engineering firm. My training lasts for two years. Two days a week I study Engineering at a local college. If I pass all my exams, I hope the company will take me on as an engineer."}
+{"prompt": "I want to keep a pet, but I don't know which one to buy?", "response": "Dogs are nice, but they are really energetic, and you need to make sure they get enough exercise every day."}
+{"prompt": "Can I be of any service to you?", "response": "I've been told that Chinese arts and crafts are famous for their excellent workmanship. We'd like to take some home. What would you recommend?"}
+{"prompt": "Hey, Mary. We're back. Have you eaten yet?", "response": "I had some bread for breakfast."}
+{"prompt": "Hi, my name is Sovia.What ’ s your name?", "response": "My name is Jeff."}
+{"prompt": "Oh, I'm starving. I'd like to try some real Chinese cuisine. What would you recommend, waiter?", "response": "Well, it depends. You see, there are eight famous Chinese for instance, the Sichuan cuisine, and the Hunan cuisine."}
+{"prompt": "hi, Isaiah. How are you?", "response": "I ’ m well. And you?"}
+{"prompt": "Ant Shirley, it's being years since we last met. How were you doing in the passing years?", "response": "Pretty well. What about you?"}
+{"prompt": "Merry Christmas, Bill.", "response": "Merry Christmas, Jina."}
+{"prompt": "There are so many eating utensils on the table. Which ones do I use first?", "response": "Use them from the outside in."}
+{"prompt": "It was nice talking to you.", "response": "Why are you trying to rush me off the phone?"}
+{"prompt": "Mom, will you have time to help me with my homework today?", "response": "Sorry, I won't. I'll be working against the clock to finish my presentation."}
+{"prompt": "Hello, Parker. How's everything?", "response": "Can't complain. And you?"}
+{"prompt": "Hi, where can I find a cheap cashmere sweater?", "response": "How about an outlet?"}
+{"prompt": "I have difficulty with this form. Will you please explain it to me?", "response": "Actually there is a sample over there. But if you still have a problem, let me know."}
+{"prompt": "Do you develop films here?", "response": "Yes, we shall. What size do you like?"}
+{"prompt": "What shall we do today?", "response": "We'd better stay in the hotel, because the tour will begin tomorrow."}
+{"prompt": "I was wondering if you need any help on your new project.", "response": "Sure! That would be great! Are you good at writing or would you rather do the computer work?"}
+{"prompt": "Janice, I can't find the document I was working on last month. Can you help me to look for it?", "response": "Susan, I'm sorry. Did you look up those files I requested?"}
+{"prompt": "What would you have?", "response": "I'll try Chinese wine."}
+{"prompt": "Are you planning on voting?", "response": "Yes. Are you?"}
+{"prompt": "I am sorry, I have broken my wine glass, and would you please bring me another?", "response": "Sure. I will clean the glasses for you."}
+{"prompt": "What's wrong, officer?", "response": "You do realize that you ran a red light, don't you?"}
+{"prompt": "Medicine Industry, this is Peter Bush speaking, can I help you?", "response": "Good afternoon, could you connect this call with Mr Brown, please"}
+{"prompt": "Mr. Li, I come to remind you of the meeting scheduled at 11 o'clock this morning.", "response": "Oh, that's right. And the general manager asked me to report the company's sales for last year at the meeting."}
+{"prompt": "Bob, would you come and help me?", "response": "Of course. What do you want me to do, Mom?"}
+{"prompt": "Excuse me. My name is Dan Ford. I have an appointment with the dentist at 3:30.", "response": "Yes, Mr. Ford. The dentist will be ready to see you in a minute. Have a seat."}
+{"prompt": "Isn't it past your bedtime already?", "response": "I am not sleepy."}
+{"prompt": "Now, Miss Childs passed on your resume to me and I ’ Ve had the chance to look it over and I must say I ’ m quite impressed.", "response": "Thank you very much. I ’ Ve tried to keep it short and clear. If there ’ s any questions please feel free to ask me."}
+{"prompt": "Can you tell me, Ms. Smith, about the training programs you initiated this year?", "response": "We ran a call center training service and language program to ensure that our customer service representatives are well trained."}
+{"prompt": "What are you reading?", "response": "Oh, it ’ s the latest novel by Ray Blue. It ’ s a sic-fi thriller."}
+{"prompt": "Doctor, I have the worst toothache!", "response": "How long have you had this pain?"}
+{"prompt": "Good evening.", "response": "Good evening.My wife and I would like a room, please.Is there any room available? We don't have a reservation."}
+{"prompt": "Let's go to the animal shelter.", "response": "What do you want to do?"}
+{"prompt": "Hello. I want to send the computer to my sister in Shanghai by logistics transport.", "response": "OK. Is it in the box? May I see it?"}
+{"prompt": "what happened? Why didn't he win?", "response": "didn't you hear? He was disqualified."}
+{"prompt": "I need to use the ATM.", "response": "What ’ s stopping you?"}
+{"prompt": "What are you doing? Checking the \" to do \" list for the wedding?", "response": "Yep. There's still so much to do!"}
+{"prompt": "It is my first time coming to China. I want to buy something unique of China to my friends as gifts.", "response": "We have a great variety of Chinese antiques and porcelain. Do you like them?"}
+{"prompt": "Can you make out what he's saying?", "response": "No, it's too loud in here."}
+{"prompt": "Hi, Nally, are you hungry?", "response": "I'm starving. Let's go grab a bite."}
+{"prompt": "Good morning, sir.", "response": "Good morning. I'd like a business suit made with this material."}
+{"prompt": "Oh, gosh! I feel everything around me is against me.", "response": "Don't take it too hard. There are some tips you should know in job-hunting of 2010."}
+{"prompt": "Look, Mary! There are so many people over there!", "response": "Oh, I remember, there is a job fair in the personnel market."}
+{"prompt": "Could you show me the T-shirt on the model?", "response": "Here you are. We have three different colors, white, blue and pink."}
+{"prompt": "Hello, again. Did you discuss everything with your colleagues?", "response": "Yes, yes. It seems that everything is settled."}
+{"prompt": "Which restaurant do you prefer?", "response": "I'd like to taste Mexican food."}
+{"prompt": "The numbers in this table don't seem to be in accord with reality.", "response": "I know, but these are the figures that we came up with."}
+{"prompt": "Oh, so the zoo is over there. Thank you so much for your help.", "response": "You ’ re welcome. Can I ask you what brings you to China?"}
+{"prompt": "Could you type up this document for me, Sandra?", "response": "Sure, but I have to finish this report first."}
+{"prompt": "Are you interested in mountaineering?", "response": "Yes, in some sense. I should say I like mountain climbing, you know, because I'm not so professional. How about you"}
+{"prompt": "Sir, what's wrong with you?", "response": "I have a spasm of nausea and dizziness."}
+{"prompt": "Hi Bill, it ’ s Jane.", "response": "Jane, I ’ m on the other line, can you hang on for a second?"}
+{"prompt": "Have you decided what you'd like?", "response": "Yes. First I'll have tomato juice."}
+{"prompt": "Good morning, Madam. What can I do for you?", "response": "Can you show me some traditional Chinese arts and crafts?"}
+{"prompt": "Good morning.Mrs.Smith.", "response": "Good morning! Can you help me, please? I'm looking for some books for my mother."}
+{"prompt": "Hey, Jimmy, you've been sitting in front of the TV all day. Anything interesting on TV?", "response": "Not really. Quite boring right now, actually. Mostly infomercials and public service announcements."}
+{"prompt": "Hello, hot water overflowed from the bathtub. Would you help me?", "response": "Would you turn off the tap?"}
+{"prompt": "Hi. I'm looking for a gift for my niece.", "response": "Well, little girls seem to love Barbie dolls."}
+{"prompt": "Please put your baggage on the counter and open it, let me have a look.", "response": "Yes, sir. Please examine it."}
+{"prompt": "So that concludes the introduction. Now let's move to the first part of my talk, which is about 2006 fiscal year marketing plan. So first, right off the bat, When looking at the marketing plan, tell me some of the goals that we had set this year to begin with...", "response": "We wanted to appeal to a younger set of consumers and also, in line with that goal, redo our image..."}
+{"prompt": "Excuse me, sir, may I talk to you?", "response": "Bill! Sure, come on in. What can I do for you?"}
+{"prompt": "Are you going to vote on Tuesday?", "response": "Of course. How about you?"}
+{"prompt": "Did you see the picture of the guy on the front page of the newspaper this morning?", "response": "No. I haven't had a chance to read the paper yet."}
+{"prompt": "Excuse me. We're leaving today. I'd like to pay our bills now.", "response": "OK. By the way, I'd like to tell you that the check-out time is 12"}
+{"prompt": "I'm not sure about how to operate the washer and dryer.", "response": "What's the problem?"}
+{"prompt": "Dad, can you lend me some money?", "response": "What for?"}
+{"prompt": "How much money do you expect in this position?", "response": "With my experience, I'd like to start at 3,000 RIB per month."}
+{"prompt": "Could you help me with these books?", "response": "My hands are full. Can ’ t you see that?"}
+{"prompt": "I firmly believe that if we invested in funds we could earn a lot of money.", "response": "All wet.You are such a fool."}
+{"prompt": "How long do we stop over here?", "response": "2 hours."}
+{"prompt": "Do you have anything to declare?", "response": "I have a camera and three bottles of whisky."}
+{"prompt": "The skirt looks beautiful. Can I try it on?", "response": "Of course."}
+{"prompt": "I want to reserve rooms for my colleagues.", "response": "What kind of rooms do you want?"}
+{"prompt": "Hi! Fiona? I almost didn't recognize you. You are much thinner since I last saw you.", "response": "Yes. I have lost about ten kilos."}
+{"prompt": "Excuse me. Can I open a postal savings account in your office?", "response": "Of course. What kind of postal savings account do you want to open?"}
+{"prompt": "What kind of cuisine do you have?", "response": "We have Sichuan food, Hangzhou food and Beijing Food. Which do you like best?"}
+{"prompt": "Excuse me, is there a department store near here?", "response": "Yes, there ’ s a department store in Wang Fu Jing."}
+{"prompt": "How much is it to rent an economy car?", "response": "$ 19 a day or $ 129 a week, unlimited mileage."}
+{"prompt": "Why is there water all over the bathroom floor?", "response": "I'm sorry - it's my fault. I was filling the bathtub and I left the water running too long, so it overflowed."}
+{"prompt": "Try it on in front of the mirror.", "response": "Well, I think the color is a little too bright."}
+{"prompt": "Steven, you are always looking in good shape. How do you keep it?", "response": "I pay much attention to my daily diet. You know good eating habits help to fortify the body against disease."}
+{"prompt": "Emergency road service. May I help you?", "response": "I have a flat tyre."}
+{"prompt": "How do you do, Mr. Johnson? I'm Thomas.", "response": "How do you do?"}
+{"prompt": "Excuse me, could you tell me where Peking University is on this map?", "response": "Let me see. Here it is."}
+{"prompt": "We are interested in some precision machine tools. We have some inquires on hand.", "response": "That's fine. We can supply all kinds of precision machine tools. Our products are much admired in the world market and enjoy a wide acceptance in modern industry."}
+{"prompt": "Can I take your order now, Madam?", "response": "Yes, what would you recommend?"}
+{"prompt": "Look, here is a very special business card from an illustrator. Every time I go through my book of business cards, I will notice it. It is an eye-catching one.", "response": "Wow, fantastic. I like the font and color for his name. It is creative yet personal."}
+{"prompt": "Excuse me. This bus goes downtown, doesn't it?", "response": "Yes. Where do you want to go?"}
+{"prompt": "Hi, I need a hotel room.", "response": "That's no problem at all. May I have your name, please?"}
+{"prompt": "do you like animals?", "response": "yes, doesn't everyone?"}
+{"prompt": "have you moved into your new house yet, Michael?", "response": "we just moved in yesterday, actually."}
+{"prompt": "We have achieved great success last year.The most important is that we realize our strength lies in after-sale service.", "response": "Your achievement is obvious to all."}
+{"prompt": "A cup of coffee sounds good, doesn't it?", "response": "Yes, but I think I'll have orange juice first."}
+{"prompt": "They're here! Now that's speedy service! And they arrived within two days of each other!", "response": "What are you waiting for? Rip ‘ em open!"}
+{"prompt": "What's the side dish that you're making for dinner?", "response": "I'm not sure. I was thinking of making a vegetable."}
+{"prompt": "How slowly you drive!", "response": "I'm sorry. Something is wrong with my taxi."}
+{"prompt": "Mom, where are you going?", "response": "I am going to buy some food to cook for supper."}
+{"prompt": "These goods can be broken very easily, so we would be thankful if you would be sure to use durable packing materials.", "response": "That will be no problem. We never use any kind of inferior packaging. Your goods will be safe."}
+{"prompt": "Our Afghan customers wanna buy China's tea. I am thinking of placing an order with you.", "response": "Which tea do you prefer, black or jasmine tea?"}
+{"prompt": "Hello, how are you doing today?", "response": "I ’ Ve been having trouble breathing lately."}
+{"prompt": "I have a reservation for a single with bath.", "response": "We are sorry, but single rooms have been occupied."}
+{"prompt": "How many candidates do you choose for the first round?", "response": "I have chosen 15 candidates. The first round interview is tomorrow."}
+{"prompt": "What is the annual salary for this job?", "response": "The annual salary is sixty-five thousand dollars per year."}
+{"prompt": "Welcome to IBA Bank, how can we be of service?", "response": "I spoke to a girl named Claire on the phone; it's about losing my card and everything."}
+{"prompt": "Hey, young lady, get back here and have some breakfast.", "response": "Dad! I don't have time! I'll be late for school!"}
+{"prompt": "I'm getting a tattoo tomorrow.", "response": "Are you nuts?"}
+{"prompt": "John, I'm sorry, the air tickets for the International Day are sold out.", "response": "Really? I didn't expect that."}
+{"prompt": "Can you tell me where it hurts?", "response": "I am so glad they called you. It feels like something is really wrong with my stomach!"}
+{"prompt": "Good morning, sir. Can I help you?", "response": "Yes, I need to check-in for the eleven 20 flight to New York, please."}
+{"prompt": "Let's come to an agreement to salary.", "response": "May I see the agreement first?"}
+{"prompt": "What do you do besides work and watching TV?", "response": "When I have some time, I like to exercise."}
+{"prompt": "May we see the wine list please?", "response": "Sure. Our special wine today is a 1989 Chardonnay."}
+{"prompt": "OK, let's find somebody then.", "response": "Good. I'll take care of it."}
+{"prompt": "May I help you?", "response": "I needed to ask you a question."}
+{"prompt": "Peter, go and tidy up your toys now.", "response": "Wait a moment, mom."}
+{"prompt": "Excuse me. Do you speak English?", "response": "Yes, I do. How can I help you?"}
+{"prompt": "Good Morning. What can I do for you?", "response": "Good Morning, I have a bad cough, and I want to see an internist."}
+{"prompt": "Hey there Chris, what are you up to?", "response": "I'm just poring over some brochures about various car models."}
+{"prompt": "Can I help you?", "response": "I'd like to send a fax to Shenzhen."}
+{"prompt": "Good morning, can I see your passport, please?", "response": "Here you are."}
+{"prompt": "Take care, Peter. Don't run so fast. Are you tired?", "response": "Oh, yes. May I sit on the grass?"}
+{"prompt": "I'd like a double room.", "response": "Do you have a reservation?"}
+{"prompt": "I need to find a bus that'll take me to the Gold Line.", "response": "Where do you live?"}
+{"prompt": "Do you think we can go driving right now?", "response": "Yeah, sure. Let's go."}
+{"prompt": "I'm after some chinese incense burner? How's this one?", "response": "How's this one?"}
+{"prompt": "Hello. This is the Holiday Inn. Can I help you?", "response": "Hi. Is there a special rate for a group reservation?"}
+{"prompt": "How much further do we have to walk?", "response": "It's about 3 kilometers."}
+{"prompt": "I need your help.", "response": "Oh, what's up?"}
+{"prompt": "Do you have a swimming pool in this hotel?", "response": "We don't have a swimming pool, sir, but we do have swim stations in the gym."}
+{"prompt": "Excuse me, Bill?", "response": "Hi, Christine. How ’ s it going?"}
+{"prompt": "Sir, may I help you?", "response": "Yes, I want to book a room."}
+{"prompt": "I'd like to buy a bottle of Centrum, a dozen tooth brushes, some baby's wipes, and a small bottle of aspirin.", "response": "Centrum? We have bottles of thirty and one hundred tablets. Which kind do you want?"}
+{"prompt": "Excuse me, did you see a set of keys?", "response": "What kind of keys?"}
+{"prompt": "Good coming, sir. What can I do for you?", "response": "Good coming. I would like to open a new account. I want to deposit 500 dollars."}
+{"prompt": "Good morning, Mr. Smith. Welcome to Wuhan.", "response": "Good morning!"}
+{"prompt": "Excuse me! What time is it? My watch stopped.", "response": "Let me see. It's 9"}
+{"prompt": "Good afternoon. Can I help you?", "response": "I'd like to leave this bag with you."}
+{"prompt": "The ATM machine outside won't give me back my card.", "response": "Let's go take a look at it. Do you have your ID with you?"}
+{"prompt": "What's the name of the girl that has just passed us?", "response": "Her name is Rose.Why?"}
+{"prompt": "Excuse me, sir. Are there only 3 programs in your hotel?", "response": "Of course not. We have 50 channels in all."}
+{"prompt": "How do you feel?", "response": "I'm getting sleepy."}
+{"prompt": "Good afternoon, Peace restaurant, may I help you?", "response": "I'd like to reserve a table for two, my wife and I."}
+{"prompt": "Good morning, May. Good girl, you are reading English books again.", "response": "Good morning. There is no reason to miss so beautiful a morning. Is that a new bird?"}
+{"prompt": "my mp3 player is broken, so I want to change it for an mp4 player. Can you offer any advice about which brand and model to buy?", "response": "an mp4 player? why don't you buy a new cell phone? You can find an mp4 player inside any of the latest cell phones."}
+{"prompt": "What can I get you?", "response": "A cheeseburger and an order of french fries would be great."}
+{"prompt": "Mr. Bryant? Hi, I'm Mike from Florence Incorporated. I'll glad you made it okay. How was your flight?", "response": "It was pretty bumpy, also a bit long, all together about 5 hours."}
+{"prompt": "Watch out! It's dark over there.", "response": "That's all right. I can manage."}
+{"prompt": "Happy Birthday, this is for you, Brian.", "response": "I'm so happy you remember, please come in and enjoy the party. Everyone's here, I'm sure you have a good time."}
+{"prompt": "I'm going to buy a new living room set.", "response": "Where are you going to buy one?"}
+{"prompt": "What do we need to get from the supermarket?", "response": "We need lots of things. I ’ ll make a list. We need a bag of sugar, a loaf of bread and a crate of beer."}
+{"prompt": "We want to order some of these products.", "response": "Mr. Thomas, this is a standard size."}
+{"prompt": "What's on TV tonight?", "response": "Nothing special."}
+{"prompt": "What's the weather like in Britain?", "response": "It's wet and rains a lot.But right now it's the golden season to take a tour there. It is fine there almost everyday."}
+{"prompt": "Look! They're going to do the first drawing! It's for a DVD player!", "response": "Hmm. That must be the DVD player that another one of my friends donated. He owns one of the largest electronics stores in Taipei!"}
+{"prompt": "Any questions?", "response": "When will I know your decision?"}
+{"prompt": "How much is it to rent an economy car?", "response": "¥ 200 a day or ¥ 1200 a week, unlimited mileage."}
+{"prompt": "Is this the central park to East Market bus?", "response": "This is the East market to Central park bus. Where do you want to go?"}
+{"prompt": "Good morning, sir. Are you checking out now?", "response": "Yes. Steven Smith, room 609."}
+{"prompt": "Hello, who is speaking?", "response": "Hello, this is John. I want to speak to Linda."}
+{"prompt": "I'm so sorry about your brother, Mr. Wang.", "response": "Thanks, Jane."}
+{"prompt": "Hi, Jeny.Are still working?", "response": "Hi, Nacy.Come in please. I'm just putting away on my books."}
+{"prompt": "Welcome, sir. What can I do for you?", "response": "May I have a look at that china tea set? It is extremely beautiful."}

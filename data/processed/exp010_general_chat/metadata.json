@@ -1,0 +1,124 @@
+{
+  "experiment": "Exp010 general conversation",
+  "seed": 42,
+  "counts": {
+    "train": 3000,
+    "val": 500,
+    "test": 500
+  },
+  "category_counts": {
+    "train": {
+      "acknowledgement": 150,
+      "agreement": 150,
+      "apologies": 150,
+      "asking_for_help": 150,
+      "casual_questions": 150,
+      "conversational_followup": 150,
+      "daily_activities": 150,
+      "disagreement": 150,
+      "encouragement": 150,
+      "farewell": 150,
+      "good_morning": 150,
+      "good_night": 150,
+      "greetings": 150,
+      "introductions": 150,
+      "negative_emotions": 150,
+      "offering_help": 150,
+      "positive_emotions": 150,
+      "small_talk": 150,
+      "thanks": 150,
+      "wellbeing": 150
+    },
+    "val": {
+      "acknowledgement": 25,
+      "agreement": 25,
+      "apologies": 25,
+      "asking_for_help": 25,
+      "casual_questions": 25,
+      "conversational_followup": 25,
+      "daily_activities": 25,
+      "disagreement": 25,
+      "encouragement": 25,
+      "farewell": 25,
+      "good_morning": 25,
+      "good_night": 25,
+      "greetings": 25,
+      "introductions": 25,
+      "negative_emotions": 25,
+      "offering_help": 25,
+      "positive_emotions": 25,
+      "small_talk": 25,
+      "thanks": 25,
+      "wellbeing": 25
+    },
+    "test": {
+      "acknowledgement": 25,
+      "agreement": 25,
+      "apologies": 25,
+      "asking_for_help": 25,
+      "casual_questions": 25,
+      "conversational_followup": 25,
+      "daily_activities": 25,
+      "disagreement": 25,
+      "encouragement": 25,
+      "farewell": 25,
+      "good_morning": 25,
+      "good_night": 25,
+      "greetings": 25,
+      "introductions": 25,
+      "negative_emotions": 25,
+      "offering_help": 25,
+      "positive_emotions": 25,
+      "small_talk": 25,
+      "thanks": 25,
+      "wellbeing": 25
+    }
+  },
+  "rejected": {},
+  "duplicate_counts": {
+    "total": 0,
+    "prompts": 0,
+    "prompt_response_pairs": 0
+  },
+  "character_statistics": {
+    "train": {
+      "count": 3000,
+      "prompt_min": 32,
+      "prompt_max": 121,
+      "prompt_average": 71.55833333333334,
+      "response_min": 27,
+      "response_max": 95,
+      "response_average": 50.01
+    },
+    "val": {
+      "count": 500,
+      "prompt_min": 45,
+      "prompt_max": 111,
+      "prompt_average": 79.408,
+      "response_min": 53,
+      "response_max": 91,
+      "response_average": 72.752
+    },
+    "test": {
+      "count": 500,
+      "prompt_min": 47,
+      "prompt_max": 122,
+      "prompt_average": 86.296,
+      "response_min": 63,
+      "response_max": 90,
+      "response_average": 75.508
+    }
+  },
+  "tokenization": {
+    "context_length": 256,
+    "examples_exceeding_context": 0,
+    "examples_requiring_truncation": 0,
+    "tokenized_min": 35,
+    "tokenized_max": 95,
+    "tokenized_average": 63.61375,
+    "vocabulary_size": 10000
+  },
+  "no_exact_prompt_overlap": true,
+  "no_exact_prompt_response_overlap": true,
+  "test_examples_are_held_out_templates": true
+}

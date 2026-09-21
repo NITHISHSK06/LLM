@@ -27,6 +27,29 @@ class ModelConfig:
 	checkpoint_interval: int = 1_000
 	seed: int = 42
 
+	@classmethod
+	def exp012_capacity(cls) -> ModelConfig:
+		"""Return the isolated Exp012 approximately 25.5M model configuration."""
+		return cls(
+			vocab_size=10_000,
+			context_length=256,
+			embedding_dim=384,
+			num_layers=10,
+			num_heads=8,
+			ffn_dim=1_536,
+			dropout=0.1,
+			batch_size=8,
+			learning_rate=3e-4,
+			instruction_learning_rate=2e-5,
+			weight_decay=0.1,
+			max_iterations=30_000,
+			eval_interval=500,
+			eval_iterations=20,
+			gradient_clip=1.0,
+			checkpoint_interval=1_000,
+			seed=42,
+		)
+
 	def validate(self) -> None:
 		"""Validate dimensions and training values before constructing a model."""
 		self.__post_init__()

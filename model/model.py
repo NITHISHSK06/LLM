@@ -32,6 +32,16 @@ class DecoderLanguageModel(nn.Module):
 	def parameter_count(self) -> int:
 		return sum(parameter.numel() for parameter in self.parameters())
 
+	def parameter_breakdown(self) -> dict[str, int]:
+		"""Return trainable parameter counts for the model's major components."""
+		return {
+			"token_embedding": sum(parameter.numel() for parameter in self.token_embedding.parameters() if parameter.requires_grad),
+			"positional_embedding": sum(parameter.numel() for parameter in self.position_embedding.parameters() if parameter.requires_grad),
+			"transformer_blocks": sum(parameter.numel() for parameter in self.blocks.parameters() if parameter.requires_grad),
+			"final_layer_norm": sum(parameter.numel() for parameter in self.final_norm.parameters() if parameter.requires_grad),
+			"language_model_head": sum(parameter.numel() for parameter in self.language_model_head.parameters() if parameter.requires_grad),
+		}
+
 	def forward(
 		self,
 		input_ids: torch.Tensor,

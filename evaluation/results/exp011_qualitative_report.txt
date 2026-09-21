@@ -1,0 +1,91 @@
+Exp011 qualitative comparison analysis
+Examples analyzed: 1000
+
+Duplicate and possible template behavior
+exp006: 129 duplicate groups, 378 examples in duplicate groups, most frequent count=14
+exp010: 56 duplicate groups, 960 examples in duplicate groups, most frequent count=267
+exp011: 173 duplicate groups, 798 examples in duplicate groups, most frequent count=36
+
+Category statistics
+acknowledgement (50 examples)
+  exp006: avg_length=124.66, repetition_rate=1.000, heuristic_relevance=0.000
+  exp010: avg_length=37.88, repetition_rate=0.180, heuristic_relevance=0.700
+  exp011: avg_length=68.28, repetition_rate=0.080, heuristic_relevance=0.180
+agreement (50 examples)
+  exp006: avg_length=116.98, repetition_rate=0.960, heuristic_relevance=0.380
+  exp010: avg_length=36.88, repetition_rate=0.180, heuristic_relevance=0.000
+  exp011: avg_length=69.26, repetition_rate=0.060, heuristic_relevance=0.000
+apologies (50 examples)
+  exp006: avg_length=109.42, repetition_rate=0.960, heuristic_relevance=0.000
+  exp010: avg_length=35.64, repetition_rate=0.220, heuristic_relevance=0.360
+  exp011: avg_length=73.32, repetition_rate=0.040, heuristic_relevance=0.000
+asking_for_help (50 examples)
+  exp006: avg_length=116.94, repetition_rate=0.980, heuristic_relevance=0.160
+  exp010: avg_length=37.16, repetition_rate=0.200, heuristic_relevance=0.020
+  exp011: avg_length=70.76, repetition_rate=0.180, heuristic_relevance=0.000
+casual_questions (50 examples)
+  exp006: avg_length=109.50, repetition_rate=0.900, heuristic_relevance=0.000
+  exp010: avg_length=34.06, repetition_rate=0.040, heuristic_relevance=0.000
+  exp011: avg_length=72.24, repetition_rate=0.060, heuristic_relevance=0.040
+conversational_followup (50 examples)
+  exp006: avg_length=102.52, repetition_rate=0.860, heuristic_relevance=0.100
+  exp010: avg_length=35.06, repetition_rate=0.200, heuristic_relevance=0.000
+  exp011: avg_length=72.74, repetition_rate=0.040, heuristic_relevance=0.620
+daily_activities (50 examples)
+  exp006: avg_length=117.18, repetition_rate=0.980, heuristic_relevance=0.000
+  exp010: avg_length=34.20, repetition_rate=0.120, heuristic_relevance=0.000
+  exp011: avg_length=74.84, repetition_rate=0.000, heuristic_relevance=0.000
+disagreement (50 examples)
+  exp006: avg_length=118.90, repetition_rate=1.000, heuristic_relevance=0.000
+  exp010: avg_length=36.84, repetition_rate=0.100, heuristic_relevance=0.000
+  exp011: avg_length=72.24, repetition_rate=0.060, heuristic_relevance=0.000
+encouragement (50 examples)
+  exp006: avg_length=117.16, repetition_rate=0.980, heuristic_relevance=0.020
+  exp010: avg_length=38.54, repetition_rate=0.200, heuristic_relevance=0.000
+  exp011: avg_length=75.02, repetition_rate=0.400, heuristic_relevance=0.100
+farewell (50 examples)
+  exp006: avg_length=113.28, repetition_rate=0.940, heuristic_relevance=0.000
+  exp010: avg_length=38.98, repetition_rate=0.320, heuristic_relevance=0.420
+  exp011: avg_length=78.16, repetition_rate=0.200, heuristic_relevance=0.000
+good_morning (50 examples)
+  exp006: avg_length=117.04, repetition_rate=0.920, heuristic_relevance=0.100
+  exp010: avg_length=36.10, repetition_rate=0.140, heuristic_relevance=0.000
+  exp011: avg_length=90.60, repetition_rate=0.180, heuristic_relevance=0.680
+good_night (50 examples)
+  exp006: avg_length=119.00, repetition_rate=0.980, heuristic_relevance=0.000
+  exp010: avg_length=40.30, repetition_rate=0.280, heuristic_relevance=0.000
+  exp011: avg_length=94.38, repetition_rate=0.260, heuristic_relevance=0.980
+greetings (50 examples)
+  exp006: avg_length=116.30, repetition_rate=0.920, heuristic_relevance=0.160
+  exp010: avg_length=40.48, repetition_rate=0.400, heuristic_relevance=0.000
+  exp011: avg_length=92.84, repetition_rate=0.380, heuristic_relevance=0.000
+introductions (50 examples)
+  exp006: avg_length=114.18, repetition_rate=1.000, heuristic_relevance=0.000
+  exp010: avg_length=35.48, repetition_rate=0.200, heuristic_relevance=0.620
+  exp011: avg_length=81.14, repetition_rate=0.220, heuristic_relevance=0.000
+negative_emotions (50 examples)
+  exp006: avg_length=117.50, repetition_rate=0.980, heuristic_relevance=0.000
+  exp010: avg_length=36.60, repetition_rate=0.180, heuristic_relevance=0.380
+  exp011: avg_length=81.30, repetition_rate=0.120, heuristic_relevance=0.000
+offering_help (50 examples)
+  exp006: avg_length=111.04, repetition_rate=0.980, heuristic_relevance=0.020
+  exp010: avg_length=35.74, repetition_rate=0.140, heuristic_relevance=0.140
+  exp011: avg_length=74.66, repetition_rate=0.200, heuristic_relevance=0.080
+positive_emotions (50 examples)
+  exp006: avg_length=113.76, repetition_rate=0.900, heuristic_relevance=0.100
+  exp010: avg_length=41.74, repetition_rate=0.460, heuristic_relevance=0.840
+  exp011: avg_length=78.04, repetition_rate=0.320, heuristic_relevance=0.400
+small_talk (50 examples)
+  exp006: avg_length=118.58, repetition_rate=0.960, heuristic_relevance=0.100
+  exp010: avg_length=36.20, repetition_rate=0.220, heuristic_relevance=0.000
+  exp011: avg_length=74.10, repetition_rate=0.100, heuristic_relevance=0.320
+thanks (50 examples)
+  exp006: avg_length=110.88, repetition_rate=0.960, heuristic_relevance=0.000
+  exp010: avg_length=36.52, repetition_rate=0.120, heuristic_relevance=0.800
+  exp011: avg_length=77.38, repetition_rate=0.160, heuristic_relevance=0.220
+wellbeing (50 examples)
+  exp006: avg_length=115.58, repetition_rate=0.940, heuristic_relevance=0.000
+  exp010: avg_length=36.60, repetition_rate=0.200, heuristic_relevance=0.000
+  exp011: avg_length=76.04, repetition_rate=0.060, heuristic_relevance=0.540
+
+Representative examples are available in the JSON artifact.

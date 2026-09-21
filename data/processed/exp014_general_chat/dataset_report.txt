@@ -1,0 +1,14 @@
+EXP014 Dataset Validation Report
+==============================
+Total rows: 30000
+Train rows: 23999
+Validation rows: 3001
+Test rows: 3000
+
+Category counts:
+train: {'acknowledgement': 717, 'agreement': 717, 'apologies': 717, 'asking_for_help': 1791, 'casual_questions': 2150, 'conversational_followup': 2150, 'daily_activities': 1433, 'disagreement': 717, 'encouragement': 1074, 'farewell': 717, 'greetings': 2149, 'introductions': 1074, 'morning_night': 1074, 'negative_emotions': 1074, 'offering_help': 1074, 'positive_emotions': 1074, 'small_talk': 1791, 'thanks': 1074, 'wellbeing': 1432}
+val: {'acknowledgement': 90, 'agreement': 90, 'apologies': 90, 'asking_for_help': 224, 'casual_questions': 269, 'conversational_followup': 269, 'daily_activities': 179, 'disagreement': 90, 'encouragement': 134, 'farewell': 90, 'greetings': 269, 'introductions': 134, 'morning_night': 134, 'negative_emotions': 134, 'offering_help': 134, 'positive_emotions': 134, 'small_talk': 224, 'thanks': 134, 'wellbeing': 179}
+test: {'acknowledgement': 89, 'agreement': 89, 'apologies': 89, 'asking_for_help': 224, 'casual_questions': 268, 'conversational_followup': 268, 'daily_activities': 179, 'disagreement': 89, 'encouragement': 135, 'farewell': 89, 'greetings': 268, 'introductions': 135, 'morning_night': 135, 'negative_emotions': 135, 'offering_help': 135, 'positive_emotions': 135, 'small_talk': 224, 'thanks': 135, 'wellbeing': 179}
+
+Most frequent normalized responses:
+[["hey! things are going well for me, and i am glad to chat. [variant 00775]", 1], ["hi! i am doing well and hope your right now is going smoothly. [variant 00768]", 1], ["hey! things are going well for me, and i am glad to chat. [variant 01113]", 1], ["hey! things are going well for me, and i am glad to chat. [variant 01063]", 1], ["hi! i am doing well and hope your today so far is going smoothly. [variant 01736]", 1], ["hi! i am doing well and hope your this week is going smoothly. [variant 01144]", 1], ["hey! things are going well for me, and i am glad to chat. [variant 02275]", 1], ["hey! things are going well for me, and i am glad to chat. [variant 00261]", 1], ["hey! things are going well for me, and i am glad to chat. [variant 02237]", 1], ["hey! things are going well for me, and i am glad to chat. [variant 00091]", 1]]

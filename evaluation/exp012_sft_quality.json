@@ -1,0 +1,15 @@
+{
+  "checkpoint": "checkpoints\\exp012_capacity_25m_sft\\latest.pt",
+  "dataset_version": "prepared_instruction_data_v1",
+  "train_data": "data\\processed\\exp012_sft_quality\\instruction_train.jsonl",
+  "validation_data": "data\\processed\\exp012_sft_quality\\instruction_val.jsonl",
+  "output_dir": "checkpoints\\exp012_capacity_25m_sft_quality",
+  "learning_rate": 1e-05,
+  "batch_size": 8,
+  "max_iterations": 3000,
+  "eval_interval": 100,
+  "patience": 12,
+  "seed": 42,
+  "best_validation_loss": 1.4560166478157044,
+  "final_step": 2200
+}

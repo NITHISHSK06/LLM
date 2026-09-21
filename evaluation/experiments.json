@@ -1,15 +1,15 @@
 {
-  "checkpoint": "checkpoints\\exp007_dailydialog_clean\\best_model.pt",
+  "checkpoint": "checkpoints\\exp006_mixed_30k\\best_model.pt",
   "dataset_version": "prepared_instruction_data_v1",
-  "train_data": "data\\processed\\exp008\\instruction_train.jsonl",
-  "validation_data": "data\\processed\\exp008\\instruction_val.jsonl",
-  "output_dir": "checkpoints\\exp008_mixed_instruction",
+  "train_data": "data\\processed\\exp011_general_chat\\instruction_train.jsonl",
+  "validation_data": "data\\processed\\exp011_general_chat\\instruction_val.jsonl",
+  "output_dir": "checkpoints\\exp011_general_chat",
   "learning_rate": 2e-05,
   "batch_size": 8,
   "max_iterations": 5000,
   "eval_interval": 100,
-  "patience": 5,
+  "patience": 7,
   "seed": 42,
-  "best_validation_loss": 2.32352135181427,
-  "final_step": 1100
+  "best_validation_loss": 1.629407149553299,
+  "final_step": 1700
 }

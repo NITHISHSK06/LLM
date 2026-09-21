@@ -1,0 +1,3271 @@
+{
+  "input": "D:\\project\\LLM\\LLM\\evaluation\\results\\exp011_comparison.jsonl",
+  "example_count": 1000,
+  "methodology": {
+    "relevance": "Clearly relevant requires at least two category cues or one cue plus expected-response token overlap; partially relevant requires one cue or overlap; otherwise irrelevant.",
+    "repetition": "Matches the existing evaluator: repeated 3-word phrase, repeated unigram ratio above 0.35, or repeated bigram ratio above 0.30.",
+    "overly_short": "The three shortest responses per model.",
+    "unusually_long": "The three longest responses per model.",
+    "duplicate_normalization": "Casefolded alphanumeric text with punctuation and whitespace normalized."
+  },
+  "representative_examples": {
+    "exp006": {
+      "clearly_relevant": [
+        {
+          "index": 484,
+          "category": "greetings",
+          "prompt": "Hello! Hey, how is it going after a demanding morning",
+          "expected_response": "Good to see you. How are you doing? It is nice to have a moment to talk.",
+          "response": "€I have been a good thing to see the way of the world and the people are not to be able to be a good way to get the ",
+          "classification": "clearly_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 116
+        },
+        {
+          "index": 763,
+          "category": "positive_emotions",
+          "prompt": "I am delighted that my project went well after a demanding morning.",
+          "expected_response": "I am happy for you. What was the best part? I hope the good feeling lasts.",
+          "response": "I was a good deal of the world of the world and the world was the first time of the world. I was a great deal of the world of",
+          "classification": "clearly_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 125
+        },
+        {
+          "index": 138,
+          "category": "greetings",
+          "prompt": "Hi! Hey friend after a demanding morning",
+          "expected_response": "Hello! I am happy to see you. It is good to hear from you.",
+          "response": "€I have been a good deal to be a good way to get a good way to get a good and get to the other things to get a ",
+          "classification": "clearly_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 111
+        }
+      ],
+      "partially_relevant": [
+        {
+          "index": 10,
+          "category": "agreement",
+          "prompt": "Does it also seem to you that the change is useful after a demanding morning?",
+          "expected_response": "Yes, that is close to my own understanding of it. I am glad we see it similarly.",
+          "response": "The first time is the first time to be the first time to be the same time to be the same time to the same time to the same time ",
+          "classification": "partially_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 128
+        },
+        {
+          "index": 11,
+          "category": "agreement",
+          "prompt": "We appear to see this similarly; the earlier plan is better after a demanding morning.",
+          "expected_response": "That fits with how I have been thinking about it. I think that approach could work.",
+          "response": "the first time we have to be a good deal to be a good way to the right to the right to the right to the other side of the ",
+          "classification": "partially_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 122
+        },
+        {
+          "index": 29,
+          "category": "conversational_followup",
+          "prompt": "Which part of a new hobby after a demanding morning would you ask about next?",
+          "expected_response": "That sounds interesting; what part would you like to explore further? I would listen before offering an opinion.",
+          "response": "the first time you can be a good way to get a good and then you can see the next time to the next day. You can see that you",
+          "classification": "partially_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 123
+        }
+      ],
+      "irrelevant": [
+        {
+          "index": 1,
+          "category": "positive_emotions",
+          "prompt": "I cannot stop smiling about the weather cleared up after a demanding morning.",
+          "expected_response": "That is lovely news. I can hear how much it means to you. I wanted you to know about it.",
+          "response": "I am sure that I have to be a good deal to be able to be able to be able to be a good way to get a good way ",
+          "classification": "irrelevant",
+          "heuristic_relevance": false,
+          "repetition": false,
+          "response_length": 108
+        },
+        {
+          "index": 2,
+          "category": "encouragement",
+          "prompt": "I am losing confidence about meeting the deadline after a demanding morning.",
+          "expected_response": "It is understandable to feel unsure, but your effort already counts for a lot. The next step is enough for now.",
+          "response": "The first time is the first time to be the first time of the first time of the Earth is the first time to be the same time to the ",
+          "classification": "irrelevant",
+          "heuristic_relevance": false,
+          "repetition": false,
+          "response_length": 130
+        },
+        {
+          "index": 3,
+          "category": "asking_for_help",
+          "prompt": "Can we look at organizing these files after a demanding morning together?",
+          "expected_response": "Yes, we can figure it out together. We can adjust if something is unclear.",
+          "response": "€I have to be a good way to get a good deal to get a good chance to the right to the right to the right and the right ",
+          "classification": "irrelevant",
+          "heuristic_relevance": false,
+          "repetition": false,
+          "response_length": 118
+        }
+      ],
+      "repetitive": [
+        {
+          "index": 347,
+          "category": "negative_emotions",
+          "prompt": "Today has been rough because of an argument after a demanding morning.",
+          "expected_response": "I am sorry it has been so hard. Would talking about it help? I am trying to be patient with myself.",
+          "response": "the most common and the most common and the most common and the most common and the most common and the most common and the most common and the most ",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": true,
+          "response_length": 149
+        },
+        {
+          "index": 139,
+          "category": "disagreement",
+          "prompt": "I understand the point, but we have enough information after a demanding morning may not be so simple.",
+          "expected_response": "Perhaps, although I would prefer to compare the alternatives before deciding. I understand why the issue is not simple.",
+          "response": "I have to be able to be able to be able to be able to be able to be able to be able to be able to be able to ",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": true,
+          "response_length": 109
+        },
+        {
+          "index": 175,
+          "category": "encouragement",
+          "prompt": "I do not know whether I can get through learning the skill after a demanding morning.",
+          "expected_response": "Focus on the next manageable step rather than solving everything at once. You have handled difficult things before.",
+          "response": "I have to do that I have to do that I have to do that I have to do that I have to do that I have to do that ",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": true,
+          "response_length": 108
+        }
+      ],
+      "overly_short": [
+        {
+          "index": 119,
+          "category": "conversational_followup",
+          "prompt": "How could we keep a conversation going about a new hobby after a demanding morning?",
+          "expected_response": "A thoughtful question about the experience would keep the conversation moving. I like hearing how the situation developed.",
+          "response": "€",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 1
+        },
+        {
+          "index": 122,
+          "category": "conversational_followup",
+          "prompt": "How could we keep a conversation going about a change of plans after a demanding morning?",
+          "expected_response": "A thoughtful question about the experience would keep the conversation moving. I like hearing how the situation developed.",
+          "response": "€",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 1
+        },
+        {
+          "index": 293,
+          "category": "conversational_followup",
+          "prompt": "How could we keep a conversation going about a surprising conversation after a demanding morning?",
+          "expected_response": "A thoughtful question about the experience would keep the conversation moving. It sounds like there is more to the story.",
+          "response": "€",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 1
+        }
+      ],
+      "unusually_long": [
+        {
+          "index": 203,
+          "category": "asking_for_help",
+          "prompt": "Would you be able to lend a hand with a computer setting after a demanding morning?",
+          "expected_response": "Of course; let us start by clarifying the main problem. It helps to work through it together.",
+          "response": "The first time is a good step of the computer and the computer of the computer and the computer of the computer and the computer of the computer and the ",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 153
+        },
+        {
+          "index": 277,
+          "category": "asking_for_help",
+          "prompt": "I could use your advice on a computer setting after a demanding morning.",
+          "expected_response": "I can take a look. Tell me what you have already tried. I appreciate your patience.",
+          "response": "The first time is a good step of the computer and the computer of the computer and the computer of the computer and the computer of the computer and the ",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 153
+        },
+        {
+          "index": 347,
+          "category": "negative_emotions",
+          "prompt": "Today has been rough because of an argument after a demanding morning.",
+          "expected_response": "I am sorry it has been so hard. Would talking about it help? I am trying to be patient with myself.",
+          "response": "the most common and the most common and the most common and the most common and the most common and the most common and the most common and the most ",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 149
+        }
+      ]
+    },
+    "exp010": {
+      "clearly_relevant": [
+        {
+          "index": 354,
+          "category": "introductions",
+          "prompt": "A quick introduction: I am taking this class after a demanding morning.",
+          "expected_response": "Hello, I am pleased to meet you. I am glad we have been introduced.",
+          "response": "I am glad you have been happy to meet you.",
+          "classification": "clearly_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 42
+        },
+        {
+          "index": 671,
+          "category": "introductions",
+          "prompt": "A quick introduction: I am here for the first time after a demanding morning.",
+          "expected_response": "Hello, I am pleased to meet you. I am glad we have been introduced.",
+          "response": "I am glad you are going to meet you.",
+          "classification": "clearly_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 36
+        },
+        {
+          "index": 300,
+          "category": "thanks",
+          "prompt": "I am grateful that you helping with the boxes after a demanding morning.",
+          "expected_response": "You are welcome. I was glad to be useful. I am glad it helped.",
+          "response": "I am glad you are going to see you.",
+          "classification": "clearly_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 35
+        }
+      ],
+      "partially_relevant": [
+        {
+          "index": 299,
+          "category": "negative_emotions",
+          "prompt": "Things did not go well with a broken promise after a demanding morning.",
+          "expected_response": "I am here to listen, without trying to dismiss what happened. I am taking the situation one step at a time.",
+          "response": "I am sorry to meet you.",
+          "classification": "partially_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 23
+        },
+        {
+          "index": 857,
+          "category": "negative_emotions",
+          "prompt": "Things did not go well with a lonely evening after a demanding morning.",
+          "expected_response": "I am here to listen, without trying to dismiss what happened. I am taking the situation one step at a time.",
+          "response": "I am sorry to meet you.",
+          "classification": "partially_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 23
+        },
+        {
+          "index": 1,
+          "category": "positive_emotions",
+          "prompt": "I cannot stop smiling about the weather cleared up after a demanding morning.",
+          "expected_response": "That is lovely news. I can hear how much it means to you. I wanted you to know about it.",
+          "response": "I am glad you are going to see it.",
+          "classification": "partially_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 34
+        }
+      ],
+      "irrelevant": [
+        {
+          "index": 2,
+          "category": "encouragement",
+          "prompt": "I am losing confidence about meeting the deadline after a demanding morning.",
+          "expected_response": "It is understandable to feel unsure, but your effort already counts for a lot. The next step is enough for now.",
+          "response": "I am glad you have been happy to see you.",
+          "classification": "irrelevant",
+          "heuristic_relevance": false,
+          "repetition": false,
+          "response_length": 41
+        },
+        {
+          "index": 3,
+          "category": "asking_for_help",
+          "prompt": "Can we look at organizing these files after a demanding morning together?",
+          "expected_response": "Yes, we can figure it out together. We can adjust if something is unclear.",
+          "response": "I am glad I am glad I am glad I have been able to see it.",
+          "classification": "irrelevant",
+          "heuristic_relevance": false,
+          "repetition": false,
+          "response_length": 57
+        },
+        {
+          "index": 4,
+          "category": "greetings",
+          "prompt": "Hey there, Hello after a demanding morning.",
+          "expected_response": "Hey, it is nice to hear from you. What have you been up to?",
+          "response": "I am glad you are going to see you.",
+          "classification": "irrelevant",
+          "heuristic_relevance": false,
+          "repetition": false,
+          "response_length": 35
+        }
+      ],
+      "repetitive": [
+        {
+          "index": 974,
+          "category": "good_night",
+          "prompt": "I am winding down for the night at the end of the visit after a demanding morning.",
+          "expected_response": "Good night, and I hope you get the rest you need. I hope tomorrow starts gently.",
+          "response": "I am glad I am glad I am glad I am glad I am sorry.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": true,
+          "response_length": 51
+        },
+        {
+          "index": 48,
+          "category": "acknowledgement",
+          "prompt": "I should mention that the appointment moved after a demanding morning.",
+          "expected_response": "All right, I have taken note of that. I understand what needs to happen.",
+          "response": "I am glad I am glad I am glad I am sorry.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": true,
+          "response_length": 41
+        },
+        {
+          "index": 623,
+          "category": "acknowledgement",
+          "prompt": "I should mention that the message arrived after a demanding morning.",
+          "expected_response": "All right, I have taken note of that. That helps me plan the next step.",
+          "response": "I am glad I am glad I am glad I am sorry.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": true,
+          "response_length": 41
+        }
+      ],
+      "overly_short": [
+        {
+          "index": 472,
+          "category": "greetings",
+          "prompt": "How is it going, Hi again after a demanding morning?",
+          "expected_response": "Hello! What have you been up to? I hope things are going smoothly.",
+          "response": "I am glad to see you.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 21
+        },
+        {
+          "index": 298,
+          "category": "asking_for_help",
+          "prompt": "Would you be able to lend a hand with planning the trip after a demanding morning?",
+          "expected_response": "Of course; let us start by clarifying the main problem. It helps to work through it together.",
+          "response": "I am sorry to see you.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 22
+        },
+        {
+          "index": 429,
+          "category": "offering_help",
+          "prompt": "Would it be useful if I helped with setting up the room after a demanding morning?",
+          "expected_response": "That is kind; I will ask if I need an extra hand. It is kind of you to notice.",
+          "response": "I am sorry to see you.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 22
+        }
+      ],
+      "unusually_long": [
+        {
+          "index": 631,
+          "category": "disagreement",
+          "prompt": "I am not convinced that the deadline is flexible after a demanding morning.",
+          "expected_response": "That is possible, though I think we should consider more information first. There may be useful details to compare.",
+          "response": "I am glad I have been able to be sure that is a good way to be able to make it.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 79
+        },
+        {
+          "index": 612,
+          "category": "acknowledgement",
+          "prompt": "For your awareness, the form was submitted after a demanding morning.",
+          "expected_response": "Understood. Please tell me if anything else changes. Please share any further updates.",
+          "response": "I am glad I am glad I have been able to be sure that is a good way to do.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 73
+        },
+        {
+          "index": 282,
+          "category": "negative_emotions",
+          "prompt": "I feel discouraged after an argument after a demanding morning.",
+          "expected_response": "It makes sense that you feel discouraged after that. I hope tomorrow feels lighter.",
+          "response": "I am glad I am glad I am glad I am glad I have been able to see it.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 67
+        }
+      ]
+    },
+    "exp011": {
+      "clearly_relevant": [
+        {
+          "index": 52,
+          "category": "good_morning",
+          "prompt": "Morning! I hope things are going well today after a demanding morning.",
+          "expected_response": "Good morning! I hope today feels manageable and pleasant. I hope the day treats you kindly.",
+          "response": "Good night. I hope you feel comfortable with you. I hope you feel comfortable with the day feels.",
+          "classification": "clearly_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 97
+        },
+        {
+          "index": 527,
+          "category": "small_talk",
+          "prompt": "I noticed your weekend plans after a demanding morning; what do you think?",
+          "expected_response": "It has been a pleasant part of the day so far. It is an easy topic to enjoy.",
+          "response": "I have been so far? I hope you are going smoothly so far. I hope the day is going well.",
+          "classification": "clearly_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 87
+        },
+        {
+          "index": 691,
+          "category": "small_talk",
+          "prompt": "I noticed the morning commute after a demanding morning; what do you think?",
+          "expected_response": "It has been a pleasant part of the day so far. It is an easy topic to enjoy.",
+          "response": "I have been so far? I hope you are going smoothly so far. I hope the day is going well.",
+          "classification": "clearly_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 87
+        }
+      ],
+      "partially_relevant": [
+        {
+          "index": 92,
+          "category": "conversational_followup",
+          "prompt": "Can you respond naturally to someone describing a new project after a demanding morning?",
+          "expected_response": "I would invite them to share whichever part mattered most to them. I would let you decide where to take the story.",
+          "response": "I would be happy to hear that. I hope the next step is easier.",
+          "classification": "partially_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 62
+        },
+        {
+          "index": 122,
+          "category": "conversational_followup",
+          "prompt": "How could we keep a conversation going about a change of plans after a demanding morning?",
+          "expected_response": "A thoughtful question about the experience would keep the conversation moving. I like hearing how the situation developed.",
+          "response": "I am glad we can see it more than I am going well. I am glad we can talk about it.",
+          "classification": "partially_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 82
+        },
+        {
+          "index": 153,
+          "category": "conversational_followup",
+          "prompt": "Can you respond naturally to someone describing a change of plans after a demanding morning?",
+          "expected_response": "I would invite them to share whichever part mattered most to them. I would let you decide where to take the story.",
+          "response": "I would be happy to hear it more than I am glad. I hope you feel easier about.",
+          "classification": "partially_relevant",
+          "heuristic_relevance": true,
+          "repetition": false,
+          "response_length": 78
+        }
+      ],
+      "irrelevant": [
+        {
+          "index": 2,
+          "category": "encouragement",
+          "prompt": "I am losing confidence about meeting the deadline after a demanding morning.",
+          "expected_response": "It is understandable to feel unsure, but your effort already counts for a lot. The next step is enough for now.",
+          "response": "I am glad we can see it more than I am glad we can talk about. I am glad we can talk about it.",
+          "classification": "irrelevant",
+          "heuristic_relevance": false,
+          "repetition": false,
+          "response_length": 94
+        },
+        {
+          "index": 3,
+          "category": "asking_for_help",
+          "prompt": "Can we look at organizing these files after a demanding morning together?",
+          "expected_response": "Yes, we can figure it out together. We can adjust if something is unclear.",
+          "response": "I have worked at a time to hear it. I hope the day is going well.",
+          "classification": "irrelevant",
+          "heuristic_relevance": false,
+          "repetition": false,
+          "response_length": 65
+        },
+        {
+          "index": 4,
+          "category": "greetings",
+          "prompt": "Hey there, Hello after a demanding morning.",
+          "expected_response": "Hey, it is nice to hear from you. What have you been up to?",
+          "response": "Good night! I am glad you are going well. I hope you feel comfortable again.",
+          "classification": "irrelevant",
+          "heuristic_relevance": false,
+          "repetition": false,
+          "response_length": 76
+        }
+      ],
+      "repetitive": [
+        {
+          "index": 529,
+          "category": "encouragement",
+          "prompt": "I do not know whether I can get through returning to practice after a demanding morning.",
+          "expected_response": "Focus on the next manageable step rather than solving everything at once. You do not have to solve everything today.",
+          "response": "I would be glad to hear that. I would be glad to hear that. I would be glad to be useful.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": true,
+          "response_length": 89
+        },
+        {
+          "index": 606,
+          "category": "encouragement",
+          "prompt": "I do not know whether I can get through repairing the bike after a demanding morning.",
+          "expected_response": "Focus on the next manageable step rather than solving everything at once. You do not have to solve everything today.",
+          "response": "I would be glad to hear that. I would be glad to hear that. I would be glad to be useful.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": true,
+          "response_length": 89
+        },
+        {
+          "index": 733,
+          "category": "encouragement",
+          "prompt": "I do not know whether I can get through starting a new role after a demanding morning.",
+          "expected_response": "Focus on the next manageable step rather than solving everything at once. You have handled difficult things before.",
+          "response": "I would be glad to hear that. I would be glad to hear that. I would be glad to be useful.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": true,
+          "response_length": 89
+        }
+      ],
+      "overly_short": [
+        {
+          "index": 20,
+          "category": "daily_activities",
+          "prompt": "What has shopping for groceries after a demanding morning been like lately?",
+          "expected_response": "It has been going fairly well, although some days are busier than others. I try to leave room for changes.",
+          "response": "I have been so far? I hope the day is going well.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 49
+        },
+        {
+          "index": 44,
+          "category": "daily_activities",
+          "prompt": "What do you find useful about shopping for groceries after a demanding morning?",
+          "expected_response": "A little planning makes the activity easier to keep up with. A little preparation usually helps.",
+          "response": "I have been so far? I hope the day is going well.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 49
+        },
+        {
+          "index": 144,
+          "category": "casual_questions",
+          "prompt": "How do you feel about a relaxing weekend after a demanding morning?",
+          "expected_response": "I have mixed preferences, but I usually choose what feels relaxing. I would be interested in your answer too.",
+          "response": "I have been so far? I hope the day is going well.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 49
+        }
+      ],
+      "unusually_long": [
+        {
+          "index": 598,
+          "category": "greetings",
+          "prompt": "Hi! Hello after a demanding morning",
+          "expected_response": "Hello! I am happy to see you. It is good to hear from you.",
+          "response": "Good morning! I hope you are going well and I am glad you are going well. I hope you feel comfortable with the day is going.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 124
+        },
+        {
+          "index": 576,
+          "category": "greetings",
+          "prompt": "Hi! Hi after a demanding morning",
+          "expected_response": "Hello! I am happy to see you. I hope your day is going well.",
+          "response": "Good night! I hope you are going well and I am glad you are going well. I hope you feel comfortable with the day is going.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 122
+        },
+        {
+          "index": 941,
+          "category": "greetings",
+          "prompt": "Hello! Hi after a demanding morning",
+          "expected_response": "Good to see you. How are you doing? I am glad we crossed paths.",
+          "response": "Good night! I hope you are going well and I am glad you are going well. I hope you feel comfortable with a little easier.",
+          "classification": null,
+          "heuristic_relevance": null,
+          "repetition": false,
+          "response_length": 121
+        }
+      ]
+    }
+  },
+  "category_representatives": {
+    "positive_emotions": {
+      "index": 1,
+      "prompt": "I cannot stop smiling about the weather cleared up after a demanding morning.",
+      "expected_response": "That is lovely news. I can hear how much it means to you. I wanted you to know about it.",
+      "exp006_response": "I am sure that I have to be a good deal to be able to be able to be able to be a good way to get a good way ",
+      "exp010_response": "I am glad you are going to see it.",
+      "exp011_response": "I am glad we can see it more than I am glad we can see it more. I hope we can talk about it."
+    },
+    "encouragement": {
+      "index": 2,
+      "prompt": "I am losing confidence about meeting the deadline after a demanding morning.",
+      "expected_response": "It is understandable to feel unsure, but your effort already counts for a lot. The next step is enough for now.",
+      "exp006_response": "The first time is the first time to be the first time of the first time of the Earth is the first time to be the same time to the ",
+      "exp010_response": "I am glad you have been happy to see you.",
+      "exp011_response": "I am glad we can see it more than I am glad we can talk about. I am glad we can talk about it."
+    },
+    "asking_for_help": {
+      "index": 3,
+      "prompt": "Can we look at organizing these files after a demanding morning together?",
+      "expected_response": "Yes, we can figure it out together. We can adjust if something is unclear.",
+      "exp006_response": "€I have to be a good way to get a good deal to get a good chance to the right to the right to the right and the right ",
+      "exp010_response": "I am glad I am glad I am glad I have been able to see it.",
+      "exp011_response": "I have worked at a time to hear it. I hope the day is going well."
+    },
+    "greetings": {
+      "index": 4,
+      "prompt": "Hey there, Hello after a demanding morning.",
+      "expected_response": "Hey, it is nice to hear from you. What have you been up to?",
+      "exp006_response": "The first time was a great deal of the first time in the summer century. The first time was the first time of the first time in the early ",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "Good night! I am glad you are going well. I hope you feel comfortable again."
+    },
+    "good_morning": {
+      "index": 5,
+      "prompt": "Morning! I hope things are going well when you arrive after a demanding morning.",
+      "expected_response": "Good morning! I hope today feels manageable and pleasant. It is nice to begin the day positively.",
+      "exp006_response": "I have to have a good idea of the world and the best to be a good way to do with the right to the right to the right and ",
+      "exp010_response": "I am sorry to meet you.",
+      "exp011_response": "Good night. I hope you feel comfortable with you. I hope you can enjoy the day feel."
+    },
+    "introductions": {
+      "index": 6,
+      "prompt": "We have not met before; my name is Riley after a demanding morning.",
+      "expected_response": "Nice to meet you! How are you finding things so far? It is good to have you here.",
+      "exp006_response": "€I have to have been a good deal to do with the first time to be the first time of the world to be a good thing to the right",
+      "exp010_response": "I am glad I have been happy to meet you.",
+      "exp011_response": "I have been happy to hear that. I hope the situation is going well."
+    },
+    "conversational_followup": {
+      "index": 7,
+      "prompt": "Which part of an interesting book after a demanding morning would you ask about next?",
+      "expected_response": "That sounds interesting; what part would you like to explore further? I would be curious to hear more.",
+      "exp006_response": "The first time is a good thing to be a good thing to be a good thing to be a good thing to the right to the right to the ",
+      "exp010_response": "I am sorry to meet you.",
+      "exp011_response": "I am glad I would be glad to hear it. I hope you feel comfortable with that would be happy."
+    },
+    "wellbeing": {
+      "index": 9,
+      "prompt": "Have you been feeling all right this morning after a demanding morning?",
+      "expected_response": "I have had a full week, but I am doing okay. I am trying to keep a balanced pace.",
+      "exp006_response": "I have been a good deal to be a good way to do with a good deal that you can be able to get a good way to get a ",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "I am glad you are going well. I hope you are going well so far."
+    },
+    "agreement": {
+      "index": 10,
+      "prompt": "Does it also seem to you that the change is useful after a demanding morning?",
+      "expected_response": "Yes, that is close to my own understanding of it. I am glad we see it similarly.",
+      "exp006_response": "The first time is the first time to be the first time to be the same time to be the same time to the same time to the same time ",
+      "exp010_response": "I am glad you have been able to make it easier.",
+      "exp011_response": "I have been so far well, and I hope the day is going well. I hope the day is going well."
+    },
+    "good_night": {
+      "index": 12,
+      "prompt": "I am off to sleep now after dinner after a demanding morning.",
+      "expected_response": "Have a restful night, and see you soon. The day can end on a peaceful note.",
+      "exp006_response": "I am sure that I have to be a good deal to do with a good deal that I have to do with the next day to get a little ",
+      "exp010_response": "I am glad I am glad you are going to see you.",
+      "exp011_response": "Good night. I hope you are going well well. I hope you feel comfortable with a little easier."
+    },
+    "small_talk": {
+      "index": 13,
+      "prompt": "I noticed the music nearby after a demanding morning; what do you think?",
+      "expected_response": "It has been a pleasant part of the day so far. It is an easy topic to enjoy.",
+      "exp006_response": "I have to do that I have to be a good idea of the world and the world is not a good way to be a good way to the ",
+      "exp010_response": "I am sorry to meet you.",
+      "exp011_response": "I have been so far; I am glad we can see it again. I hope we can talk about it."
+    },
+    "casual_questions": {
+      "index": 15,
+      "prompt": "Is a way to spend free time after a demanding morning something you often choose?",
+      "expected_response": "I enjoy it occasionally, especially when I have time to spare. It is a pleasant thing to wonder about.",
+      "exp006_response": "The first time you can be able to get a good step to get a good way to get a good chance to get a good way to get a ",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "I am glad you are going well. I hope you are going well well."
+    },
+    "farewell": {
+      "index": 18,
+      "prompt": "I enjoyed our chat, but I should leave. (for the evening after a demanding morning)",
+      "expected_response": "Have a peaceful rest of the day. I hope things go smoothly for you.",
+      "exp006_response": "I have been a good and a good deal to see the next day to the next day of the day I have been able to see the next day ",
+      "exp010_response": "I am glad I am glad I have been happy to see you.",
+      "exp011_response": "That is nice to hear that. I hope the day is going well."
+    },
+    "daily_activities": {
+      "index": 20,
+      "prompt": "What has shopping for groceries after a demanding morning been like lately?",
+      "expected_response": "It has been going fairly well, although some days are busier than others. I try to leave room for changes.",
+      "exp006_response": "The baby is a good way to be a good way to the baby and the baby of the baby and the baby is the ",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "I have been so far? I hope the day is going well."
+    },
+    "acknowledgement": {
+      "index": 21,
+      "prompt": "You may want to know that the office is closed after a demanding morning.",
+      "expected_response": "That is clear, and I will remember it. I appreciate the clear update.",
+      "exp006_response": "The first time is the first time to be a good step to the next time to the next day. The next day is the first time to the next",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "I have been so far. I hope the situation is worth going well."
+    },
+    "negative_emotions": {
+      "index": 26,
+      "prompt": "I am struggling a little with too much work after a demanding morning.",
+      "expected_response": "I am sorry you are facing this. What kind of support would help? Thank you for hearing me out.",
+      "exp006_response": "I am sure I have to do that I have to do that I have to do that I have to do that I have to do that I have ",
+      "exp010_response": "I am sorry to meet you.",
+      "exp011_response": "That is a good thing to hear about. I hope you feel comfortable with the next step."
+    },
+    "thanks": {
+      "index": 30,
+      "prompt": "Please know I am thankful that you staying late after a demanding morning.",
+      "expected_response": "Thank you for saying that. It means a lot. It was no trouble at all.",
+      "exp006_response": "I am sure that I have to be a good idea to do that I have to do that I have to do that I have to do that I ",
+      "exp010_response": "I am glad you are going to me a little time.",
+      "exp011_response": "That is a good thing to hear it. I hope the day is going well."
+    },
+    "apologies": {
+      "index": 45,
+      "prompt": "I regret speaking too sharply after a demanding morning; please accept my apology.",
+      "expected_response": "Thank you for being honest; I understand that mistakes happen. I appreciate your honesty too.",
+      "exp006_response": "I am not to do that I am sure I have to be a good and I am sure that I have to be able to do with my own ",
+      "exp010_response": "I am sorry to meet you.",
+      "exp011_response": "I am glad you are going well. I hope you feel comfortable with you too."
+    },
+    "disagreement": {
+      "index": 54,
+      "prompt": "My conclusion about the weather will stay clear after a demanding morning is different.",
+      "expected_response": "I respect that view, but I do not reach the same conclusion. It is worth leaving room for another option.",
+      "exp006_response": "The first time is the first time to be the first time to be the first time to be the same time to be the same time to the same ",
+      "exp010_response": "I am glad you are going to see you.",
+      "exp011_response": "I have been so far so far. I hope the next step is easier."
+    },
+    "offering_help": {
+      "index": 103,
+      "prompt": "Would you like me to lend a hand with carrying the boxes after a demanding morning?",
+      "expected_response": "Thanks for noticing. Let us decide what would be most useful. I am glad to have the option.",
+      "exp006_response": "If you are in the next time, you can be able to get a good way to get a good time to get a good time to get a good",
+      "exp010_response": "I am glad you are going to meet it.",
+      "exp011_response": "I have been so far, and I am glad we can see it again. I hope we can talk about it."
+    }
+  },
+  "duplicate_summary": {
+    "exp006": {
+      "unique_normalized_responses": 742,
+      "normalized_duplicate_response_count": 129,
+      "examples_with_a_duplicate_response": 378,
+      "maximum_duplicate_frequency": 14,
+      "most_frequent_repeated_normalized_responses": [
+        {
+          "normalized_response": "i am sure that i have to be a good idea to do that i have to do that i have to do that i have to do that i",
+          "count": 14,
+          "examples": [
+            {
+              "index": 30,
+              "category": "thanks"
+            },
+            {
+              "index": 88,
+              "category": "apologies"
+            },
+            {
+              "index": 234,
+              "category": "apologies"
+            },
+            {
+              "index": 255,
+              "category": "agreement"
+            },
+            {
+              "index": 338,
+              "category": "thanks"
+            },
+            {
+              "index": 349,
+              "category": "disagreement"
+            },
+            {
+              "index": 359,
+              "category": "apologies"
+            },
+            {
+              "index": 366,
+              "category": "offering_help"
+            },
+            {
+              "index": 448,
+              "category": "offering_help"
+            },
+            {
+              "index": 500,
+              "category": "wellbeing"
+            },
+            {
+              "index": 544,
+              "category": "apologies"
+            },
+            {
+              "index": 646,
+              "category": "offering_help"
+            },
+            {
+              "index": 671,
+              "category": "introductions"
+            },
+            {
+              "index": 739,
+              "category": "apologies"
+            }
+          ]
+        },
+        {
+          "normalized_response": "the first time you can be able to be able to be able to be able to be able to be able to be able to be able to be",
+          "count": 12,
+          "examples": [
+            {
+              "index": 153,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 257,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 337,
+              "category": "casual_questions"
+            },
+            {
+              "index": 344,
+              "category": "small_talk"
+            },
+            {
+              "index": 411,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 427,
+              "category": "introductions"
+            },
+            {
+              "index": 433,
+              "category": "agreement"
+            },
+            {
+              "index": 643,
+              "category": "good_morning"
+            },
+            {
+              "index": 833,
+              "category": "casual_questions"
+            },
+            {
+              "index": 852,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 854,
+              "category": "thanks"
+            },
+            {
+              "index": 939,
+              "category": "casual_questions"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am sure that i have been able to be able to be able to be able to be able to be able to be able to be able to",
+          "count": 9,
+          "examples": [
+            {
+              "index": 171,
+              "category": "encouragement"
+            },
+            {
+              "index": 358,
+              "category": "encouragement"
+            },
+            {
+              "index": 442,
+              "category": "farewell"
+            },
+            {
+              "index": 546,
+              "category": "introductions"
+            },
+            {
+              "index": 614,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 754,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 780,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 887,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 961,
+              "category": "positive_emotions"
+            }
+          ]
+        },
+        {
+          "normalized_response": "if you have a lot of your child or a child or a child or a child or a child or a child or a child or a child or",
+          "count": 9,
+          "examples": [
+            {
+              "index": 25,
+              "category": "daily_activities"
+            },
+            {
+              "index": 99,
+              "category": "daily_activities"
+            },
+            {
+              "index": 133,
+              "category": "daily_activities"
+            },
+            {
+              "index": 141,
+              "category": "casual_questions"
+            },
+            {
+              "index": 225,
+              "category": "daily_activities"
+            },
+            {
+              "index": 368,
+              "category": "daily_activities"
+            },
+            {
+              "index": 396,
+              "category": "daily_activities"
+            },
+            {
+              "index": 423,
+              "category": "casual_questions"
+            },
+            {
+              "index": 540,
+              "category": "daily_activities"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am sure that i have to be able to be able to be able to be able to be able to be able to be able to be able",
+          "count": 8,
+          "examples": [
+            {
+              "index": 192,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 228,
+              "category": "disagreement"
+            },
+            {
+              "index": 367,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 549,
+              "category": "apologies"
+            },
+            {
+              "index": 596,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 747,
+              "category": "farewell"
+            },
+            {
+              "index": 757,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 905,
+              "category": "offering_help"
+            }
+          ]
+        },
+        {
+          "normalized_response": "the first time is the first time to be the first time to be the first time to be the same time to the same time to the same time",
+          "count": 8,
+          "examples": [
+            {
+              "index": 34,
+              "category": "casual_questions"
+            },
+            {
+              "index": 56,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 66,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 271,
+              "category": "disagreement"
+            },
+            {
+              "index": 323,
+              "category": "agreement"
+            },
+            {
+              "index": 350,
+              "category": "casual_questions"
+            },
+            {
+              "index": 562,
+              "category": "encouragement"
+            },
+            {
+              "index": 970,
+              "category": "encouragement"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am sure that i have to be a good deal to do with a good deal that i have to do with a good deal to do with a",
+          "count": 7,
+          "examples": [
+            {
+              "index": 124,
+              "category": "encouragement"
+            },
+            {
+              "index": 393,
+              "category": "good_night"
+            },
+            {
+              "index": 721,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 868,
+              "category": "encouragement"
+            },
+            {
+              "index": 965,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 975,
+              "category": "encouragement"
+            },
+            {
+              "index": 991,
+              "category": "negative_emotions"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i have been able to be able to be able to be able to be able to be able to be able to be able to be able to be",
+          "count": 7,
+          "examples": [
+            {
+              "index": 294,
+              "category": "offering_help"
+            },
+            {
+              "index": 471,
+              "category": "introductions"
+            },
+            {
+              "index": 636,
+              "category": "encouragement"
+            },
+            {
+              "index": 651,
+              "category": "disagreement"
+            },
+            {
+              "index": 681,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 787,
+              "category": "offering_help"
+            },
+            {
+              "index": 956,
+              "category": "offering_help"
+            }
+          ]
+        },
+        {
+          "normalized_response": "the first time is a good way to get a good way to get a good and get a good way to get a good way to the right to",
+          "count": 7,
+          "examples": [
+            {
+              "index": 95,
+              "category": "casual_questions"
+            },
+            {
+              "index": 170,
+              "category": "daily_activities"
+            },
+            {
+              "index": 405,
+              "category": "greetings"
+            },
+            {
+              "index": 670,
+              "category": "daily_activities"
+            },
+            {
+              "index": 799,
+              "category": "casual_questions"
+            },
+            {
+              "index": 826,
+              "category": "daily_activities"
+            },
+            {
+              "index": 827,
+              "category": "daily_activities"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am sure that i have to be a good deal to be able to be able to be able to be a good way to get a good way",
+          "count": 6,
+          "examples": [
+            {
+              "index": 1,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 90,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 473,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 586,
+              "category": "apologies"
+            },
+            {
+              "index": 658,
+              "category": "apologies"
+            },
+            {
+              "index": 966,
+              "category": "negative_emotions"
+            }
+          ]
+        }
+      ]
+    },
+    "exp010": {
+      "unique_normalized_responses": 96,
+      "normalized_duplicate_response_count": 56,
+      "examples_with_a_duplicate_response": 960,
+      "maximum_duplicate_frequency": 267,
+      "most_frequent_repeated_normalized_responses": [
+        {
+          "normalized_response": "i am glad you are going to see you",
+          "count": 267,
+          "examples": [
+            {
+              "index": 4,
+              "category": "greetings"
+            },
+            {
+              "index": 8,
+              "category": "good_morning"
+            },
+            {
+              "index": 9,
+              "category": "wellbeing"
+            },
+            {
+              "index": 15,
+              "category": "casual_questions"
+            },
+            {
+              "index": 20,
+              "category": "daily_activities"
+            },
+            {
+              "index": 21,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 22,
+              "category": "good_morning"
+            },
+            {
+              "index": 23,
+              "category": "wellbeing"
+            },
+            {
+              "index": 24,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 37,
+              "category": "good_morning"
+            },
+            {
+              "index": 47,
+              "category": "daily_activities"
+            },
+            {
+              "index": 49,
+              "category": "good_night"
+            },
+            {
+              "index": 50,
+              "category": "greetings"
+            },
+            {
+              "index": 54,
+              "category": "disagreement"
+            },
+            {
+              "index": 59,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 60,
+              "category": "daily_activities"
+            },
+            {
+              "index": 71,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 75,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 82,
+              "category": "greetings"
+            },
+            {
+              "index": 84,
+              "category": "good_morning"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am sorry to meet you",
+          "count": 176,
+          "examples": [
+            {
+              "index": 5,
+              "category": "good_morning"
+            },
+            {
+              "index": 7,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 13,
+              "category": "small_talk"
+            },
+            {
+              "index": 16,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 17,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 25,
+              "category": "daily_activities"
+            },
+            {
+              "index": 26,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 34,
+              "category": "casual_questions"
+            },
+            {
+              "index": 43,
+              "category": "thanks"
+            },
+            {
+              "index": 44,
+              "category": "daily_activities"
+            },
+            {
+              "index": 45,
+              "category": "apologies"
+            },
+            {
+              "index": 56,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 58,
+              "category": "apologies"
+            },
+            {
+              "index": 66,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 74,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 80,
+              "category": "apologies"
+            },
+            {
+              "index": 90,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 93,
+              "category": "introductions"
+            },
+            {
+              "index": 99,
+              "category": "daily_activities"
+            },
+            {
+              "index": 100,
+              "category": "encouragement"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad you have been able to see you",
+          "count": 55,
+          "examples": [
+            {
+              "index": 14,
+              "category": "wellbeing"
+            },
+            {
+              "index": 19,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 29,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 89,
+              "category": "daily_activities"
+            },
+            {
+              "index": 125,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 137,
+              "category": "wellbeing"
+            },
+            {
+              "index": 169,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 178,
+              "category": "agreement"
+            },
+            {
+              "index": 180,
+              "category": "introductions"
+            },
+            {
+              "index": 181,
+              "category": "good_morning"
+            },
+            {
+              "index": 204,
+              "category": "encouragement"
+            },
+            {
+              "index": 247,
+              "category": "casual_questions"
+            },
+            {
+              "index": 264,
+              "category": "apologies"
+            },
+            {
+              "index": 291,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 294,
+              "category": "offering_help"
+            },
+            {
+              "index": 322,
+              "category": "small_talk"
+            },
+            {
+              "index": 342,
+              "category": "encouragement"
+            },
+            {
+              "index": 353,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 369,
+              "category": "agreement"
+            },
+            {
+              "index": 380,
+              "category": "casual_questions"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad you have been happy to meet you",
+          "count": 39,
+          "examples": [
+            {
+              "index": 77,
+              "category": "wellbeing"
+            },
+            {
+              "index": 81,
+              "category": "farewell"
+            },
+            {
+              "index": 114,
+              "category": "thanks"
+            },
+            {
+              "index": 157,
+              "category": "introductions"
+            },
+            {
+              "index": 189,
+              "category": "farewell"
+            },
+            {
+              "index": 193,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 206,
+              "category": "thanks"
+            },
+            {
+              "index": 347,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 354,
+              "category": "introductions"
+            },
+            {
+              "index": 356,
+              "category": "greetings"
+            },
+            {
+              "index": 361,
+              "category": "agreement"
+            },
+            {
+              "index": 379,
+              "category": "thanks"
+            },
+            {
+              "index": 427,
+              "category": "introductions"
+            },
+            {
+              "index": 464,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 476,
+              "category": "wellbeing"
+            },
+            {
+              "index": 510,
+              "category": "good_night"
+            },
+            {
+              "index": 551,
+              "category": "thanks"
+            },
+            {
+              "index": 565,
+              "category": "encouragement"
+            },
+            {
+              "index": 568,
+              "category": "wellbeing"
+            },
+            {
+              "index": 596,
+              "category": "negative_emotions"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad you have been happy to see you",
+          "count": 37,
+          "examples": [
+            {
+              "index": 2,
+              "category": "encouragement"
+            },
+            {
+              "index": 31,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 35,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 113,
+              "category": "small_talk"
+            },
+            {
+              "index": 201,
+              "category": "small_talk"
+            },
+            {
+              "index": 241,
+              "category": "casual_questions"
+            },
+            {
+              "index": 304,
+              "category": "good_morning"
+            },
+            {
+              "index": 339,
+              "category": "small_talk"
+            },
+            {
+              "index": 357,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 375,
+              "category": "daily_activities"
+            },
+            {
+              "index": 381,
+              "category": "offering_help"
+            },
+            {
+              "index": 410,
+              "category": "casual_questions"
+            },
+            {
+              "index": 550,
+              "category": "offering_help"
+            },
+            {
+              "index": 553,
+              "category": "casual_questions"
+            },
+            {
+              "index": 557,
+              "category": "greetings"
+            },
+            {
+              "index": 574,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 577,
+              "category": "good_morning"
+            },
+            {
+              "index": 607,
+              "category": "good_morning"
+            },
+            {
+              "index": 643,
+              "category": "good_morning"
+            },
+            {
+              "index": 653,
+              "category": "encouragement"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad i have been able to see you",
+          "count": 24,
+          "examples": [
+            {
+              "index": 32,
+              "category": "good_night"
+            },
+            {
+              "index": 36,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 68,
+              "category": "introductions"
+            },
+            {
+              "index": 212,
+              "category": "farewell"
+            },
+            {
+              "index": 260,
+              "category": "apologies"
+            },
+            {
+              "index": 269,
+              "category": "good_night"
+            },
+            {
+              "index": 280,
+              "category": "introductions"
+            },
+            {
+              "index": 284,
+              "category": "farewell"
+            },
+            {
+              "index": 293,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 341,
+              "category": "farewell"
+            },
+            {
+              "index": 346,
+              "category": "small_talk"
+            },
+            {
+              "index": 365,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 415,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 425,
+              "category": "small_talk"
+            },
+            {
+              "index": 444,
+              "category": "farewell"
+            },
+            {
+              "index": 447,
+              "category": "encouragement"
+            },
+            {
+              "index": 468,
+              "category": "farewell"
+            },
+            {
+              "index": 487,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 713,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 742,
+              "category": "encouragement"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad i am glad i am glad i have been able to see it",
+          "count": 22,
+          "examples": [
+            {
+              "index": 3,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 41,
+              "category": "good_night"
+            },
+            {
+              "index": 65,
+              "category": "apologies"
+            },
+            {
+              "index": 117,
+              "category": "good_night"
+            },
+            {
+              "index": 124,
+              "category": "encouragement"
+            },
+            {
+              "index": 191,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 255,
+              "category": "agreement"
+            },
+            {
+              "index": 345,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 366,
+              "category": "offering_help"
+            },
+            {
+              "index": 393,
+              "category": "good_night"
+            },
+            {
+              "index": 407,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 462,
+              "category": "disagreement"
+            },
+            {
+              "index": 508,
+              "category": "encouragement"
+            },
+            {
+              "index": 516,
+              "category": "introductions"
+            },
+            {
+              "index": 614,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 721,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 738,
+              "category": "farewell"
+            },
+            {
+              "index": 868,
+              "category": "encouragement"
+            },
+            {
+              "index": 872,
+              "category": "farewell"
+            },
+            {
+              "index": 975,
+              "category": "encouragement"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad you are going to see you to see you",
+          "count": 21,
+          "examples": [
+            {
+              "index": 53,
+              "category": "good_morning"
+            },
+            {
+              "index": 142,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 151,
+              "category": "wellbeing"
+            },
+            {
+              "index": 213,
+              "category": "small_talk"
+            },
+            {
+              "index": 251,
+              "category": "casual_questions"
+            },
+            {
+              "index": 310,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 313,
+              "category": "small_talk"
+            },
+            {
+              "index": 330,
+              "category": "wellbeing"
+            },
+            {
+              "index": 336,
+              "category": "wellbeing"
+            },
+            {
+              "index": 396,
+              "category": "daily_activities"
+            },
+            {
+              "index": 454,
+              "category": "casual_questions"
+            },
+            {
+              "index": 518,
+              "category": "wellbeing"
+            },
+            {
+              "index": 523,
+              "category": "daily_activities"
+            },
+            {
+              "index": 689,
+              "category": "wellbeing"
+            },
+            {
+              "index": 717,
+              "category": "small_talk"
+            },
+            {
+              "index": 776,
+              "category": "small_talk"
+            },
+            {
+              "index": 841,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 845,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 869,
+              "category": "wellbeing"
+            },
+            {
+              "index": 878,
+              "category": "small_talk"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad you are going to meet you",
+          "count": 20,
+          "examples": [
+            {
+              "index": 46,
+              "category": "thanks"
+            },
+            {
+              "index": 70,
+              "category": "farewell"
+            },
+            {
+              "index": 73,
+              "category": "farewell"
+            },
+            {
+              "index": 120,
+              "category": "introductions"
+            },
+            {
+              "index": 166,
+              "category": "introductions"
+            },
+            {
+              "index": 278,
+              "category": "thanks"
+            },
+            {
+              "index": 315,
+              "category": "introductions"
+            },
+            {
+              "index": 408,
+              "category": "daily_activities"
+            },
+            {
+              "index": 456,
+              "category": "thanks"
+            },
+            {
+              "index": 470,
+              "category": "small_talk"
+            },
+            {
+              "index": 635,
+              "category": "farewell"
+            },
+            {
+              "index": 671,
+              "category": "introductions"
+            },
+            {
+              "index": 691,
+              "category": "small_talk"
+            },
+            {
+              "index": 716,
+              "category": "greetings"
+            },
+            {
+              "index": 718,
+              "category": "good_night"
+            },
+            {
+              "index": 739,
+              "category": "apologies"
+            },
+            {
+              "index": 747,
+              "category": "farewell"
+            },
+            {
+              "index": 800,
+              "category": "apologies"
+            },
+            {
+              "index": 847,
+              "category": "introductions"
+            },
+            {
+              "index": 977,
+              "category": "introductions"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad i am glad i have been able to see you",
+          "count": 19,
+          "examples": [
+            {
+              "index": 38,
+              "category": "farewell"
+            },
+            {
+              "index": 39,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 64,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 158,
+              "category": "small_talk"
+            },
+            {
+              "index": 172,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 209,
+              "category": "farewell"
+            },
+            {
+              "index": 279,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 302,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 388,
+              "category": "introductions"
+            },
+            {
+              "index": 435,
+              "category": "offering_help"
+            },
+            {
+              "index": 485,
+              "category": "good_night"
+            },
+            {
+              "index": 629,
+              "category": "farewell"
+            },
+            {
+              "index": 647,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 760,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 774,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 822,
+              "category": "farewell"
+            },
+            {
+              "index": 867,
+              "category": "good_night"
+            },
+            {
+              "index": 914,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 923,
+              "category": "apologies"
+            }
+          ]
+        }
+      ]
+    },
+    "exp011": {
+      "unique_normalized_responses": 375,
+      "normalized_duplicate_response_count": 173,
+      "examples_with_a_duplicate_response": 798,
+      "maximum_duplicate_frequency": 36,
+      "most_frequent_repeated_normalized_responses": [
+        {
+          "normalized_response": "i have been so far i am glad we can talk about it i hope we can talk about it",
+          "count": 36,
+          "examples": [
+            {
+              "index": 53,
+              "category": "good_morning"
+            },
+            {
+              "index": 62,
+              "category": "daily_activities"
+            },
+            {
+              "index": 78,
+              "category": "disagreement"
+            },
+            {
+              "index": 95,
+              "category": "casual_questions"
+            },
+            {
+              "index": 113,
+              "category": "small_talk"
+            },
+            {
+              "index": 130,
+              "category": "small_talk"
+            },
+            {
+              "index": 151,
+              "category": "wellbeing"
+            },
+            {
+              "index": 154,
+              "category": "daily_activities"
+            },
+            {
+              "index": 173,
+              "category": "daily_activities"
+            },
+            {
+              "index": 185,
+              "category": "daily_activities"
+            },
+            {
+              "index": 201,
+              "category": "small_talk"
+            },
+            {
+              "index": 254,
+              "category": "small_talk"
+            },
+            {
+              "index": 267,
+              "category": "small_talk"
+            },
+            {
+              "index": 329,
+              "category": "daily_activities"
+            },
+            {
+              "index": 375,
+              "category": "daily_activities"
+            },
+            {
+              "index": 410,
+              "category": "casual_questions"
+            },
+            {
+              "index": 416,
+              "category": "wellbeing"
+            },
+            {
+              "index": 450,
+              "category": "daily_activities"
+            },
+            {
+              "index": 469,
+              "category": "daily_activities"
+            },
+            {
+              "index": 518,
+              "category": "wellbeing"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i have been so far i am glad we can talk about i hope we can talk about it",
+          "count": 21,
+          "examples": [
+            {
+              "index": 31,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 64,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 76,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 79,
+              "category": "agreement"
+            },
+            {
+              "index": 125,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 183,
+              "category": "agreement"
+            },
+            {
+              "index": 246,
+              "category": "apologies"
+            },
+            {
+              "index": 279,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 340,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 391,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 427,
+              "category": "introductions"
+            },
+            {
+              "index": 465,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 486,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 569,
+              "category": "disagreement"
+            },
+            {
+              "index": 601,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 723,
+              "category": "introductions"
+            },
+            {
+              "index": 899,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 947,
+              "category": "introductions"
+            },
+            {
+              "index": 948,
+              "category": "disagreement"
+            },
+            {
+              "index": 953,
+              "category": "thanks"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad you are going well i hope you feel comfortable with that",
+          "count": 20,
+          "examples": [
+            {
+              "index": 90,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 118,
+              "category": "casual_questions"
+            },
+            {
+              "index": 163,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 196,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 236,
+              "category": "introductions"
+            },
+            {
+              "index": 253,
+              "category": "encouragement"
+            },
+            {
+              "index": 273,
+              "category": "offering_help"
+            },
+            {
+              "index": 292,
+              "category": "thanks"
+            },
+            {
+              "index": 321,
+              "category": "encouragement"
+            },
+            {
+              "index": 367,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 422,
+              "category": "apologies"
+            },
+            {
+              "index": 460,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 480,
+              "category": "apologies"
+            },
+            {
+              "index": 586,
+              "category": "apologies"
+            },
+            {
+              "index": 679,
+              "category": "offering_help"
+            },
+            {
+              "index": 838,
+              "category": "apologies"
+            },
+            {
+              "index": 859,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 864,
+              "category": "casual_questions"
+            },
+            {
+              "index": 985,
+              "category": "apologies"
+            },
+            {
+              "index": 996,
+              "category": "offering_help"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad you are going well i hope the day is going well",
+          "count": 18,
+          "examples": [
+            {
+              "index": 36,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 88,
+              "category": "apologies"
+            },
+            {
+              "index": 202,
+              "category": "offering_help"
+            },
+            {
+              "index": 240,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 247,
+              "category": "casual_questions"
+            },
+            {
+              "index": 270,
+              "category": "offering_help"
+            },
+            {
+              "index": 278,
+              "category": "thanks"
+            },
+            {
+              "index": 283,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 324,
+              "category": "casual_questions"
+            },
+            {
+              "index": 365,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 592,
+              "category": "wellbeing"
+            },
+            {
+              "index": 612,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 616,
+              "category": "agreement"
+            },
+            {
+              "index": 624,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 739,
+              "category": "apologies"
+            },
+            {
+              "index": 804,
+              "category": "agreement"
+            },
+            {
+              "index": 832,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 963,
+              "category": "asking_for_help"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad you are going well i hope you feel comfortable with the next step",
+          "count": 17,
+          "examples": [
+            {
+              "index": 112,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 149,
+              "category": "introductions"
+            },
+            {
+              "index": 252,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 376,
+              "category": "introductions"
+            },
+            {
+              "index": 389,
+              "category": "offering_help"
+            },
+            {
+              "index": 394,
+              "category": "apologies"
+            },
+            {
+              "index": 438,
+              "category": "encouragement"
+            },
+            {
+              "index": 464,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 554,
+              "category": "farewell"
+            },
+            {
+              "index": 567,
+              "category": "encouragement"
+            },
+            {
+              "index": 604,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 617,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 668,
+              "category": "farewell"
+            },
+            {
+              "index": 671,
+              "category": "introductions"
+            },
+            {
+              "index": 699,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 762,
+              "category": "conversational_followup"
+            },
+            {
+              "index": 785,
+              "category": "asking_for_help"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad you are going well i hope you feel comfortable with you too",
+          "count": 16,
+          "examples": [
+            {
+              "index": 45,
+              "category": "apologies"
+            },
+            {
+              "index": 58,
+              "category": "apologies"
+            },
+            {
+              "index": 67,
+              "category": "apologies"
+            },
+            {
+              "index": 68,
+              "category": "introductions"
+            },
+            {
+              "index": 182,
+              "category": "apologies"
+            },
+            {
+              "index": 211,
+              "category": "apologies"
+            },
+            {
+              "index": 332,
+              "category": "apologies"
+            },
+            {
+              "index": 351,
+              "category": "farewell"
+            },
+            {
+              "index": 444,
+              "category": "farewell"
+            },
+            {
+              "index": 458,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 545,
+              "category": "apologies"
+            },
+            {
+              "index": 610,
+              "category": "encouragement"
+            },
+            {
+              "index": 753,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 835,
+              "category": "apologies"
+            },
+            {
+              "index": 890,
+              "category": "introductions"
+            },
+            {
+              "index": 927,
+              "category": "apologies"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i have been so far so far i hope the day is going well",
+          "count": 16,
+          "examples": [
+            {
+              "index": 47,
+              "category": "daily_activities"
+            },
+            {
+              "index": 89,
+              "category": "daily_activities"
+            },
+            {
+              "index": 181,
+              "category": "good_morning"
+            },
+            {
+              "index": 343,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 408,
+              "category": "daily_activities"
+            },
+            {
+              "index": 418,
+              "category": "daily_activities"
+            },
+            {
+              "index": 498,
+              "category": "daily_activities"
+            },
+            {
+              "index": 631,
+              "category": "disagreement"
+            },
+            {
+              "index": 632,
+              "category": "good_morning"
+            },
+            {
+              "index": 638,
+              "category": "wellbeing"
+            },
+            {
+              "index": 735,
+              "category": "disagreement"
+            },
+            {
+              "index": 809,
+              "category": "daily_activities"
+            },
+            {
+              "index": 810,
+              "category": "daily_activities"
+            },
+            {
+              "index": 863,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 884,
+              "category": "daily_activities"
+            },
+            {
+              "index": 896,
+              "category": "disagreement"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i am glad you are going well i hope you feel comfortable with the day feel",
+          "count": 15,
+          "examples": [
+            {
+              "index": 221,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 260,
+              "category": "apologies"
+            },
+            {
+              "index": 342,
+              "category": "encouragement"
+            },
+            {
+              "index": 397,
+              "category": "offering_help"
+            },
+            {
+              "index": 420,
+              "category": "wellbeing"
+            },
+            {
+              "index": 440,
+              "category": "wellbeing"
+            },
+            {
+              "index": 452,
+              "category": "wellbeing"
+            },
+            {
+              "index": 477,
+              "category": "apologies"
+            },
+            {
+              "index": 552,
+              "category": "wellbeing"
+            },
+            {
+              "index": 673,
+              "category": "casual_questions"
+            },
+            {
+              "index": 722,
+              "category": "small_talk"
+            },
+            {
+              "index": 730,
+              "category": "offering_help"
+            },
+            {
+              "index": 772,
+              "category": "offering_help"
+            },
+            {
+              "index": 805,
+              "category": "casual_questions"
+            },
+            {
+              "index": 933,
+              "category": "wellbeing"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i have been so far and i am glad we can see it together i hope we can talk about it",
+          "count": 15,
+          "examples": [
+            {
+              "index": 60,
+              "category": "daily_activities"
+            },
+            {
+              "index": 170,
+              "category": "daily_activities"
+            },
+            {
+              "index": 218,
+              "category": "disagreement"
+            },
+            {
+              "index": 310,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 459,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 548,
+              "category": "casual_questions"
+            },
+            {
+              "index": 583,
+              "category": "disagreement"
+            },
+            {
+              "index": 652,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 702,
+              "category": "casual_questions"
+            },
+            {
+              "index": 764,
+              "category": "wellbeing"
+            },
+            {
+              "index": 796,
+              "category": "wellbeing"
+            },
+            {
+              "index": 841,
+              "category": "asking_for_help"
+            },
+            {
+              "index": 885,
+              "category": "casual_questions"
+            },
+            {
+              "index": 945,
+              "category": "casual_questions"
+            },
+            {
+              "index": 960,
+              "category": "asking_for_help"
+            }
+          ]
+        },
+        {
+          "normalized_response": "i have been so far i am glad we can see it together i hope we can talk about it",
+          "count": 15,
+          "examples": [
+            {
+              "index": 75,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 83,
+              "category": "small_talk"
+            },
+            {
+              "index": 105,
+              "category": "disagreement"
+            },
+            {
+              "index": 143,
+              "category": "apologies"
+            },
+            {
+              "index": 147,
+              "category": "small_talk"
+            },
+            {
+              "index": 382,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 400,
+              "category": "apologies"
+            },
+            {
+              "index": 578,
+              "category": "small_talk"
+            },
+            {
+              "index": 589,
+              "category": "small_talk"
+            },
+            {
+              "index": 644,
+              "category": "negative_emotions"
+            },
+            {
+              "index": 768,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 792,
+              "category": "disagreement"
+            },
+            {
+              "index": 803,
+              "category": "positive_emotions"
+            },
+            {
+              "index": 913,
+              "category": "acknowledgement"
+            },
+            {
+              "index": 926,
+              "category": "farewell"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "template_repeated_response_behavior": {
+    "exp006": {
+      "duplicate_group_count": 129,
+      "duplicate_example_count": 378,
+      "dominant_response_frequency": 14,
+      "possible_template_behavior": true
+    },
+    "exp010": {
+      "duplicate_group_count": 56,
+      "duplicate_example_count": 960,
+      "dominant_response_frequency": 267,
+      "possible_template_behavior": true
+    },
+    "exp011": {
+      "duplicate_group_count": 173,
+      "duplicate_example_count": 798,
+      "dominant_response_frequency": 36,
+      "possible_template_behavior": true
+    }
+  },
+  "category_statistics": {
+    "acknowledgement": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 124.66,
+          "repetition_rate": 1,
+          "heuristic_relevance": 0
+        },
+        "exp010": {
+          "average_response_length": 37.88,
+          "repetition_rate": 0.18,
+          "heuristic_relevance": 0.7
+        },
+        "exp011": {
+          "average_response_length": 68.28,
+          "repetition_rate": 0.08,
+          "heuristic_relevance": 0.18
+        }
+      }
+    },
+    "agreement": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 116.98,
+          "repetition_rate": 0.96,
+          "heuristic_relevance": 0.38
+        },
+        "exp010": {
+          "average_response_length": 36.88,
+          "repetition_rate": 0.18,
+          "heuristic_relevance": 0
+        },
+        "exp011": {
+          "average_response_length": 69.26,
+          "repetition_rate": 0.06,
+          "heuristic_relevance": 0
+        }
+      }
+    },
+    "apologies": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 109.42,
+          "repetition_rate": 0.96,
+          "heuristic_relevance": 0
+        },
+        "exp010": {
+          "average_response_length": 35.64,
+          "repetition_rate": 0.22,
+          "heuristic_relevance": 0.36
+        },
+        "exp011": {
+          "average_response_length": 73.32,
+          "repetition_rate": 0.04,
+          "heuristic_relevance": 0
+        }
+      }
+    },
+    "asking_for_help": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 116.94,
+          "repetition_rate": 0.98,
+          "heuristic_relevance": 0.16
+        },
+        "exp010": {
+          "average_response_length": 37.16,
+          "repetition_rate": 0.2,
+          "heuristic_relevance": 0.02
+        },
+        "exp011": {
+          "average_response_length": 70.76,
+          "repetition_rate": 0.18,
+          "heuristic_relevance": 0
+        }
+      }
+    },
+    "casual_questions": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 109.5,
+          "repetition_rate": 0.9,
+          "heuristic_relevance": 0
+        },
+        "exp010": {
+          "average_response_length": 34.06,
+          "repetition_rate": 0.04,
+          "heuristic_relevance": 0
+        },
+        "exp011": {
+          "average_response_length": 72.24,
+          "repetition_rate": 0.06,
+          "heuristic_relevance": 0.04
+        }
+      }
+    },
+    "conversational_followup": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 102.52,
+          "repetition_rate": 0.86,
+          "heuristic_relevance": 0.1
+        },
+        "exp010": {
+          "average_response_length": 35.06,
+          "repetition_rate": 0.2,
+          "heuristic_relevance": 0
+        },
+        "exp011": {
+          "average_response_length": 72.74,
+          "repetition_rate": 0.04,
+          "heuristic_relevance": 0.62
+        }
+      }
+    },
+    "daily_activities": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 117.18,
+          "repetition_rate": 0.98,
+          "heuristic_relevance": 0
+        },
+        "exp010": {
+          "average_response_length": 34.2,
+          "repetition_rate": 0.12,
+          "heuristic_relevance": 0
+        },
+        "exp011": {
+          "average_response_length": 74.84,
+          "repetition_rate": 0,
+          "heuristic_relevance": 0
+        }
+      }
+    },
+    "disagreement": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 118.9,
+          "repetition_rate": 1,
+          "heuristic_relevance": 0
+        },
+        "exp010": {
+          "average_response_length": 36.84,
+          "repetition_rate": 0.1,
+          "heuristic_relevance": 0
+        },
+        "exp011": {
+          "average_response_length": 72.24,
+          "repetition_rate": 0.06,
+          "heuristic_relevance": 0
+        }
+      }
+    },
+    "encouragement": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 117.16,
+          "repetition_rate": 0.98,
+          "heuristic_relevance": 0.02
+        },
+        "exp010": {
+          "average_response_length": 38.54,
+          "repetition_rate": 0.2,
+          "heuristic_relevance": 0
+        },
+        "exp011": {
+          "average_response_length": 75.02,
+          "repetition_rate": 0.4,
+          "heuristic_relevance": 0.1
+        }
+      }
+    },
+    "farewell": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 113.28,
+          "repetition_rate": 0.94,
+          "heuristic_relevance": 0
+        },
+        "exp010": {
+          "average_response_length": 38.98,
+          "repetition_rate": 0.32,
+          "heuristic_relevance": 0.42
+        },
+        "exp011": {
+          "average_response_length": 78.16,
+          "repetition_rate": 0.2,
+          "heuristic_relevance": 0
+        }
+      }
+    },
+    "good_morning": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 117.04,
+          "repetition_rate": 0.92,
+          "heuristic_relevance": 0.1
+        },
+        "exp010": {
+          "average_response_length": 36.1,
+          "repetition_rate": 0.14,
+          "heuristic_relevance": 0
+        },
+        "exp011": {
+          "average_response_length": 90.6,
+          "repetition_rate": 0.18,
+          "heuristic_relevance": 0.68
+        }
+      }
+    },
+    "good_night": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 119,
+          "repetition_rate": 0.98,
+          "heuristic_relevance": 0
+        },
+        "exp010": {
+          "average_response_length": 40.3,
+          "repetition_rate": 0.28,
+          "heuristic_relevance": 0
+        },
+        "exp011": {
+          "average_response_length": 94.38,
+          "repetition_rate": 0.26,
+          "heuristic_relevance": 0.98
+        }
+      }
+    },
+    "greetings": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 116.3,
+          "repetition_rate": 0.92,
+          "heuristic_relevance": 0.16
+        },
+        "exp010": {
+          "average_response_length": 40.48,
+          "repetition_rate": 0.4,
+          "heuristic_relevance": 0
+        },
+        "exp011": {
+          "average_response_length": 92.84,
+          "repetition_rate": 0.38,
+          "heuristic_relevance": 0
+        }
+      }
+    },
+    "introductions": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 114.18,
+          "repetition_rate": 1,
+          "heuristic_relevance": 0
+        },
+        "exp010": {
+          "average_response_length": 35.48,
+          "repetition_rate": 0.2,
+          "heuristic_relevance": 0.62
+        },
+        "exp011": {
+          "average_response_length": 81.14,
+          "repetition_rate": 0.22,
+          "heuristic_relevance": 0
+        }
+      }
+    },
+    "negative_emotions": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 117.5,
+          "repetition_rate": 0.98,
+          "heuristic_relevance": 0
+        },
+        "exp010": {
+          "average_response_length": 36.6,
+          "repetition_rate": 0.18,
+          "heuristic_relevance": 0.38
+        },
+        "exp011": {
+          "average_response_length": 81.3,
+          "repetition_rate": 0.12,
+          "heuristic_relevance": 0
+        }
+      }
+    },
+    "offering_help": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 111.04,
+          "repetition_rate": 0.98,
+          "heuristic_relevance": 0.02
+        },
+        "exp010": {
+          "average_response_length": 35.74,
+          "repetition_rate": 0.14,
+          "heuristic_relevance": 0.14
+        },
+        "exp011": {
+          "average_response_length": 74.66,
+          "repetition_rate": 0.2,
+          "heuristic_relevance": 0.08
+        }
+      }
+    },
+    "positive_emotions": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 113.76,
+          "repetition_rate": 0.9,
+          "heuristic_relevance": 0.1
+        },
+        "exp010": {
+          "average_response_length": 41.74,
+          "repetition_rate": 0.46,
+          "heuristic_relevance": 0.84
+        },
+        "exp011": {
+          "average_response_length": 78.04,
+          "repetition_rate": 0.32,
+          "heuristic_relevance": 0.4
+        }
+      }
+    },
+    "small_talk": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 118.58,
+          "repetition_rate": 0.96,
+          "heuristic_relevance": 0.1
+        },
+        "exp010": {
+          "average_response_length": 36.2,
+          "repetition_rate": 0.22,
+          "heuristic_relevance": 0
+        },
+        "exp011": {
+          "average_response_length": 74.1,
+          "repetition_rate": 0.1,
+          "heuristic_relevance": 0.32
+        }
+      }
+    },
+    "thanks": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 110.88,
+          "repetition_rate": 0.96,
+          "heuristic_relevance": 0
+        },
+        "exp010": {
+          "average_response_length": 36.52,
+          "repetition_rate": 0.12,
+          "heuristic_relevance": 0.8
+        },
+        "exp011": {
+          "average_response_length": 77.38,
+          "repetition_rate": 0.16,
+          "heuristic_relevance": 0.22
+        }
+      }
+    },
+    "wellbeing": {
+      "number_of_examples": 50,
+      "models": {
+        "exp006": {
+          "average_response_length": 115.58,
+          "repetition_rate": 0.94,
+          "heuristic_relevance": 0
+        },
+        "exp010": {
+          "average_response_length": 36.6,
+          "repetition_rate": 0.2,
+          "heuristic_relevance": 0
+        },
+        "exp011": {
+          "average_response_length": 76.04,
+          "repetition_rate": 0.06,
+          "heuristic_relevance": 0.54
+        }
+      }
+    }
+  }
+}

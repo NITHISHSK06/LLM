@@ -1,0 +1,30 @@
+Exp010 General Conversation Dataset Report
+===========================================
+Random seed: 42
+Python version: 3.14.7
+Total examples generated: 4000
+Final train count: 3000
+Final validation count: 500
+Final test count: 500
+Rejected records: 0
+Rejected by reason: {}
+Duplicate counts: 0
+Duplicate prompts: 0
+Duplicate prompt-response pairs: 0
+Category counts for train: {"acknowledgement": 150, "agreement": 150, "apologies": 150, "asking_for_help": 150, "casual_questions": 150, "conversational_followup": 150, "daily_activities": 150, "disagreement": 150, "encouragement": 150, "farewell": 150, "good_morning": 150, "good_night": 150, "greetings": 150, "introductions": 150, "negative_emotions": 150, "offering_help": 150, "positive_emotions": 150, "small_talk": 150, "thanks": 150, "wellbeing": 150}
+train prompt chars min/max/average: 32/121/71.56
+train response chars min/max/average: 27/95/50.01
+Category counts for val: {"acknowledgement": 25, "agreement": 25, "apologies": 25, "asking_for_help": 25, "casual_questions": 25, "conversational_followup": 25, "daily_activities": 25, "disagreement": 25, "encouragement": 25, "farewell": 25, "good_morning": 25, "good_night": 25, "greetings": 25, "introductions": 25, "negative_emotions": 25, "offering_help": 25, "positive_emotions": 25, "small_talk": 25, "thanks": 25, "wellbeing": 25}
+val prompt chars min/max/average: 45/111/79.41
+val response chars min/max/average: 53/91/72.75
+Category counts for test: {"acknowledgement": 25, "agreement": 25, "apologies": 25, "asking_for_help": 25, "casual_questions": 25, "conversational_followup": 25, "daily_activities": 25, "disagreement": 25, "encouragement": 25, "farewell": 25, "good_morning": 25, "good_night": 25, "greetings": 25, "introductions": 25, "negative_emotions": 25, "offering_help": 25, "positive_emotions": 25, "small_talk": 25, "thanks": 25, "wellbeing": 25}
+test prompt chars min/max/average: 47/122/86.30
+test response chars min/max/average: 63/90/75.51
+Most frequent normalized responses: [["hi there! it is nice to hear from you.", 30], ["hello! i am glad you stopped by.", 30], ["hey! nice to see you today.", 30], ["good to see you. how has your day been?", 30], ["hi! i hope things are going well.", 30], ["nice to meet you. i am glad you are here.", 30], ["it is good to meet you; i am looking forward to working together.", 30], ["hello, i am pleased to meet you.", 30], ["welcome! i hope you feel comfortable here.", 30], ["nice to meet you. how are you finding things so far?", 30]]
+Tokenizer vocabulary size: 10000
+Context length: 256
+Examples exceeding context: 0
+Examples requiring truncation: 0
+Tokenized length min/max/average: 35/95/63.61
+Train/validation/test have no exact prompt overlap: True
+Train/validation/test have no exact prompt-response overlap: True

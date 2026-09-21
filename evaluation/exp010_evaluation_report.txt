@@ -1,0 +1,887 @@
+Exp010 General Conversation Evaluation Report
+===============================================
+Experiment: Exp010 general conversation
+Research question: Can a small explicitly designed general-chat dataset improve general conversation behavior over DailyDialog-only tuning?
+Scientific caution: this is one held-out test run; no statistical significance is claimed.
+Base checkpoint: D:\project\LLM\LLM\checkpoints\exp006_mixed_30k\best_model.pt
+Tuned checkpoint: D:\project\LLM\LLM\checkpoints\exp010_general_chat\best_model.pt
+Tokenizer: D:\project\LLM\LLM\tokenizer_exp003
+Test set size: 500
+Primary decoding: greedy=True, temperature=0.0, top_k=0, top_p=1.0, max_new_tokens=60
+Secondary decoding: temperature=0.7, top_k=40, top_p=0.9, max_new_tokens=60
+Python: 3.14.7 | PyTorch: 2.11.0+cu128 | Device: cuda
+
+PRIMARY METRICS: ALL TEST EXAMPLES
+test_size: Exp006=500.000000 | Exp010=500.000000 | absolute_difference=+0.000000
+exact_match_rate: Exp006=0.000000 | Exp010=0.000000 | absolute_difference=+0.000000
+non_empty_rate: Exp006=1.000000 | Exp010=1.000000 | absolute_difference=+0.000000
+repeated_unigram_ratio: Exp006=0.596446 | Exp010=0.066070 | absolute_difference=-0.530375
+repeated_bigram_ratio: Exp006=0.473260 | Exp010=0.008529 | absolute_difference=-0.464731
+repetition_rate: Exp006=0.952000 | Exp010=0.032000 | absolute_difference=-0.920000
+average_generated_character_length: Exp006=117.964000 | Exp010=34.186000 | absolute_difference=-83.778000
+median_generated_character_length: Exp006=118.000000 | Exp010=35.000000 | absolute_difference=-83.000000
+average_generated_token_length: Exp006=28.958000 | Exp010=8.726000 | absolute_difference=-20.232000
+minimum_generated_character_length: Exp006=1.000000 | Exp010=17.000000 | absolute_difference=+16.000000
+maximum_generated_character_length: Exp006=153.000000 | Exp010=86.000000 | absolute_difference=-67.000000
+heuristic_relevance_rate: Exp006=0.022000 | Exp010=0.214000 | absolute_difference=+0.192000
+
+SECONDARY SAMPLING METRICS
+test_size: Exp006=500.000000 | Exp010=500.000000 | absolute_difference=+0.000000
+exact_match_rate: Exp006=0.000000 | Exp010=0.000000 | absolute_difference=+0.000000
+non_empty_rate: Exp006=1.000000 | Exp010=1.000000 | absolute_difference=+0.000000
+repeated_unigram_ratio: Exp006=0.265175 | Exp010=0.068533 | absolute_difference=-0.196642
+repeated_bigram_ratio: Exp006=0.057231 | Exp010=0.015068 | absolute_difference=-0.042164
+repetition_rate: Exp006=0.212000 | Exp010=0.016000 | absolute_difference=-0.196000
+average_generated_character_length: Exp006=113.988000 | Exp010=40.026000 | absolute_difference=-73.962000
+median_generated_character_length: Exp006=124.000000 | Exp010=37.000000 | absolute_difference=-87.000000
+average_generated_token_length: Exp006=24.922000 | Exp010=9.706000 | absolute_difference=-15.216000
+minimum_generated_character_length: Exp006=1.000000 | Exp010=11.000000 | absolute_difference=+10.000000
+maximum_generated_character_length: Exp006=177.000000 | Exp010=121.000000 | absolute_difference=-56.000000
+heuristic_relevance_rate: Exp006=0.072000 | Exp010=0.148000 | absolute_difference=+0.076000
+
+PER-CATEGORY GREEDY METRICS: EXP006
+{
+  "acknowledgement": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 126.2,
+    "exact_match_rate": 0,
+    "repetition_rate": 1,
+    "heuristic_relevance_rate": 0
+  },
+  "agreement": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 110.36,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.92,
+    "heuristic_relevance_rate": 0.16
+  },
+  "apologies": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 119.84,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.96,
+    "heuristic_relevance_rate": 0
+  },
+  "asking_for_help": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 117.48,
+    "exact_match_rate": 0,
+    "repetition_rate": 1,
+    "heuristic_relevance_rate": 0
+  },
+  "casual_questions": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 113.72,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.88,
+    "heuristic_relevance_rate": 0.04
+  },
+  "conversational_followup": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 122.92,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.96,
+    "heuristic_relevance_rate": 0
+  },
+  "daily_activities": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 118.32,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.96,
+    "heuristic_relevance_rate": 0
+  },
+  "disagreement": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 129.76,
+    "exact_match_rate": 0,
+    "repetition_rate": 1,
+    "heuristic_relevance_rate": 0
+  },
+  "encouragement": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 120.16,
+    "exact_match_rate": 0,
+    "repetition_rate": 1,
+    "heuristic_relevance_rate": 0
+  },
+  "farewell": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 119.84,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.96,
+    "heuristic_relevance_rate": 0
+  },
+  "good_morning": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 118.72,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.88,
+    "heuristic_relevance_rate": 0
+  },
+  "good_night": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 117.28,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.96,
+    "heuristic_relevance_rate": 0
+  },
+  "greetings": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 115,
+    "exact_match_rate": 0,
+    "repetition_rate": 1,
+    "heuristic_relevance_rate": 0.12
+  },
+  "introductions": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 116.28,
+    "exact_match_rate": 0,
+    "repetition_rate": 1,
+    "heuristic_relevance_rate": 0
+  },
+  "negative_emotions": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 113.64,
+    "exact_match_rate": 0,
+    "repetition_rate": 1,
+    "heuristic_relevance_rate": 0
+  },
+  "offering_help": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 121.56,
+    "exact_match_rate": 0,
+    "repetition_rate": 1,
+    "heuristic_relevance_rate": 0.12
+  },
+  "positive_emotions": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 121.04,
+    "exact_match_rate": 0,
+    "repetition_rate": 1,
+    "heuristic_relevance_rate": 0
+  },
+  "small_talk": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 125.28,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.96,
+    "heuristic_relevance_rate": 0
+  },
+  "thanks": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 90.68,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.68,
+    "heuristic_relevance_rate": 0
+  },
+  "wellbeing": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 121.2,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.92,
+    "heuristic_relevance_rate": 0
+  }
+}
+PER-CATEGORY GREEDY METRICS: EXP010
+{
+  "acknowledgement": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 36.76,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.04,
+    "heuristic_relevance_rate": 0.6
+  },
+  "agreement": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 30.56,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0
+  },
+  "apologies": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 31.2,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.2,
+    "heuristic_relevance_rate": 0.52
+  },
+  "asking_for_help": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 40.72,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0.04
+  },
+  "casual_questions": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 34.96,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0
+  },
+  "conversational_followup": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 35.44,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.04,
+    "heuristic_relevance_rate": 0
+  },
+  "daily_activities": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 32.04,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0
+  },
+  "disagreement": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 39.56,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0
+  },
+  "encouragement": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 33.96,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.12,
+    "heuristic_relevance_rate": 0
+  },
+  "farewell": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 33.36,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0.64
+  },
+  "good_morning": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 32.48,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0
+  },
+  "good_night": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 36.32,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0
+  },
+  "greetings": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 33.08,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0
+  },
+  "introductions": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 29.92,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0.68
+  },
+  "negative_emotions": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 31.72,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0.4
+  },
+  "offering_help": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 35,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.04,
+    "heuristic_relevance_rate": 0.16
+  },
+  "positive_emotions": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 31.36,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.04,
+    "heuristic_relevance_rate": 0.52
+  },
+  "small_talk": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 32.12,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0
+  },
+  "thanks": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 35.72,
+    "exact_match_rate": 0,
+    "repetition_rate": 0,
+    "heuristic_relevance_rate": 0.72
+  },
+  "wellbeing": {
+    "test_examples": 25,
+    "non_empty_responses": 25,
+    "average_response_length": 37.44,
+    "exact_match_rate": 0,
+    "repetition_rate": 0.16,
+    "heuristic_relevance_rate": 0
+  }
+}
+
+GENERALIZATION SUBSET: HELD-OUT WORDING VARIATIONS
+{
+  "Exp006": {
+    "test_size": 500,
+    "exact_match_rate": 0,
+    "non_empty_rate": 1,
+    "repeated_unigram_ratio": 0.5964455398787372,
+    "repeated_bigram_ratio": 0.4732600905262852,
+    "repetition_rate": 0.952,
+    "average_generated_character_length": 117.964,
+    "median_generated_character_length": 118.0,
+    "average_generated_token_length": 28.958,
+    "minimum_generated_character_length": 1,
+    "maximum_generated_character_length": 153,
+    "heuristic_relevance_rate": 0.022
+  },
+  "Exp010": {
+    "test_size": 500,
+    "exact_match_rate": 0,
+    "non_empty_rate": 1,
+    "repeated_unigram_ratio": 0.06607049584402526,
+    "repeated_bigram_ratio": 0.008529079254079254,
+    "repetition_rate": 0.032,
+    "average_generated_character_length": 34.186,
+    "median_generated_character_length": 35.0,
+    "average_generated_token_length": 8.726,
+    "minimum_generated_character_length": 17,
+    "maximum_generated_character_length": 86,
+    "heuristic_relevance_rate": 0.214
+  },
+  "comparison": {
+    "test_size": {
+      "exp006": 500,
+      "exp010": 500,
+      "absolute_difference": 0
+    },
+    "exact_match_rate": {
+      "exp006": 0,
+      "exp010": 0,
+      "absolute_difference": 0
+    },
+    "non_empty_rate": {
+      "exp006": 1,
+      "exp010": 1,
+      "absolute_difference": 0
+    },
+    "repeated_unigram_ratio": {
+      "exp006": 0.5964455398787372,
+      "exp010": 0.06607049584402526,
+      "absolute_difference": -0.5303750440347119
+    },
+    "repeated_bigram_ratio": {
+      "exp006": 0.4732600905262852,
+      "exp010": 0.008529079254079254,
+      "absolute_difference": -0.46473101127220595
+    },
+    "repetition_rate": {
+      "exp006": 0.952,
+      "exp010": 0.032,
+      "absolute_difference": -0.9199999999999999
+    },
+    "average_generated_character_length": {
+      "exp006": 117.964,
+      "exp010": 34.186,
+      "absolute_difference": -83.77799999999999
+    },
+    "median_generated_character_length": {
+      "exp006": 118.0,
+      "exp010": 35.0,
+      "absolute_difference": -83.0
+    },
+    "average_generated_token_length": {
+      "exp006": 28.958,
+      "exp010": 8.726,
+      "absolute_difference": -20.232
+    },
+    "minimum_generated_character_length": {
+      "exp006": 1,
+      "exp010": 17,
+      "absolute_difference": 16
+    },
+    "maximum_generated_character_length": {
+      "exp006": 153,
+      "exp010": 86,
+      "absolute_difference": -67
+    },
+    "heuristic_relevance_rate": {
+      "exp006": 0.022,
+      "exp010": 0.214,
+      "absolute_difference": 0.192
+    }
+  }
+}
+
+DETERMINISTIC HUMAN-REVIEW SAMPLE (50 examples, seed 42)
+
+[1] acknowledgement
+Prompt: You receive an update saying the meeting moved for next week. Acknowledge it briefly.
+Expected: I would thank them for the update and make clear that I understand it.
+Exp006: The first time you can be able to be able to get a good amount of your child or the child is a good way to get a good child.
+Exp010: I am glad you have been able to make it easier.
+
+[2] wellbeing
+Prompt: Ask your friend how life has been going this afternoon.
+Expected: I would ask in a calm way and offer to listen if something is difficult.
+Exp006: The first time is the first time to be a good way to the right to the right to the other side of the right and the other hand is 
+Exp010: I am glad you have been able to see you.
+
+[3] greetings
+Prompt: You spot a colleague at the front door after some time apart. What do you say?
+Expected: I would welcome them naturally and ask what has been happening lately.
+Exp006: You can be a good way to get a good way to get a good way to get a good way to get a good way to get a good 
+Exp010: I am sorry to meet you.
+
+[4] good_morning
+Prompt: It is morning and you meet a friend at the start of a trip. What do you say?
+Expected: I would offer a pleasant morning greeting and hope the day treats them well.
+Exp006: I have to be a good idea of the world and the best to be a good thing to do that you are going to be able to get the 
+Exp010: I am sorry to me.
+
+[5] apologies
+Prompt: Make amends after you interrupted someone happened while making plans.
+Expected: I would be honest about the mistake and focus on making things right.
+Exp006: The first time is a good deal to be a good way to be a good or more likely to be a good way to get a good way to 
+Exp010: I am glad you have been happy to meet you.
+
+[6] apologies
+Prompt: You realize that you arrived late affected someone before the meeting. What do you say?
+Expected: I would take responsibility, apologize directly, and offer a practical repair.
+Exp006: The first time you have to be a good deal to be able to get a good way to get a good way to get a good way to the 
+Exp010: I am sorry to meet you.
+
+[7] thanks
+Prompt: You are grateful because a coworker who stayed late helped at the last minute. What do you say?
+Expected: I would mention the help directly and say how much I appreciated it.
+Exp006: I have to be a good deal to do with a few years of the world and the people are not to be able to be a good way to 
+Exp010: I am sorry to meet you.
+
+[8] wellbeing
+Prompt: Ask your brother how life has been going after the trip.
+Expected: I would ask in a calm way and offer to listen if something is difficult.
+Exp006: The first time is the first time to be the first time to be the first time to be the first time to be the first time to be the 
+Exp010: I am glad you are going to see you.
+
+[9] good_morning
+Prompt: It is morning and you meet a friend before breakfast. What do you say?
+Expected: I would offer a pleasant morning greeting and hope the day treats them well.
+Exp006: I am sure that I have to be a good idea of the world and that you can be able to do with your own life and you will not 
+Exp010: I am glad you are going to me.
+
+[10] wellbeing
+Prompt: You have not heard from you since yesterday. How do you check in?
+Expected: I would check in with care and give them space to answer honestly.
+Exp006: I have to be a good way to do that you have to be able to be able to do with your child. You can be able to get a
+Exp010: I am sorry to meet you.
+
+[11] acknowledgement
+Prompt: Respond to the information that the package was delivered after the update.
+Expected: I would respond simply, then ask a question only if something remains unclear.
+Exp006: The first time was the first time to be the first time to be the first time of the first time to be the first time of the first time 
+Exp010: I am sorry to meet you.
+
+[12] daily_activities
+Prompt: Someone asks what happens with your lunch break on a normal weekday. Give a conversational answer.
+Expected: I would explain the usual pattern, while admitting that real days sometimes vary.
+Exp006: The first time is a good step to the right to the right to the right to the right to the right to the right and the right to the 
+Exp010: I am glad you are going to see it.
+
+[13] agreement
+Prompt: A friend suggests that the plan sounds sensible in this situation. Respond in agreement.
+Expected: I would confirm the shared view and add a short reason for my agreement.
+Exp006: The following of the age of the age of the age of the age of the age of the age of the age of the age of the age of 
+Exp010: I am sorry to meet you.
+
+[14] introductions
+Prompt: What would you say when a neighbor sitting beside you joins the conversation?
+Expected: I would keep it simple: share my name and say that it is nice to meet them.
+Exp006: €I am not to do that I am sure that I have to do that I have to do that I have to do that I have to do 
+Exp010: I am glad you are going to see you.
+
+[15] disagreement
+Prompt: A friend believes the change is unnecessary at this point. Respond thoughtfully without being dismissive.
+Expected: I would acknowledge the point, then give a clear reason for seeing things differently.
+Exp006: The first time is the only one of the most important of the most common and the most common and the most common in the world. The most common form
+Exp010: I am sorry to be happy to meet you.
+
+[16] positive_emotions
+Prompt: You are delighted that a sunny afternoon happened when you needed encouragement. Share the news.
+Expected: I would describe what went well and invite them to celebrate the moment with me.
+Exp006: The first time is the first time to be the first time to be the first time to the Moon to the Moon. The crew is the first to the
+Exp010: I am glad you have been happy to meet you.
+
+[17] greetings
+Prompt: You spot a colleague on the bus after some time apart. What do you say?
+Expected: I would welcome them naturally and ask what has been happening lately.
+Exp006: The baby is the first time you have to be a good way to get a baby or a baby or a baby or a bab
+Exp010: I am glad you are going to see you.
+
+[18] greetings
+Prompt: How do you open a friendly conversation with a colleague at the market?
+Expected: I would start with a warm hello, then give them room to respond.
+Exp006: http://wwww.org/wwwww.org/wwwwwww.htm.org/wwww.htm.org/wwwww.org/www.htm.ht
+Exp010: I am glad you are going to see you.
+
+[19] introductions
+Prompt: You have never met a neighbor helping with the event. How do you introduce yourself?
+Expected: I would say my name, welcome them, and invite them into the conversation.
+Exp006: You can be a good way to get a good and you can be able to get a good way to get a good way to get a good way 
+Exp010: I am glad you are going to see you.
+
+[20] thanks
+Prompt: Thank a friend who remembered for the kindness shown with a difficult task, on another occasion.
+Expected: I would offer a genuine thank-you and let them know their kindness mattered.
+Exp006: €
+Exp010: I am glad you have been able to make it easier.
+
+[21] thanks
+Prompt: Thank a host who welcomed you for the kindness shown on a busy day.
+Expected: I would offer a genuine thank-you and let them know their kindness mattered.
+Exp006: The first time you can be able to get a good deal to get a good time to the next day. You can be a good way to get a
+Exp010: I am glad you have been able to see you.
+
+[22] encouragement
+Prompt: You know a teammate learning a new role is working hard after a setback. Give them encouragement.
+Expected: I would recognize the work already done and help them focus on the next manageable step.
+Exp006: a lot of the students to learn with the students and the students to learn the students to learn and learn to learn with the students and to
+Exp010: I am sorry to meet you.
+
+[23] disagreement
+Prompt: A friend believes the plan will be easy at this point. Respond thoughtfully without being dismissive.
+Expected: I would acknowledge the point, then give a clear reason for seeing things differently.
+Exp006: The first time is the first time to be the same to the same time to the person is the same to the person of the person and the other 
+Exp010: I am sorry to meet you.
+
+[24] greetings
+Prompt: How do you open a friendly conversation with a colleague after a long week?
+Expected: I would start with a warm hello, then give them room to respond.
+Exp006: The first time you can be a good deal to be able to get a good amount of your child or a child or a child or a child or 
+Exp010: I am glad you are going to see you.
+
+[25] agreement
+Prompt: A friend suggests that the new schedule is better for the group. Respond in agreement.
+Expected: I would confirm the shared view and add a short reason for my agreement.
+Exp006: The first time is the first to be the first to be the first time of the first time in the case of the world. The first time is the
+Exp010: I am sorry to meet you.
+
+[26] thanks
+Prompt: Thank someone who helped you for the kindness shown on a busy day.
+Expected: I would offer a genuine thank-you and let them know their kindness mattered.
+Exp006: €
+Exp010: I am glad you have been happy to see you.
+
+[27] farewell
+Prompt: You need to leave while speaking with a guest leaving when the conversation ends. Say goodbye.
+Expected: I would offer a kind farewell, wish them a good rest of the day, and leave clearly.
+Exp006: The first time is the first to be a good step of the first time to the right to the other and the right to the other hand of the 
+Exp010: I am glad you are going to be able to see you.
+
+[28] acknowledgement
+Prompt: Respond to the information that the message arrived a few minutes ago.
+Expected: I would respond simply, then ask a question only if something remains unclear.
+Exp006: The first time was the first time to be the first time of the first time to be the first time of the first time to be the first time 
+Exp010: I am glad you have been able to see you.
+
+[29] farewell
+Prompt: End your visit with a coworker at the end of the day after a pleasant visit on a warm note.
+Expected: I would say goodbye and let them know I enjoyed the conversation.
+Exp006: The first time you will be able to get a good way to get a good way to get a good way to the right to the right to the 
+Exp010: I am glad you are going to see you.
+
+[30] positive_emotions
+Prompt: You are delighted that a sunny afternoon happened at the end of the week. Share the news.
+Expected: I would describe what went well and invite them to celebrate the moment with me.
+Exp006: the first time you have to be a good deal to get a little time to get a few years of the world. The first time you have to have
+Exp010: I am glad I am glad you are going to see you.
+
+[31] thanks
+Prompt: You are grateful because a coworker who stayed late helped with a difficult task. What do you say?
+Expected: I would mention the help directly and say how much I appreciated it.
+Exp006: I have to be a good deal to do with a good deal to be a good way to do with a good person or a good child or a 
+Exp010: I am sorry to meet you.
+
+[32] negative_emotions
+Prompt: You learn that a disappointing day has gone badly for someone on your way home. Respond with empathy.
+Expected: I would recognize how hard it sounds, listen carefully, and offer steady support.
+Exp006: The first time you can be able to be able to get a good way to get a good way to get a good way to get a good chance 
+Exp010: I am glad you are going to see you.
+
+[33] disagreement
+Prompt: Challenge the assumption that the change is unnecessary without more information while staying courteous.
+Expected: I would keep the tone respectful and invite more discussion rather than trying to win.
+Exp006: The following of the other hand is the most common and the most common and the most common and the most common form of the body is the most common 
+Exp010: I am glad that is a good way to meet it.
+
+[34] apologies
+Prompt: Make amends after you interrupted someone happened after a long day.
+Expected: I would be honest about the mistake and focus on making things right.
+Exp006: The first time you can be able to get a good time to get a few minutes or more than you have to get a few years of the day.
+Exp010: I am glad I am glad you are going to me.
+
+[35] good_night
+Prompt: The day is ending while you are with a housemate at the end of a visit. Say good night.
+Expected: I would say good night warmly and wish them the rest they need.
+Exp006: The first time you can be able to get a few minutes of the stitch and the stitch is the first to be a good way to the next 
+Exp010: I am glad you are going to see you.
+
+[36] casual_questions
+Prompt: You want to learn more about a place you like visiting while chatting on a quiet afternoon. Ask a natural question.
+Expected: I would phrase it casually and share a little about my own answer too.
+Exp006: € I have a good idea to do with a good deal of your child€s life. I have to do that you are not sure that you are
+Exp010: I am glad you are going to see you.
+
+[37] greetings
+Prompt: How do you open a friendly conversation with a new neighbor at the market?
+Expected: I would start with a warm hello, then give them room to respond.
+Exp006: The first time you can be able to get a good idea to get a good way to get a lot of the world. You can be a good way
+Exp010: I am sorry to meet you.
+
+[38] good_morning
+Prompt: Begin a friendly morning exchange with a coworker on a busy weekday.
+Expected: I would say good morning with a warm tone and leave room for a reply.
+Exp006: The first time is the first time to be a very small and a few years ago. The first time is the first time to be a good step to
+Exp010: I am sorry to meet you.
+
+[39] good_night
+Prompt: The day is ending while you are with a housemate after a long day. Say good night.
+Expected: I would say good night warmly and wish them the rest they need.
+Exp006: The first time you can be able to be able to get a few minutes or more about the day. You can be a good way to get a few
+Exp010: I am glad you are going to see you.
+
+[40] small_talk
+Prompt: You are waiting with someone and notice the weekend this morning. What do you say?
+Expected: I would mention what I noticed and invite the other person to share their view.
+Exp006: The first time you have to be a good idea to be able to get a good way to get a good way to get a good way to the 
+Exp010: I am glad you are going to see you.
+
+[41] farewell
+Prompt: End your visit with a coworker at the end of the day until tomorrow on a warm note.
+Expected: I would say goodbye and let them know I enjoyed the conversation.
+Exp006: The first time is the first time to be the first time to be the first time to the same time to the next day. The next time is the
+Exp010: I am glad you are going to see you.
+
+[42] asking_for_help
+Prompt: You are unsure how to handle a new recipe before the deadline. Ask for assistance naturally.
+Expected: I would describe the difficulty and ask for one specific kind of assistance.
+Exp006: the first time you can be able to be able to be able to be able to be able to be able to be able to be able to be 
+Exp010: I am glad to be sure you are going to see you.
+
+[43] small_talk
+Prompt: You are waiting with someone and notice the weather during the afternoon. What do you say?
+Expected: I would mention what I noticed and invite the other person to share their view.
+Exp006: I have to be a good deal to be able to be a good way to get the best time to be in the world. I am sure that I
+Exp010: I am glad you have been able to make it easier.
+
+[44] thanks
+Prompt: You are grateful because a friend who remembered helped when you needed it. What do you say?
+Expected: I would mention the help directly and say how much I appreciated it.
+Exp006: I have to be a good way to do that you are not to be able to be able to be able to be able to be able to be 
+Exp010: I am glad you have been happy to meet you.
+
+[45] conversational_followup
+Prompt: Continue the discussion of a recent trip without abruptly changing topics before changing subjects.
+Expected: I would ask about the part that naturally invites more context or feeling.
+Exp006: The first time is the first time of the first time in the United States and the United States and the United States was the first to be the first 
+Exp010: I am sorry to meet you.
+
+[46] good_morning
+Prompt: Begin a friendly morning exchange with a coworker when you arrive.
+Expected: I would say good morning with a warm tone and leave room for a reply.
+Exp006: The first time is the first time to be a few years of the first time to be the first time to be the first time to be the first 
+Exp010: I am glad you are going to see you.
+
+[47] asking_for_help
+Prompt: You are unsure how to handle a difficult decision during the move. Ask for assistance naturally.
+Expected: I would describe the difficulty and ask for one specific kind of assistance.
+Exp006: The first time is the first time to be the first time to be the first time to be the same time to the same time to the same time.
+Exp010: I am glad you have been able to see you.
+
+[48] offering_help
+Prompt: Give a guest looking lost a chance to accept help at the end of the day.
+Expected: I would point out that I am available and ask how I could contribute.
+Exp006: The first time is the first time to be the first time of the day and the next day. The first time is the first time to be the first
+Exp010: I am sorry to meet you.
+
+[49] introductions
+Prompt: You have never met a volunteer joining the group. How do you introduce yourself?
+Expected: I would say my name, welcome them, and invite them into the conversation.
+Exp006: The first time you can be able to be able to be able to be able to be able to be able to be able to be able to be 
+Exp010: I am sorry to meet you.
+
+[50] offering_help
+Prompt: You see that a coworker facing a deadline may need support during a busy morning. Offer help naturally.
+Expected: I would make a gentle offer and respect their answer either way.
+Exp006: If you have a lot of your child or not have a child or a child or a child or a child or a child or a child or a 
+Exp010: I am glad you are going to see you.
+
+REPRESENTATIVE SUCCESSFUL/IMPROVED EXAMPLES
+
+Example 26
+Prompt: You have never met a new teammate joining the group. How do you introduce yourself?
+Expected: I would say my name, welcome them, and invite them into the conversation.
+Exp006: The first time you can be able to be able to be able to be able to be able to be able to be able to be able to be 
+Exp010: I am sorry to meet you.
+
+Example 28
+Prompt: You have never met a new teammate at the first meeting. How do you introduce yourself?
+Expected: I would say my name, welcome them, and invite them into the conversation.
+Exp006: The first time you can be able to get a lot of the time you can be able to be able to get a good or more effective for your 
+Exp010: I am sorry to meet you.
+
+Example 30
+Prompt: You have never met a new teammate helping with the event. How do you introduce yourself?
+Expected: I would say my name, welcome them, and invite them into the conversation.
+Exp006: The first time you can be able to get a lot of your child or a child or a child or a child or a child or a child or 
+Exp010: I am sorry to meet you.
+
+Example 31
+Prompt: What would you say when a new teammate starting today joins the conversation?
+Expected: I would keep it simple: share my name and say that it is nice to meet them.
+Exp006: The first time is the first time to be the first time to be the same time to be the same time to be the same time to be the 
+Exp010: I am sorry to meet you.
+
+Example 32
+Prompt: You have never met a guest at a gathering joining the group. How do you introduce yourself?
+Expected: I would say my name, welcome them, and invite them into the conversation.
+Exp006: You can use a lot of your child or a child or a child or a child or a child or a child or a child or a child or 
+Exp010: I am sorry to meet you.
+
+Example 34
+Prompt: You have never met a guest at a gathering at the first meeting. How do you introduce yourself?
+Expected: I would say my name, welcome them, and invite them into the conversation.
+Exp006: The first time you can be able to get a bit of your own life. You can be a good way to get a good way to get a good
+Exp010: I am sorry to meet you at a time.
+
+Example 35
+Prompt: What would you say when a guest at a gathering waiting by the entrance joins the conversation?
+Expected: I would keep it simple: share my name and say that it is nice to meet them.
+Exp006: The first time is the first time to be the same time to be the same time to the same time of the same time is the same time to 
+Exp010: I am glad that is a good way to meet you.
+
+Example 36
+Prompt: You have never met a guest at a gathering helping with the event. How do you introduce yourself?
+Expected: I would say my name, welcome them, and invite them into the conversation.
+Exp006: If you have a lot of your child or not have a child or a child or a child or a child or a child or a child or a 
+Exp010: I am sorry to meet you at a time.
+
+Example 37
+Prompt: What would you say when a guest at a gathering starting today joins the conversation?
+Expected: I would keep it simple: share my name and say that it is nice to meet them.
+Exp006: The first time is the first time to be the first time to be the same time to the same time to the other hand of the two or three 
+Exp010: I am sorry to meet you.
+
+Example 38
+Prompt: You have never met a classmate joining the group. How do you introduce yourself?
+Expected: I would say my name, welcome them, and invite them into the conversation.
+Exp006: The first time you can be able to be able to be able to be able to be able to be able to be able to be able to be 
+Exp010: I am sorry to meet you.
+
+REPRESENTATIVE FAILURE EXAMPLES
+
+Example 1
+Prompt: You spot a new neighbor at the front door after some time apart. What do you say?
+Expected: I would welcome them naturally and ask what has been happening lately.
+Exp006: The first time you can be able to get a lot of your child or you to get a child or a child or a child or a child or 
+Exp010: I am glad you have been happy to see you.
+
+Example 3
+Prompt: You spot a new neighbor near the coffee machine after some time apart. What do you say?
+Expected: I would welcome them naturally and ask what has been happening lately.
+Exp006: The first time you can be able to get a lot of your child or you to get a child or a child or a child or a child or 
+Exp010: I am glad you have been happy to see you.
+
+Example 14
+Prompt: How do you open a friendly conversation with a colleague after a long week?
+Expected: I would start with a warm hello, then give them room to respond.
+Exp006: The first time you can be a good deal to be able to get a good amount of your child or a child or a child or a child or 
+Exp010: I am glad you are going to see you.
+
+Example 52
+Prompt: Ask you how life has been going this afternoon.
+Expected: I would ask in a calm way and offer to listen if something is difficult.
+Exp006: The first time you can be able to get a good way to get a lot of your own life. You can also be a good way to do that
+Exp010: I am glad I am glad you have been happy to meet you.
+
+Example 56
+Prompt: Ask you how life has been going before the weekend.
+Expected: I would ask in a calm way and offer to listen if something is difficult.
+Exp006: The first time you have to be a good way to get a good chance to get a good way to get a good way to the right to the 
+Exp010: I am glad I am glad you are going to see you.
+
+Example 62
+Prompt: Ask your friend how life has been going before the weekend.
+Expected: I would ask in a calm way and offer to listen if something is difficult.
+Exp006: The first time is the first time to be the first time to be the first time to be the same time to the other hand of the day. The
+Exp010: I am glad I am glad you are going to me.
+
+Example 74
+Prompt: Ask your brother how life has been going before the weekend.
+Expected: I would ask in a calm way and offer to listen if something is difficult.
+Exp006: The first time is the first time to be the first time to be the first time to be the first time of the next day. The first time is
+Exp010: I am glad I am glad you are going to me.
+
+Example 127
+Prompt: Make amends after you arrived late happened during a busy afternoon.
+Expected: I would be honest about the mistake and focus on making things right.
+Exp006: The first time is a good deal to be a good deal of the world. The first time is the first time to be the first time to be the
+Exp010: I am glad I am glad you are going to me.
+
+Example 129
+Prompt: Make amends after you arrived late happened while making plans.
+Expected: I would be honest about the mistake and focus on making things right.
+Exp006: The first time to be a good deal to be able to be a good way to be able to be a good way to get a good way to 
+Exp010: I am glad I am glad you are going to see you.
+
+Example 131
+Prompt: Make amends after you arrived late happened after a long day.
+Expected: I would be honest about the mistake and focus on making things right.
+Exp006: The first time is a good deal of the day to the day of the day and the day is the first time to be the first time to the 
+Exp010: I am glad I am glad you are going to me.

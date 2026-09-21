@@ -1,0 +1,626 @@
+{
+  "experiment": "Exp010 general conversation",
+  "seed": 42,
+  "test_set_size": 500,
+  "base_checkpoint": "D:\\project\\LLM\\LLM\\checkpoints\\exp006_mixed_30k\\best_model.pt",
+  "tuned_checkpoint": "D:\\project\\LLM\\LLM\\checkpoints\\exp010_general_chat\\best_model.pt",
+  "tokenizer": "D:\\project\\LLM\\LLM\\tokenizer_exp003",
+  "decoding": {
+    "primary": {
+      "greedy": true,
+      "temperature": 0.0,
+      "top_k": 0,
+      "top_p": 1.0,
+      "max_new_tokens": 60
+    },
+    "secondary": {
+      "temperature": 0.7,
+      "top_k": 40,
+      "top_p": 0.9,
+      "max_new_tokens": 60
+    }
+  },
+  "primary": {
+    "exp006": {
+      "test_size": 500,
+      "exact_match_rate": 0,
+      "non_empty_rate": 1,
+      "repeated_unigram_ratio": 0.5964455398787372,
+      "repeated_bigram_ratio": 0.4732600905262852,
+      "repetition_rate": 0.952,
+      "average_generated_character_length": 117.964,
+      "median_generated_character_length": 118.0,
+      "average_generated_token_length": 28.958,
+      "minimum_generated_character_length": 1,
+      "maximum_generated_character_length": 153,
+      "heuristic_relevance_rate": 0.022
+    },
+    "exp010": {
+      "test_size": 500,
+      "exact_match_rate": 0,
+      "non_empty_rate": 1,
+      "repeated_unigram_ratio": 0.06607049584402526,
+      "repeated_bigram_ratio": 0.008529079254079254,
+      "repetition_rate": 0.032,
+      "average_generated_character_length": 34.186,
+      "median_generated_character_length": 35.0,
+      "average_generated_token_length": 8.726,
+      "minimum_generated_character_length": 17,
+      "maximum_generated_character_length": 86,
+      "heuristic_relevance_rate": 0.214
+    },
+    "comparison": {
+      "test_size": {
+        "exp006": 500,
+        "exp010": 500,
+        "absolute_difference": 0
+      },
+      "exact_match_rate": {
+        "exp006": 0,
+        "exp010": 0,
+        "absolute_difference": 0
+      },
+      "non_empty_rate": {
+        "exp006": 1,
+        "exp010": 1,
+        "absolute_difference": 0
+      },
+      "repeated_unigram_ratio": {
+        "exp006": 0.5964455398787372,
+        "exp010": 0.06607049584402526,
+        "absolute_difference": -0.5303750440347119
+      },
+      "repeated_bigram_ratio": {
+        "exp006": 0.4732600905262852,
+        "exp010": 0.008529079254079254,
+        "absolute_difference": -0.46473101127220595
+      },
+      "repetition_rate": {
+        "exp006": 0.952,
+        "exp010": 0.032,
+        "absolute_difference": -0.9199999999999999
+      },
+      "average_generated_character_length": {
+        "exp006": 117.964,
+        "exp010": 34.186,
+        "absolute_difference": -83.77799999999999
+      },
+      "median_generated_character_length": {
+        "exp006": 118.0,
+        "exp010": 35.0,
+        "absolute_difference": -83.0
+      },
+      "average_generated_token_length": {
+        "exp006": 28.958,
+        "exp010": 8.726,
+        "absolute_difference": -20.232
+      },
+      "minimum_generated_character_length": {
+        "exp006": 1,
+        "exp010": 17,
+        "absolute_difference": 16
+      },
+      "maximum_generated_character_length": {
+        "exp006": 153,
+        "exp010": 86,
+        "absolute_difference": -67
+      },
+      "heuristic_relevance_rate": {
+        "exp006": 0.022,
+        "exp010": 0.214,
+        "absolute_difference": 0.192
+      }
+    }
+  },
+  "secondary_sampling": {
+    "exp006": {
+      "test_size": 500,
+      "exact_match_rate": 0,
+      "non_empty_rate": 1,
+      "repeated_unigram_ratio": 0.26517451256676766,
+      "repeated_bigram_ratio": 0.05723138952848688,
+      "repetition_rate": 0.212,
+      "average_generated_character_length": 113.988,
+      "median_generated_character_length": 124.0,
+      "average_generated_token_length": 24.922,
+      "minimum_generated_character_length": 1,
+      "maximum_generated_character_length": 177,
+      "heuristic_relevance_rate": 0.072
+    },
+    "exp010": {
+      "test_size": 500,
+      "exact_match_rate": 0,
+      "non_empty_rate": 1,
+      "repeated_unigram_ratio": 0.06853301018577301,
+      "repeated_bigram_ratio": 0.015067690942691987,
+      "repetition_rate": 0.016,
+      "average_generated_character_length": 40.026,
+      "median_generated_character_length": 37.0,
+      "average_generated_token_length": 9.706,
+      "minimum_generated_character_length": 11,
+      "maximum_generated_character_length": 121,
+      "heuristic_relevance_rate": 0.148
+    },
+    "comparison": {
+      "test_size": {
+        "exp006": 500,
+        "exp010": 500,
+        "absolute_difference": 0
+      },
+      "exact_match_rate": {
+        "exp006": 0,
+        "exp010": 0,
+        "absolute_difference": 0
+      },
+      "non_empty_rate": {
+        "exp006": 1,
+        "exp010": 1,
+        "absolute_difference": 0
+      },
+      "repeated_unigram_ratio": {
+        "exp006": 0.26517451256676766,
+        "exp010": 0.06853301018577301,
+        "absolute_difference": -0.19664150238099465
+      },
+      "repeated_bigram_ratio": {
+        "exp006": 0.05723138952848688,
+        "exp010": 0.015067690942691987,
+        "absolute_difference": -0.04216369858579489
+      },
+      "repetition_rate": {
+        "exp006": 0.212,
+        "exp010": 0.016,
+        "absolute_difference": -0.196
+      },
+      "average_generated_character_length": {
+        "exp006": 113.988,
+        "exp010": 40.026,
+        "absolute_difference": -73.96199999999999
+      },
+      "median_generated_character_length": {
+        "exp006": 124.0,
+        "exp010": 37.0,
+        "absolute_difference": -87.0
+      },
+      "average_generated_token_length": {
+        "exp006": 24.922,
+        "exp010": 9.706,
+        "absolute_difference": -15.216000000000001
+      },
+      "minimum_generated_character_length": {
+        "exp006": 1,
+        "exp010": 11,
+        "absolute_difference": 10
+      },
+      "maximum_generated_character_length": {
+        "exp006": 177,
+        "exp010": 121,
+        "absolute_difference": -56
+      },
+      "heuristic_relevance_rate": {
+        "exp006": 0.072,
+        "exp010": 0.148,
+        "absolute_difference": 0.076
+      }
+    }
+  },
+  "per_category": {
+    "exp006": {
+      "acknowledgement": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 126.2,
+        "exact_match_rate": 0,
+        "repetition_rate": 1,
+        "heuristic_relevance_rate": 0
+      },
+      "agreement": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 110.36,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.92,
+        "heuristic_relevance_rate": 0.16
+      },
+      "apologies": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 119.84,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.96,
+        "heuristic_relevance_rate": 0
+      },
+      "asking_for_help": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 117.48,
+        "exact_match_rate": 0,
+        "repetition_rate": 1,
+        "heuristic_relevance_rate": 0
+      },
+      "casual_questions": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 113.72,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.88,
+        "heuristic_relevance_rate": 0.04
+      },
+      "conversational_followup": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 122.92,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.96,
+        "heuristic_relevance_rate": 0
+      },
+      "daily_activities": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 118.32,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.96,
+        "heuristic_relevance_rate": 0
+      },
+      "disagreement": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 129.76,
+        "exact_match_rate": 0,
+        "repetition_rate": 1,
+        "heuristic_relevance_rate": 0
+      },
+      "encouragement": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 120.16,
+        "exact_match_rate": 0,
+        "repetition_rate": 1,
+        "heuristic_relevance_rate": 0
+      },
+      "farewell": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 119.84,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.96,
+        "heuristic_relevance_rate": 0
+      },
+      "good_morning": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 118.72,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.88,
+        "heuristic_relevance_rate": 0
+      },
+      "good_night": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 117.28,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.96,
+        "heuristic_relevance_rate": 0
+      },
+      "greetings": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 115,
+        "exact_match_rate": 0,
+        "repetition_rate": 1,
+        "heuristic_relevance_rate": 0.12
+      },
+      "introductions": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 116.28,
+        "exact_match_rate": 0,
+        "repetition_rate": 1,
+        "heuristic_relevance_rate": 0
+      },
+      "negative_emotions": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 113.64,
+        "exact_match_rate": 0,
+        "repetition_rate": 1,
+        "heuristic_relevance_rate": 0
+      },
+      "offering_help": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 121.56,
+        "exact_match_rate": 0,
+        "repetition_rate": 1,
+        "heuristic_relevance_rate": 0.12
+      },
+      "positive_emotions": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 121.04,
+        "exact_match_rate": 0,
+        "repetition_rate": 1,
+        "heuristic_relevance_rate": 0
+      },
+      "small_talk": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 125.28,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.96,
+        "heuristic_relevance_rate": 0
+      },
+      "thanks": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 90.68,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.68,
+        "heuristic_relevance_rate": 0
+      },
+      "wellbeing": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 121.2,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.92,
+        "heuristic_relevance_rate": 0
+      }
+    },
+    "exp010": {
+      "acknowledgement": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 36.76,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.04,
+        "heuristic_relevance_rate": 0.6
+      },
+      "agreement": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 30.56,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0
+      },
+      "apologies": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 31.2,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.2,
+        "heuristic_relevance_rate": 0.52
+      },
+      "asking_for_help": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 40.72,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0.04
+      },
+      "casual_questions": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 34.96,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0
+      },
+      "conversational_followup": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 35.44,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.04,
+        "heuristic_relevance_rate": 0
+      },
+      "daily_activities": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 32.04,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0
+      },
+      "disagreement": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 39.56,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0
+      },
+      "encouragement": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 33.96,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.12,
+        "heuristic_relevance_rate": 0
+      },
+      "farewell": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 33.36,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0.64
+      },
+      "good_morning": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 32.48,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0
+      },
+      "good_night": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 36.32,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0
+      },
+      "greetings": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 33.08,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0
+      },
+      "introductions": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 29.92,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0.68
+      },
+      "negative_emotions": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 31.72,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0.4
+      },
+      "offering_help": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 35,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.04,
+        "heuristic_relevance_rate": 0.16
+      },
+      "positive_emotions": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 31.36,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.04,
+        "heuristic_relevance_rate": 0.52
+      },
+      "small_talk": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 32.12,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0
+      },
+      "thanks": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 35.72,
+        "exact_match_rate": 0,
+        "repetition_rate": 0,
+        "heuristic_relevance_rate": 0.72
+      },
+      "wellbeing": {
+        "test_examples": 25,
+        "non_empty_responses": 25,
+        "average_response_length": 37.44,
+        "exact_match_rate": 0,
+        "repetition_rate": 0.16,
+        "heuristic_relevance_rate": 0
+      }
+    }
+  },
+  "generalization_subset": {
+    "size": 500,
+    "exp006": {
+      "test_size": 500,
+      "exact_match_rate": 0,
+      "non_empty_rate": 1,
+      "repeated_unigram_ratio": 0.5964455398787372,
+      "repeated_bigram_ratio": 0.4732600905262852,
+      "repetition_rate": 0.952,
+      "average_generated_character_length": 117.964,
+      "median_generated_character_length": 118.0,
+      "average_generated_token_length": 28.958,
+      "minimum_generated_character_length": 1,
+      "maximum_generated_character_length": 153,
+      "heuristic_relevance_rate": 0.022
+    },
+    "exp010": {
+      "test_size": 500,
+      "exact_match_rate": 0,
+      "non_empty_rate": 1,
+      "repeated_unigram_ratio": 0.06607049584402526,
+      "repeated_bigram_ratio": 0.008529079254079254,
+      "repetition_rate": 0.032,
+      "average_generated_character_length": 34.186,
+      "median_generated_character_length": 35.0,
+      "average_generated_token_length": 8.726,
+      "minimum_generated_character_length": 17,
+      "maximum_generated_character_length": 86,
+      "heuristic_relevance_rate": 0.214
+    },
+    "comparison": {
+      "test_size": {
+        "exp006": 500,
+        "exp010": 500,
+        "absolute_difference": 0
+      },
+      "exact_match_rate": {
+        "exp006": 0,
+        "exp010": 0,
+        "absolute_difference": 0
+      },
+      "non_empty_rate": {
+        "exp006": 1,
+        "exp010": 1,
+        "absolute_difference": 0
+      },
+      "repeated_unigram_ratio": {
+        "exp006": 0.5964455398787372,
+        "exp010": 0.06607049584402526,
+        "absolute_difference": -0.5303750440347119
+      },
+      "repeated_bigram_ratio": {
+        "exp006": 0.4732600905262852,
+        "exp010": 0.008529079254079254,
+        "absolute_difference": -0.46473101127220595
+      },
+      "repetition_rate": {
+        "exp006": 0.952,
+        "exp010": 0.032,
+        "absolute_difference": -0.9199999999999999
+      },
+      "average_generated_character_length": {
+        "exp006": 117.964,
+        "exp010": 34.186,
+        "absolute_difference": -83.77799999999999
+      },
+      "median_generated_character_length": {
+        "exp006": 118.0,
+        "exp010": 35.0,
+        "absolute_difference": -83.0
+      },
+      "average_generated_token_length": {
+        "exp006": 28.958,
+        "exp010": 8.726,
+        "absolute_difference": -20.232
+      },
+      "minimum_generated_character_length": {
+        "exp006": 1,
+        "exp010": 17,
+        "absolute_difference": 16
+      },
+      "maximum_generated_character_length": {
+        "exp006": 153,
+        "exp010": 86,
+        "absolute_difference": -67
+      },
+      "heuristic_relevance_rate": {
+        "exp006": 0.022,
+        "exp010": 0.214,
+        "absolute_difference": 0.192
+      }
+    }
+  }
+}

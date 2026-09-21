@@ -1,0 +1,235 @@
+{
+  "experiment": "Exp011 High-Quality General Conversation SFT",
+  "seed": 42,
+  "train_size": 10000,
+  "validation_size": 1000,
+  "test_size": 1000,
+  "categories": [
+    "greetings",
+    "introductions",
+    "wellbeing",
+    "small_talk",
+    "thanks",
+    "apologies",
+    "asking_for_help",
+    "offering_help",
+    "positive_emotions",
+    "negative_emotions",
+    "encouragement",
+    "agreement",
+    "disagreement",
+    "acknowledgement",
+    "farewell",
+    "good_morning",
+    "good_night",
+    "casual_questions",
+    "daily_activities",
+    "conversational_followup"
+  ],
+  "tokenizer": "tokenizer_exp003",
+  "context_length": 256,
+  "format": "User/Assistant single-turn",
+  "source": "programmatically generated controlled conversational dataset",
+  "category_counts": {
+    "train": {
+      "offering_help": 500,
+      "acknowledgement": 500,
+      "farewell": 500,
+      "introductions": 500,
+      "small_talk": 500,
+      "good_morning": 500,
+      "apologies": 500,
+      "thanks": 500,
+      "daily_activities": 500,
+      "positive_emotions": 500,
+      "agreement": 500,
+      "asking_for_help": 500,
+      "negative_emotions": 500,
+      "wellbeing": 500,
+      "good_night": 500,
+      "greetings": 500,
+      "encouragement": 500,
+      "disagreement": 500,
+      "casual_questions": 500,
+      "conversational_followup": 500
+    },
+    "val": {
+      "conversational_followup": 50,
+      "encouragement": 50,
+      "wellbeing": 50,
+      "offering_help": 50,
+      "disagreement": 50,
+      "good_morning": 50,
+      "casual_questions": 50,
+      "small_talk": 50,
+      "farewell": 50,
+      "greetings": 50,
+      "thanks": 50,
+      "good_night": 50,
+      "agreement": 50,
+      "introductions": 50,
+      "apologies": 50,
+      "daily_activities": 50,
+      "asking_for_help": 50,
+      "negative_emotions": 50,
+      "acknowledgement": 50,
+      "positive_emotions": 50
+    },
+    "test": {
+      "positive_emotions": 50,
+      "encouragement": 50,
+      "asking_for_help": 50,
+      "greetings": 50,
+      "good_morning": 50,
+      "introductions": 50,
+      "conversational_followup": 50,
+      "wellbeing": 50,
+      "agreement": 50,
+      "good_night": 50,
+      "small_talk": 50,
+      "casual_questions": 50,
+      "farewell": 50,
+      "daily_activities": 50,
+      "acknowledgement": 50,
+      "negative_emotions": 50,
+      "thanks": 50,
+      "apologies": 50,
+      "disagreement": 50,
+      "offering_help": 50
+    }
+  },
+  "overlap_statistics": {
+    "train_val_prompts": 0,
+    "train_test_prompts": 0,
+    "val_test_prompts": 0,
+    "train_val_pairs": 0,
+    "train_test_pairs": 0,
+    "val_test_pairs": 0
+  },
+  "tokenization": {
+    "minimum": 52,
+    "maximum": 100,
+    "average": 75.91666666666667,
+    "truncated_examples": 0,
+    "truncation_percentage": 0.0,
+    "context_length": 256,
+    "vocabulary_size": 10000
+  },
+  "character_statistics": {
+    "train": {
+      "prompt_min": 21,
+      "prompt_max": 102,
+      "prompt_average": 66.06,
+      "response_min": 50,
+      "response_max": 123,
+      "response_average": 82.55
+    },
+    "val": {
+      "prompt_min": 33,
+      "prompt_max": 106,
+      "prompt_average": 76.16,
+      "response_min": 56,
+      "response_max": 122,
+      "response_average": 88.5
+    },
+    "test": {
+      "prompt_min": 32,
+      "prompt_max": 105,
+      "prompt_average": 75.16,
+      "response_min": 56,
+      "response_max": 122,
+      "response_average": 88.5
+    }
+  },
+  "response_diversity": {
+    "unique_normalized_responses": 400,
+    "top_20": [
+      [
+        "thanks, a hand with that would be useful. it is kind of you to notice.",
+        50
+      ],
+      [
+        "thanks, i have noted the change. i appreciate the clear update.",
+        50
+      ],
+      [
+        "see you later! it was nice talking with you too. take care until we meet again.",
+        50
+      ],
+      [
+        "nice to meet you! i am glad you are here. i hope you feel welcome.",
+        50
+      ],
+      [
+        "that is thoughtful of you; i think i can manage for now. that gives me some flexibility.",
+        50
+      ],
+      [
+        "that is an easy topic to chat about. what is your view? that gives us something to discuss.",
+        50
+      ],
+      [
+        "good morning! how is your day beginning? wishing you a comfortable day ahead.",
+        50
+      ],
+      [
+        "i accept your apology, and i hope we can move forward. that gives us a better way forward.",
+        50
+      ],
+      [
+        "you are very welcome; i am glad i could help. i am pleased it made a difference.",
+        50
+      ],
+      [
+        "i usually keep it simple and leave room for the day to change. i enjoy finding a rhythm that works.",
+        50
+      ],
+      [
+        "that is kind of you. i may take you up on the offer. your offer is reassuring.",
+        50
+      ],
+      [
+        "i am happy for you; you deserve to enjoy that feeling. it gave me a welcome boost.",
+        50
+      ],
+      [
+        "i agree, especially given the circumstances. i can understand that perspective.",
+        50
+      ],
+      [
+        "i would be glad to help; what have you tried so far? i appreciate your patience.",
+        50
+      ],
+      [
+        "good morning! i hope your day gets off to a smooth start. i hope the day treats you kindly.",
+        50
+      ],
+      [
+        "that sounds difficult; i am here if you want to talk. i do not want to ignore how i feel.",
+        50
+      ],
+      [
+        "it is great that something went so well. i am grateful for the experience.",
+        50
+      ],
+      [
+        "i am feeling pretty good today. a little rest usually helps.",
+        50
+      ],
+      [
+        "rest well; you have earned a quiet night. i hope you wake feeling refreshed.",
+        50
+      ],
+      [
+        "i am sorry the day has been so hard. be kind to yourself. i am taking the situation one step at a time.",
+        50
+      ]
+    ]
+  },
+  "rejected": {},
+  "paths": {
+    "train": "D:\\project\\LLM\\LLM\\data\\processed\\exp011_general_chat\\instruction_train.jsonl",
+    "val": "D:\\project\\LLM\\LLM\\data\\processed\\exp011_general_chat\\instruction_val.jsonl",
+    "test": "D:\\project\\LLM\\LLM\\data\\processed\\exp011_general_chat\\instruction_test.jsonl"
+  }
+}

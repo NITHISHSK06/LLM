@@ -1,0 +1,391 @@
+{
+  "dataset_name": "exp014_general_chat_v2",
+  "version": "2.0",
+  "seed": 42,
+  "source_files": [
+    "data\\raw\\dailydialog_train.jsonl",
+    "data\\processed\\exp011_general_chat\\instruction_train.jsonl",
+    "data\\processed\\exp011_general_chat\\instruction_val.jsonl"
+  ],
+  "category_counts": {
+    "train": {
+      "offering_help": 1204,
+      "small_talk": 1605,
+      "agreement": 922,
+      "positive_emotions": 1583,
+      "conversational_followup": 1615,
+      "introductions": 888,
+      "acknowledgement": 488,
+      "good_morning": 1594,
+      "thanks": 1623,
+      "apologies": 1598,
+      "casual_questions": 982,
+      "encouragement": 994,
+      "good_night": 157,
+      "asking_for_help": 773,
+      "wellbeing": 586,
+      "negative_emotions": 664,
+      "disagreement": 657,
+      "farewell": 713,
+      "greetings": 153,
+      "daily_activities": 238
+    },
+    "val": {
+      "wellbeing": 73,
+      "introductions": 102,
+      "farewell": 90,
+      "disagreement": 98,
+      "good_night": 26,
+      "offering_help": 130,
+      "casual_questions": 135,
+      "conversational_followup": 187,
+      "positive_emotions": 197,
+      "agreement": 128,
+      "good_morning": 210,
+      "asking_for_help": 87,
+      "encouragement": 116,
+      "thanks": 186,
+      "negative_emotions": 71,
+      "apologies": 208,
+      "small_talk": 204,
+      "acknowledgement": 77,
+      "greetings": 25,
+      "daily_activities": 30
+    },
+    "test": {
+      "casual_questions": 105,
+      "thanks": 191,
+      "apologies": 194,
+      "encouragement": 129,
+      "good_morning": 196,
+      "wellbeing": 79,
+      "offering_help": 152,
+      "positive_emotions": 220,
+      "conversational_followup": 198,
+      "small_talk": 191,
+      "introductions": 115,
+      "negative_emotions": 85,
+      "farewell": 89,
+      "agreement": 118,
+      "disagreement": 103,
+      "asking_for_help": 97,
+      "daily_activities": 26,
+      "acknowledgement": 59,
+      "greetings": 20,
+      "good_night": 13
+    }
+  },
+  "split_counts": {
+    "train": 19037,
+    "val": 2380,
+    "test": 2380
+  },
+  "total_examples": 23797,
+  "unique_prompts": 23787,
+  "unique_responses": 20270,
+  "unique_pairs": 23797,
+  "duplicate_statistics": {
+    "raw_examples": 79507,
+    "near_duplicate_removed": 16142,
+    "duplicate_prompts_removed": 2233,
+    "response_cap_removed": 5761,
+    "final_examples": 55371,
+    "final_examples_after_category_balance": 23797
+  },
+  "response_diversity_statistics": {
+    "total_examples": 23797,
+    "unique_prompts": 23787,
+    "unique_responses": 20270,
+    "unique_pairs": 23797,
+    "unique_normalized_response_ratio": 0.8517880405093079,
+    "average_prompt_characters": 277.3,
+    "average_response_characters": 71.16,
+    "average_prompt_tokens": 51.83,
+    "average_response_tokens": 14.14,
+    "minimum_response_characters": 3,
+    "maximum_response_characters": 692,
+    "top_response_frequency_ratio": 0.00076,
+    "top_20_normalized_responses": [
+      [
+        "i am doing well, thanks for asking. how about you? i hope your day continues gently.",
+        18
+      ],
+      [
+        "take it one step at a time. i am rooting for you. it is reasonable to take a short break.",
+        18
+      ],
+      [
+        "got it, thanks for letting me know. thanks for keeping me informed.",
+        18
+      ],
+      [
+        "goodbye for now. take care, and enjoy the rest of your day. i hope the rest of your day goes well.",
+        18
+      ],
+      [
+        "hi! it is good to hear from you. i hope your day is going well.",
+        18
+      ],
+      [
+        "there are several possibilities, and my answer changes with the season. i like hearing how people think about it.",
+        18
+      ],
+      [
+        "of course. tell me what part is giving you trouble. we can start with the simplest part.",
+        18
+      ],
+      [
+        "i agree. that seems like a sensible way to approach it. that seems like a reasonable conclusion.",
+        18
+      ],
+      [
+        "i am sorry the day has been so hard. be kind to yourself. i am looking for a manageable next step.",
+        18
+      ],
+      [
+        "i respectfully disagree because the situation may be more complicated. it is useful to consider both sides.",
+        18
+      ],
+      [
+        "keep going; progress does not have to be perfect to matter. you do not have to solve everything today.",
+        18
+      ],
+      [
+        "i would be glad to help; what have you tried so far? it is useful to talk it through.",
+        18
+      ],
+      [
+        "most days i manage it by planning a little ahead. i am still finding the best balance.",
+        18
+      ],
+      [
+        "hey there, i hope your day is going well. what have you been up to?",
+        18
+      ],
+      [
+        "i agree, especially given the circumstances. i can understand that perspective.",
+        18
+      ],
+      [
+        "i am sorry to hear that. i hope things feel easier soon. rest may help me regain perspective.",
+        18
+      ],
+      [
+        "i feel the same way; your reasoning makes sense to me. that would be my preference too.",
+        18
+      ],
+      [
+        "nice to meet you; i would enjoy hearing more about you. i hope we get a chance to talk again.",
+        18
+      ],
+      [
+        "hi, i am glad you stopped by. it is nice to have a moment to talk.",
+        18
+      ],
+      [
+        "that is one view, but i would weigh a few more factors first. i hope we can discuss it calmly.",
+        18
+      ]
+    ]
+  },
+  "category_response_diversity": {
+    "acknowledgement": {
+      "examples": 624,
+      "unique_normalized_responses": 453,
+      "top_response_frequency_ratio": 0.02885,
+      "dominated": false
+    },
+    "agreement": {
+      "examples": 1168,
+      "unique_normalized_responses": 964,
+      "top_response_frequency_ratio": 0.01541,
+      "dominated": false
+    },
+    "apologies": {
+      "examples": 2000,
+      "unique_normalized_responses": 1846,
+      "top_response_frequency_ratio": 0.0075,
+      "dominated": false
+    },
+    "asking_for_help": {
+      "examples": 957,
+      "unique_normalized_responses": 783,
+      "top_response_frequency_ratio": 0.01881,
+      "dominated": false
+    },
+    "casual_questions": {
+      "examples": 1222,
+      "unique_normalized_responses": 1043,
+      "top_response_frequency_ratio": 0.01473,
+      "dominated": false
+    },
+    "conversational_followup": {
+      "examples": 2000,
+      "unique_normalized_responses": 1832,
+      "top_response_frequency_ratio": 0.009,
+      "dominated": false
+    },
+    "daily_activities": {
+      "examples": 294,
+      "unique_normalized_responses": 121,
+      "top_response_frequency_ratio": 0.06122,
+      "dominated": false
+    },
+    "disagreement": {
+      "examples": 858,
+      "unique_normalized_responses": 671,
+      "top_response_frequency_ratio": 0.02098,
+      "dominated": false
+    },
+    "encouragement": {
+      "examples": 1239,
+      "unique_normalized_responses": 1046,
+      "top_response_frequency_ratio": 0.01453,
+      "dominated": false
+    },
+    "farewell": {
+      "examples": 892,
+      "unique_normalized_responses": 700,
+      "top_response_frequency_ratio": 0.02018,
+      "dominated": false
+    },
+    "good_morning": {
+      "examples": 2000,
+      "unique_normalized_responses": 1867,
+      "top_response_frequency_ratio": 0.0075,
+      "dominated": false
+    },
+    "good_night": {
+      "examples": 196,
+      "unique_normalized_responses": 26,
+      "top_response_frequency_ratio": 0.09184,
+      "dominated": false
+    },
+    "greetings": {
+      "examples": 198,
+      "unique_normalized_responses": 27,
+      "top_response_frequency_ratio": 0.09091,
+      "dominated": false
+    },
+    "introductions": {
+      "examples": 1105,
+      "unique_normalized_responses": 906,
+      "top_response_frequency_ratio": 0.01629,
+      "dominated": false
+    },
+    "negative_emotions": {
+      "examples": 820,
+      "unique_normalized_responses": 647,
+      "top_response_frequency_ratio": 0.02195,
+      "dominated": false
+    },
+    "offering_help": {
+      "examples": 1486,
+      "unique_normalized_responses": 1289,
+      "top_response_frequency_ratio": 0.01211,
+      "dominated": false
+    },
+    "positive_emotions": {
+      "examples": 2000,
+      "unique_normalized_responses": 1823,
+      "top_response_frequency_ratio": 0.009,
+      "dominated": false
+    },
+    "small_talk": {
+      "examples": 2000,
+      "unique_normalized_responses": 1985,
+      "top_response_frequency_ratio": 0.002,
+      "dominated": false
+    },
+    "thanks": {
+      "examples": 2000,
+      "unique_normalized_responses": 1872,
+      "top_response_frequency_ratio": 0.0055,
+      "dominated": false
+    },
+    "wellbeing": {
+      "examples": 738,
+      "unique_normalized_responses": 560,
+      "top_response_frequency_ratio": 0.02439,
+      "dominated": false
+    }
+  },
+  "greeting_statistics": {
+    "hi": {
+      "count": 5,
+      "unique_responses": 5,
+      "examples": [
+        {
+          "prompt": "hi",
+          "response": "Hey there! What is new?"
+        },
+        {
+          "prompt": "hi",
+          "response": "Hey, good to hear from you. How is everything?"
+        },
+        {
+          "prompt": "hi",
+          "response": "Hi! What are you up to today?"
+        },
+        {
+          "prompt": "hi",
+          "response": "Hello! How has your day been?"
+        },
+        {
+          "prompt": "hi",
+          "response": "Hey! How are you doing?"
+        }
+      ]
+    },
+    "hey": {
+      "count": 4,
+      "unique_responses": 4,
+      "examples": [
+        {
+          "prompt": "hey",
+          "response": "Hello! Nice to hear from you."
+        },
+        {
+          "prompt": "hey",
+          "response": "Hi! How is your day going?"
+        },
+        {
+          "prompt": "hey",
+          "response": "Hi there! What is up?"
+        },
+        {
+          "prompt": "hey",
+          "response": "Hey! How have you been?"
+        }
+      ]
+    },
+    "hello": {
+      "count": 4,
+      "unique_responses": 4,
+      "examples": [
+        {
+          "prompt": "hello",
+          "response": "Hey! How are things?"
+        },
+        {
+          "prompt": "hello",
+          "response": "Hi there! What are you up to?"
+        },
+        {
+          "prompt": "hello",
+          "response": "Hello! How is your day going?"
+        },
+        {
+          "prompt": "hello",
+          "response": "Hello! It is good to hear from you."
+        }
+      ]
+    }
+  },
+  "quality_validation": {
+    "passed": true,
+    "error_count": 0,
+    "errors": []
+  },
+  "generation_timestamp": "2026-09-17T09:55:08.148921+00:00"
+}

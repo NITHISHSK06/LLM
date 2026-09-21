@@ -1,0 +1,337 @@
+PRETRAINING PIPELINE DIAGNOSTIC
+================================================================================
+Project root: D:\project\LLM\LLM
+Mode: full
+
+Tokenizer
+--------------------------------------------------------------------------------
+{
+  "tokenizer_dir": "D:\\project\\LLM\\LLM\\tokenizer_exp003",
+  "vocab_exists": true,
+  "merges_exists": true,
+  "vocab_size": 10000,
+  "special_tokens": [
+    "<PAD>",
+    "<UNK>",
+    "<BOS>",
+    "<EOS>"
+  ],
+  "bos_id": 2,
+  "eos_id": 3,
+  "unk_id": 1
+}
+
+Dataset Files
+--------------------------------------------------------------------------------
+{
+  "train": {
+    "exists": true,
+    "path": "D:\\project\\LLM\\LLM\\data\\processed\\exp006_mixed\\train.bin",
+    "size_bytes": 63279688,
+    "size_mb": 60.34821319580078,
+    "dtype": "uint16",
+    "token_count": 31639844,
+    "min_id": 1,
+    "max_id": 9999,
+    "first_10_tokens": [
+      2,
+      1,
+      34,
+      34,
+      34,
+      34,
+      34,
+      5,
+      42,
+      61
+    ],
+    "last_10_tokens": [
+      5,
+      3541,
+      5,
+      338,
+      5,
+      1143,
+      355,
+      2697,
+      19,
+      3
+    ]
+  },
+  "val": {
+    "exists": true,
+    "path": "D:\\project\\LLM\\LLM\\data\\processed\\exp006_mixed\\val.bin",
+    "size_bytes": 9544688,
+    "size_mb": 9.102523803710938,
+    "dtype": "uint16",
+    "token_count": 4772344,
+    "min_id": 1,
+    "max_id": 9999,
+    "first_10_tokens": [
+      2,
+      218,
+      46,
+      218,
+      1,
+      82,
+      5,
+      438,
+      5,
+      70
+    ],
+    "last_10_tokens": [
+      344,
+      731,
+      5,
+      343,
+      5,
+      328,
+      5,
+      4946,
+      19,
+      3
+    ]
+  }
+}
+
+Checkpoint
+--------------------------------------------------------------------------------
+{
+  "path": "D:\\project\\LLM\\LLM\\checkpoints\\exp012_capacity_25m\\best_model.pt",
+  "exists": true,
+  "iteration": 29500,
+  "best_validation_loss": 2.6152464151382446,
+  "validation_loss": 2.6152464151382446,
+  "train_loss": 2.5595431327819824,
+  "has_model_config": true,
+  "model_config": {
+    "vocab_size": 10000,
+    "context_length": 256,
+    "embedding_dim": 384,
+    "num_layers": 10,
+    "num_heads": 8,
+    "ffn_dim": 1536,
+    "dropout": 0.1,
+    "batch_size": 8,
+    "learning_rate": 0.0003,
+    "instruction_learning_rate": 2e-05,
+    "weight_decay": 0.1,
+    "max_iterations": 30000,
+    "eval_interval": 500,
+    "eval_iterations": 20,
+    "gradient_clip": 1.0,
+    "checkpoint_interval": 1000,
+    "seed": 42
+  }
+}
+
+Pretraining Objective Smoke
+--------------------------------------------------------------------------------
+{
+  "config": {
+    "vocab_size": 10000,
+    "context_length": 256,
+    "embedding_dim": 384,
+    "num_layers": 10,
+    "num_heads": 8,
+    "ffn_dim": 1536,
+    "dropout": 0.1,
+    "batch_size": 8,
+    "learning_rate": 0.0003,
+    "instruction_learning_rate": 2e-05,
+    "weight_decay": 0.1,
+    "max_iterations": 30000,
+    "eval_interval": 500,
+    "eval_iterations": 20,
+    "gradient_clip": 1.0,
+    "checkpoint_interval": 1000,
+    "seed": 42
+  },
+  "input_shape": [
+    2,
+    16
+  ],
+  "target_shape": [
+    2,
+    16
+  ],
+  "logits_shape": [
+    2,
+    16,
+    10000
+  ],
+  "loss_is_finite": true,
+  "loss_value": 9.247014999389648,
+  "parameter_count": 25523712
+}
+
+Source Evidence
+--------------------------------------------------------------------------------
+{
+  "pretrain_file": "D:\\project\\LLM\\LLM\\training\\pretrain.py",
+  "dataset_file": "D:\\project\\LLM\\LLM\\training\\dataset.py",
+  "model_file": "D:\\project\\LLM\\LLM\\model\\model.py",
+  "attention_file": "D:\\project\\LLM\\LLM\\model\\attention.py",
+  "exp012_pretrain_file": "D:\\project\\LLM\\LLM\\training\\exp012_pretrain.py",
+  "exp012_config_file": "D:\\project\\LLM\\LLM\\experiments\\exp012_capacity.py"
+}
+
+Shift Validation
+--------------------------------------------------------------------------------
+{
+  "status": "ok",
+  "dataset_path": "D:\\project\\LLM\\LLM\\data\\processed\\exp006_mixed\\train.bin",
+  "context_length": 32,
+  "batch_size": 4,
+  "batch_shape": [
+    4,
+    33
+  ],
+  "batch_sample": [
+    [
+      5,
+      336,
+      5,
+      70,
+      5,
+      1754,
+      5,
+      13,
+      70,
+      5,
+      7,
+      94,
+      352,
+      5,
+      6429,
+      6917,
+      7,
+      14,
+      19,
+      19,
+      19,
+      5,
+      377,
+      5,
+      1492,
+      5,
+      438,
+      5,
+      356,
+      5,
+      1450,
+      5,
+      672
+    ],
+    [
+      5,
+      603,
+      5,
+      4477,
+      5,
+      805,
+      5,
+      361,
+      5,
+      328,
+      5,
+      954,
+      5,
+      5193,
+      19,
+      3,
+      2,
+      18,
+      5,
+      53,
+      666,
+      88,
+      6511,
+      5,
+      2947,
+      5,
+      1730,
+      19,
+      5,
+      91,
+      19,
+      5,
+      53
+    ]
+  ],
+  "first_window_input_matches_shift": true,
+  "first_window_target_matches_shift": true
+}
+
+Sanity Config
+--------------------------------------------------------------------------------
+{
+  "vocab_size": 10000,
+  "context_length": 256,
+  "embedding_dim": 384,
+  "num_layers": 10,
+  "num_heads": 8,
+  "ffn_dim": 1536,
+  "dropout": 0.1,
+  "batch_size": 8,
+  "learning_rate": 0.0003,
+  "instruction_learning_rate": 2e-05,
+  "weight_decay": 0.1,
+  "max_iterations": 30000,
+  "eval_interval": 500,
+  "eval_iterations": 20,
+  "gradient_clip": 1.0,
+  "checkpoint_interval": 1000,
+  "seed": 42
+}
+
+Tokenizer Decoding Check
+--------------------------------------------------------------------------------
+{
+  "bos_round_trip": "<BOS>",
+  "eos_round_trip": "<EOS>"
+}
+
+Raw Corpus Files
+--------------------------------------------------------------------------------
+{
+  "general_combined.txt": {
+    "exists": true,
+    "path": "D:\\project\\LLM\\LLM\\data\\raw\\general_combined.txt",
+    "size_bytes": 2046107,
+    "size_mb": 1.951319694519043
+  },
+  "gutenberg_clean.txt": {
+    "exists": true,
+    "path": "D:\\project\\LLM\\LLM\\data\\raw\\gutenberg_clean.txt",
+    "size_bytes": 2024239,
+    "size_mb": 1.930464744567871
+  },
+  "wikipedia_raw.txt": {
+    "exists": false,
+    "path": "D:\\project\\LLM\\LLM\\data\\raw\\wikipedia_raw.txt"
+  }
+}
+
+Preprocessed Corpus Files
+--------------------------------------------------------------------------------
+{
+  "books_clean.txt": {
+    "exists": true,
+    "path": "D:\\project\\LLM\\LLM\\data\\cleaned\\books_clean.txt",
+    "size_bytes": 11581204,
+    "size_mb": 11.044696807861328
+  },
+  "wikipedia_clean.txt": {
+    "exists": true,
+    "path": "D:\\project\\LLM\\LLM\\data\\cleaned\\wikipedia_clean.txt",
+    "size_bytes": 85302518,
+    "size_mb": 81.35082054138184
+  },
+  "exp006_fineweb_edu.txt": {
+    "exists": true,
+    "path": "D:\\project\\LLM\\LLM\\data\\cleaned\\exp006_fineweb_edu.txt",
+    "size_bytes": 50508424,
+    "size_mb": 48.16858673095703
+  }
+}
